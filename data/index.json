@@ -1,0 +1,20 @@
+{
+  "generated": "2026-09-17T23:44:04Z",
+  "items": [
+    {
+      "best_now": {
+        "price_usd": 84.9,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "high",
+      "id": "logitech-mx-master-3s-a1f3",
+      "last_checked": "2026-09-17T05:00:00Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Logitech MX Master 3S Wireless Mouse, Graphite",
+      "verdict": "WAIT"
+    }
+  ]
+}
