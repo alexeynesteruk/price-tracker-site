@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T17:42:59Z",
+  "generated": "2026-09-18T18:22:24Z",
   "items": [
     {
       "best_now": {
@@ -158,6 +158,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 80.9,
+        "store": "robotskull"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "waveshare-10-85inch-e-paper-hat-plus-0883",
+      "last_checked": "2026-09-18T18:21:53Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Waveshare 10.85inch e-Paper HAT+",
       "verdict": "WAIT"
     },
     {

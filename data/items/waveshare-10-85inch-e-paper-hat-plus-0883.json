@@ -1,0 +1,214 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "store": "waveshare",
+      "suspect": false,
+      "ts": "2026-09-18T18:21:53Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "method": "llm",
+      "price_native": 149.75,
+      "price_usd": 149.75,
+      "promo": null,
+      "source_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "store": "abra",
+      "suspect": false,
+      "ts": "2026-09-18T18:21:53Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "store": "spotpear",
+      "suspect": false,
+      "ts": "2026-09-18T18:21:53Z"
+    },
+    {
+      "currency": "INR",
+      "fx_date": "2026-09-18",
+      "fx_rate": 95.957344,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "method": "llm",
+      "price_native": 7763.11,
+      "price_usd": 80.9,
+      "promo": null,
+      "source_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "store": "robotskull",
+      "suspect": false,
+      "ts": "2026-09-18T18:21:53Z"
+    },
+    {
+      "currency": "EUR",
+      "fx_date": "2026-09-18",
+      "fx_rate": 0.870624,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "method": "llm",
+      "price_native": 89.24,
+      "price_usd": 102.5,
+      "promo": null,
+      "source_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "store": "rlx",
+      "suspect": false,
+      "ts": "2026-09-18T18:21:53Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T18:21:53Z",
+    "id": "waveshare-10-85inch-e-paper-hat-plus-0883",
+    "identifiers": {
+      "asin": null,
+      "model": "10.85inch e-Paper HAT+",
+      "mpn": "29790",
+      "upc": null
+    },
+    "issue": 8,
+    "lifecycle": {
+      "notes": "Pin Waveshare SKU/MPN 29790 = 10.85inch e-Paper HAT+ Black/White 1360×480 WITH driver HAT. NOT raw panel-only; NOT 10.85inch e-Paper HAT+ (G) four-color (Waveshare recommends G as alternative while 29790 is Out of Stock on brand store). Dropped Amazon B0FFS73JY5: title says Black/White but feature bullets claim four-color (RYBW) — variant-ambiguous; also Currently unavailable. Dropped Amazon B0F5HTGBSP: explicit HAT+ (G). No DigiKey/Adafruit/Pimoroni/Best Buy/Walmart/Target exact listings found. G alternative listed on Waveshare ~$78.99–$88.99 (separate SKU, not tracked).",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Brand store SKU 29790 currently Out of Stock; Waveshare steers buyers to HAT+ (G)",
+        "Sparse multi-retailer US coverage; in-stock options are specialty distributors at a premium",
+        "Easy to confuse with HAT+ (G) four-color and with raw-panel-only SKUs"
+      ],
+      "pros": [
+        "Large 1360×480 B/W panel with low power / image retention (e-ink)",
+        "HAT+ 40PIN + SPI examples for Pi / Arduino / STM32 / ESP32 on Waveshare wiki",
+        "Partial refresh ~0.6s / full refresh ~3.5s per brand specs"
+      ],
+      "sources": [
+        "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+        "https://www.waveshare.com/wiki/10.85inch_e-Paper_HAT%2B_Manual"
+      ],
+      "summary": "Niche maker e-ink HAT; Waveshare wiki/docs are the primary reference (dual-IC SPI, Pi HAT+ header). Little independent retail review volume for this exact 10.85\" B/W SKU; Amazon listing for a related ASIN shows only 1 rating."
+    },
+    "seed_sources": {
+      "camel": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "waveshare",
+        "last_ok": "2026-09-18T18:21:53Z",
+        "name": "Waveshare",
+        "status": "ok",
+        "url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "abra",
+        "last_ok": "2026-09-18T18:21:53Z",
+        "name": "Abra Electronics",
+        "status": "ok",
+        "url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "spotpear",
+        "last_ok": "2026-09-18T18:21:53Z",
+        "name": "SpotPear",
+        "status": "ok",
+        "url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "INR",
+        "fails": 0,
+        "key": "robotskull",
+        "last_ok": "2026-09-18T18:21:53Z",
+        "name": "RobotSkull",
+        "status": "ok",
+        "url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "EUR",
+        "fails": 0,
+        "key": "rlx",
+        "last_ok": "2026-09-18T18:21:53Z",
+        "name": "RLX Components",
+        "status": "ok",
+        "url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html"
+      }
+    ],
+    "title": "Waveshare 10.85inch e-Paper HAT+"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 80.9,
+      "store": "robotskull"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $80.90 at robotskull. That is 0.0% below the historical average of $80.90 (12-month avg, robotskull). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "absent",
+      "good_sale": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-09-18T18:22:16Z",
+    "typical": 80.9,
+    "typical_label": "12-month avg, robotskull",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
