@@ -170,6 +170,22 @@
       "store": "24",
       "suspect": false,
       "ts": "2025-11-26T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "method": "llm",
+      "price_native": 1149.99,
+      "price_usd": 1149.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-08-27T16:00:00Z"
     }
   ],
   "item": {

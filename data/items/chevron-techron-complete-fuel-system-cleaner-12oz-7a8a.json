@@ -48,6 +48,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-18T15:09:27Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O",
+      "method": "llm",
+      "price_native": 6.66,
+      "price_usd": 6.66,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T16:00:00Z"
     }
   ],
   "item": {
@@ -63,7 +79,7 @@
     },
     "issue": 4,
     "lifecycle": {
-      "notes": "Pin CHV/MPN 67740 / UPC 00023968677404 — Techron Complete Fuel System Cleaner 12 oz ONLY (aka Concentrate Plus Complete). Issue Amazon URL B00092893O is the 67740-CASE 6x12oz multipack of the same formula; track pack price and note per-bottle (~pack/6). Single-bottle Amazon ASIN also seen: B006ZC4VTS (Techron Complete 12 Oz Model CHEV67740) with marketplace offers, no clear Amazon buy-box at discovery. Dropped AutoZone listings: 12oz part 266362 and 20oz 65740A are different SKUs. Dropped Techron High Mileage and 20/32oz Completes. Prior buy context (notes only): NAPA #30996943 on 2025-03-14 qty 3 ~$5.49/ea monthly special. Google Shopping requested for seed/history but blocked (consent/empty shells); no chart points recorded.",
+      "notes": "Pin CHV/MPN 67740 / UPC 00023968677404 — Techron Complete Fuel System Cleaner 12 oz ONLY (aka Concentrate Plus Complete). Issue Amazon URL B00092893O is the 67740-CASE 6x12oz multipack of the same formula; track pack price and note per-bottle (~pack/6). Single-bottle Amazon ASIN also seen: B006ZC4VTS (Techron Complete 12 Oz Model CHEV67740) with marketplace offers, no clear Amazon buy-box at discovery. Dropped AutoZone listings: 12oz part 266362 and 20oz 65740A are different SKUs. Dropped Techron High Mileage and 20/32oz Completes. Prior buy context (notes only): NAPA #30996943 on 2025-03-14 qty 3 ~$5.49/ea monthly special. Google Shopping requested for seed/history but blocked (consent/empty shells); no chart points recorded.; Purchased Amazon order 112-4172897-3085063 on 2026-09-18: 6-pack $39.98; watch kept active for restock deals.",
       "successor_announced": null,
       "successor_shipped": null
     },

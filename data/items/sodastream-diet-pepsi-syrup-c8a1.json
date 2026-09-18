@@ -99,6 +99,22 @@
       "store": "sodastream",
       "suspect": false,
       "ts": "2026-09-18T03:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "method": "llm",
+      "price_native": 19.47,
+      "price_usd": 19.47,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-08-16T16:00:00Z"
     }
   ],
   "item": {

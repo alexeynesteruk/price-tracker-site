@@ -1,0 +1,65 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0D9HLN81F",
+      "method": "llm",
+      "price_native": 7.99,
+      "price_usd": 7.99,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B0D9HLN81F",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T16:30:00Z"
+    }
+  ],
+  "item": {
+    "bought": {
+      "currency": "USD",
+      "date": "2026-09-18",
+      "price_native": 7.99,
+      "price_usd": 7.99,
+      "store": "amazon"
+    },
+    "category": "retail",
+    "created": "2026-09-18T17:15:22Z",
+    "id": "carory-cf820-cabin-filter-81f1",
+    "identifiers": {
+      "asin": "B0D9HLN81F",
+      "model": "CF820",
+      "mpn": "CF820",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "Bought Amazon order 111-1400027-0907439 on 2026-09-18 for $7.99 (Carory CF820 / OE family 97133N9100). In transit arriving Sat Sep 19. For 2026 Sportage cabin filter.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "purchase": "ok"
+    },
+    "state": "bought",
+    "stores": [
+      {
+        "active": false,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T17:00:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0D9HLN81F"
+      }
+    ],
+    "title": "Carory CF820 Cabin Air Filter (activated carbon)"
+  },
+  "verdict": null
+}

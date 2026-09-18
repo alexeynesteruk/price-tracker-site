@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T16:20:24Z",
+  "generated": "2026-09-18T17:15:30Z",
   "items": [
     {
       "best_now": {
@@ -10,7 +10,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "chevron-techron-complete-fuel-system-cleaner-12oz-7a8a",
-      "last_checked": "2026-09-18T15:09:27Z",
+      "last_checked": "2026-09-18T16:00:00Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz",
@@ -67,7 +67,7 @@
       "category": "pchw",
       "confidence": "medium",
       "id": "gskill-trident-z5-neo-rgb-64gb-ddr5-6000-cl30-7f69",
-      "last_checked": null,
+      "last_checked": "2026-08-27T16:00:00Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "G.SKILL Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30",
@@ -465,6 +465,24 @@
       "state": "paused",
       "title": "WD_Black SN850X 2TB",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-18",
+        "price_native": 7.99,
+        "price_usd": 7.99,
+        "store": "amazon"
+      },
+      "category": "retail",
+      "confidence": null,
+      "id": "carory-cf820-cabin-filter-81f1",
+      "last_checked": "2026-09-18T16:30:00Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "Carory CF820 Cabin Air Filter (activated carbon)",
+      "verdict": null
     }
   ]
 }
