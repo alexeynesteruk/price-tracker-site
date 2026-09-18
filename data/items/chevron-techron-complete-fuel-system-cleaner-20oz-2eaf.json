@@ -1,0 +1,184 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2025-10-29",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/18745636-o-reilly-auto-parts-b1g1-on-chevron-techron-12-13-or-17-for-two-in-store-only-6",
+      "method": "aggregator",
+      "price_native": 8.5,
+      "price_usd": 8.5,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/18745636-o-reilly-auto-parts-b1g1-on-chevron-techron-12-13-or-17-for-two-in-store-only-6",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2025-10-29T09:11:51Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-02",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19835169-64-fs-walmart-techron-concentrate-plus-complete-fuel-system-cleaner-20oz-6-pack-case",
+      "method": "aggregator",
+      "price_native": 10.67,
+      "price_usd": 10.67,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19835169-64-fs-walmart-techron-concentrate-plus-complete-fuel-system-cleaner-20oz-6-pack-case",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-08-02T21:49:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893E",
+      "method": "llm",
+      "price_native": 16.99,
+      "price_usd": 16.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893E",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T15:15:01Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T15:15:01Z",
+    "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
+    "identifiers": {
+      "asin": "B00092893E",
+      "model": "65740",
+      "mpn": "65740",
+      "upc": "023968657406"
+    },
+    "issue": 5,
+    "lifecycle": {
+      "notes": "Pin MPN/CHV 65740 / UPC 023968657406 / ASIN B00092893E — Techron Complete / Concentrate Plus Fuel System Cleaner 20 oz ONLY (PEA). Distinct from tracked 12 oz (MPN 67740 / ASIN B00092893O / item chevron-techron-complete-fuel-system-cleaner-12oz-7a8a). AutoZone lists same 20 oz as part 65740A / SKU 27796. Dropped: High Mileage, Diesel, 12 oz Completes, 32 oz Completes, wrong UPCs. NAPA online search found no CHV65740 20 oz product page (only CHV67740 12 oz). Target not found carrying this SKU. CASE multipacks (65740-CASE 6x20oz) noted for seed per-bottle math only; single-bottle Amazon ASIN B00092893E is the pinned live URL. Local pickup context (notes only): Saint Augustine FL 32095 / Jacksonville; NAPA 8949 Philips Hwy Jacksonville.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Per-bottle street price often higher than 12 oz multipack deals on a $/oz basis",
+        "Easy to confuse with High Mileage / Diesel / 12 oz Completes at auto parts counters",
+        "Strong chemical odor noted by some reviewers on the Techron Complete line"
+      ],
+      "pros": [
+        "PEA detergent cleans injectors, valves, and combustion chambers in one tank",
+        "20 oz treats a full ~20 gal tank vs partial fill with 12 oz",
+        "Safe for catalytic converters and O2 sensors; ethanol-blend compatible"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B00092893E",
+        "https://www.chevronlubricants.com/en_us/home/products/techron-complete-fuel-system-cleaner.html"
+      ],
+      "summary": "Amazon lists about 4.6/5 from ~355 ratings on the single 20 oz ASIN B00092893E. Same PEA Complete formula as the 12 oz SKU; one 20 oz bottle treats up to ~20 gallons. Common praise for restoring idle/power; reviewers warn not to confuse with High Mileage / other Techron lines."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "ok"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T15:15:01Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B00092893E"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "walmart",
+        "last_ok": null,
+        "name": "Walmart",
+        "status": "blocked",
+        "url": "https://www.walmart.com/ip/Chevron-Techron-Concentrate-Plus-Fuel-System-Cleaner-20-oz-Pack-of-1/8606556183"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "autozone",
+        "last_ok": null,
+        "name": "AutoZone",
+        "status": "blocked",
+        "url": "https://www.autozone.com/p/techron-fuel-system-cleaner-65740a/27796"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "oreilly",
+        "last_ok": null,
+        "name": "O'Reilly",
+        "status": "blocked",
+        "url": "https://www.oreillyauto.com/detail/c/techron/techron-20-ounce-complete-fuel-system-cleaner/chv3/65740"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "advance",
+        "last_ok": null,
+        "name": "Advance Auto",
+        "status": "blocked",
+        "url": "https://shop.advanceautoparts.com/p/chevron-techron-complete-fuel-system-cleaner-maximizes-restores-and-cleans-20-oz-65740/7080568-P"
+      }
+    ],
+    "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 16.99,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 8.5,
+    "lifecycle_note": null,
+    "n_events": 2,
+    "reason": "Best now $16.99 at amazon. That is 0.0% below the historical average of $16.99 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $8.50. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "ok"
+    },
+    "ts": "2026-09-18T15:15:04Z",
+    "typical": 16.99,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

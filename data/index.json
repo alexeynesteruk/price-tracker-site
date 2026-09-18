@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T15:09:39Z",
+  "generated": "2026-09-18T15:15:09Z",
   "items": [
     {
       "best_now": {
@@ -15,6 +15,21 @@
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz",
       "verdict": "BUY"
+    },
+    {
+      "best_now": {
+        "price_usd": 16.99,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
+      "last_checked": "2026-09-18T15:15:01Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
+      "verdict": "WAIT"
     },
     {
       "best_now": null,
