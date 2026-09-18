@@ -46,7 +46,7 @@
     },
     "issue": 6,
     "lifecycle": {
-      "notes": "Pin ASIN B0D6CCJH2Y / model+MPN CF12820 Fresh Breeze (Arm & Hammer). Official FRAM fit includes 2026 Kia Sportage L4-2.5L. OE crosses 97133-L1000 / 97133-N9100. NOT EPAuto CP820 (separate track) and NOT FRAM CV12820 TrueAir (different SKU seen at Walmart ~$19.97). NEW only. Dropped Walmart: no FRAM Fresh Breeze CF12820 listing (only CV12820 TrueAir and 3P CF12820 generics). AutoZone / O'Reilly / Advance: product pages blocked (geo wall / Akamai / timeout) — could not pin a verified buy URL this run; leave off stores[] rather than invent SKUs. Brand fram.com is catalog/info (no live cart price readable). Camel Cloudflare-blocked; Slickdeals 0 hits; Reddit blocked/no matching deals. Issue note: OEM Kia 97133N9100 ~$25.43 reference — Amazon live $26.98 is above that.",
+      "notes": "Pin ASIN B0D6CCJH2Y / model+MPN CF12820 Fresh Breeze (Arm & Hammer). Official FRAM fit includes 2026 Kia Sportage L4-2.5L. OE crosses 97133-L1000 / 97133-N9100. NOT EPAuto CP820 (separate track) and NOT FRAM CV12820 TrueAir (different SKU seen at Walmart ~$19.97). NEW only. Dropped Walmart: no FRAM Fresh Breeze CF12820 listing (only CV12820 TrueAir and 3P CF12820 generics). AutoZone / O'Reilly / Advance: product pages blocked (geo wall / Akamai / timeout) — could not pin a verified buy URL this run; leave off stores[] rather than invent SKUs. Brand fram.com is catalog/info (no live cart price readable). Camel Cloudflare-blocked; Slickdeals 0 hits; Reddit blocked/no matching deals. Issue note: OEM Kia 97133N9100 ~$25.43 reference — Amazon live $26.98 is above that.; Paused 2026-09-18: Alexey keeps only the bought Carory CF820 (carory-cf820-cabin-filter-81f1); drop alternate cabin-filter watches.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -75,7 +75,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
         "active": true,
