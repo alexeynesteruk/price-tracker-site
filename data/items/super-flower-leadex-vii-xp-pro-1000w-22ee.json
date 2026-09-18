@@ -192,7 +192,7 @@
   "item": {
     "bought": {
       "currency": "USD",
-      "date": "2026-08-13",
+      "date": "2026-08-10",
       "price_native": 144.99,
       "price_usd": 144.99,
       "store": "newegg"
@@ -208,7 +208,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note super-flower-leadex-vii-xp-pro-1000w.md (status: bought)",
+      "notes": "imported from vault note super-flower-leadex-vii-xp-pro-1000w.md (status: bought); Confirmed Newegg invoice #220104137 / order #417068464 on 2026-08-10: SF-1000F14XP Black Leadex VII XP PRO 1000W, item 9SIAMNPK3Z6268, $144.99 pre-tax (seller Super Flower, shipped by Newegg). Delivered.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -241,7 +241,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:18:20Z",
+    "ts": "2026-09-18T03:22:03Z",
     "typical": 144.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",

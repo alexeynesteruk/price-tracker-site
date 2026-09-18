@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T03:18:29Z",
+  "generated": "2026-09-18T03:22:13Z",
   "items": [
     {
       "best_now": {
@@ -89,18 +89,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Samsung 37\" ViewFinity S8 (S80UD) 4K UHD HDR10 60Hz VA Monitor",
-      "verdict": "WAIT"
-    },
-    {
-      "best_now": null,
-      "bought": null,
-      "category": "pchw",
-      "confidence": "low",
-      "id": "super-flower-leadex-vii-xp-1000w-390c",
-      "last_checked": null,
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Super Flower Leadex VII XP 1000W",
       "verdict": "WAIT"
     },
     {
@@ -300,9 +288,21 @@
     },
     {
       "best_now": null,
+      "bought": null,
+      "category": "pchw",
+      "confidence": "low",
+      "id": "super-flower-leadex-vii-xp-1000w-390c",
+      "last_checked": null,
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Super Flower Leadex VII XP 1000W",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
       "bought": {
         "currency": "USD",
-        "date": "2026-08-13",
+        "date": "2026-08-10",
         "price_native": 144.99,
         "price_usd": 144.99,
         "store": "newegg"

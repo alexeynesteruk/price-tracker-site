@@ -151,7 +151,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note super-flower-leadex-vii-xp-1000w.md (status: watching)",
+      "notes": "imported from vault note super-flower-leadex-vii-xp-1000w.md (status: watching); Paused 2026-09-17: no Newegg order for SF-1000F14XP(WH)/B0DTTFYZKH. Superseded by bought Leadex VII XP PRO Black (order #417068464, 2026-08-10, $144.99).",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -161,7 +161,7 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [],
     "target_price": null,
     "title": "Super Flower Leadex VII XP 1000W",
@@ -184,7 +184,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:18:20Z",
+    "ts": "2026-09-18T03:22:03Z",
     "typical": 144.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
