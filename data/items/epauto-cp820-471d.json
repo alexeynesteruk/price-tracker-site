@@ -1,0 +1,105 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DFRXSQNM",
+      "method": "llm",
+      "price_native": 11.87,
+      "price_usd": 11.87,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DFRXSQNM",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T15:28:30Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T15:28:30Z",
+    "id": "epauto-cp820-471d",
+    "identifiers": {
+      "asin": "B0DFRXSQNM",
+      "model": "CP820",
+      "mpn": "FC-071-1",
+      "upc": null
+    },
+    "issue": 7,
+    "lifecycle": {
+      "notes": "Pin ASIN B0DFRXSQNM / model CP820 / MPN FC-071-1. Carbon cabin filter; Amazon title lists CF12820-compatible and OE 97133-L1000 / 97133-N9100; confirmed Sportage 2023–2026 fit for Alexey's 2026 Sportage SX Prestige. NOT the same SKU as FRAM CF12820 (tracked separately). NEW only — ignore Amazon used $8.31. Dropped Walmart/AutoZone/O'Reilly/Advance: no exact EPAuto CP820 listing found (those stores carry FRAM/other CF12820 crosses, wrong brand/SKU). No separate EPAuto brand storefront with a distinct product URL (Amazon EPFamily Direct / EPAuto Store only). Camel Cloudflare-blocked; Slickdeals search 0 hits; Reddit search blocked/no matching deal posts.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Sold mainly via Amazon marketplace — limited multi-retailer coverage",
+        "Some reviewers report fit issues on non-listed or edge trims",
+        "Easy to confuse with FRAM CF12820 and other CF12820-labeled generics"
+      ],
+      "pros": [
+        "Confirmed fit tokens for Kia Sportage 2023–2026 and OE crosses 97133-L1000 / 97133-N9100",
+        "Activated carbon / soda media; strong value vs dealer labor quotes in reviews",
+        "Easy DIY glovebox install commonly reported"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B0DFRXSQNM"
+      ],
+      "summary": "Amazon 4.6/5 from 165 ratings. Reviewers praise exact fit on recent Hyundai/Kia (including Sportage/EV9/Tucson), easy glovebox install, and value vs dealer; a few fit complaints on edge models (e.g. 2026 K4)."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T15:28:30Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0DFRXSQNM"
+      }
+    ],
+    "title": "EPAuto CP820 Cabin Air Filter (CF12820 equiv, carbon)"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 11.87,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $11.87 at amazon. That is 0.0% below the historical average of $11.87 (12-month avg, amazon). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-09-18T15:28:39Z",
+    "typical": 11.87,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
