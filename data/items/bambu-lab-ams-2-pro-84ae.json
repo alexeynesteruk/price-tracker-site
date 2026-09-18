@@ -164,7 +164,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching)",
+      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching); Owned via Best Buy P2S AMS Combo (SKU 6647058, order BBY01-807175594508, 2026-05-04, product $799.99 / total $851.99). Standalone AMS 2 Pro watch paused 2026-09-17 — not a separate AMS purchase; combo price not attributed to this item.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -174,7 +174,7 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
         "active": true,
@@ -245,7 +245,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T02:33:07Z",
+    "ts": "2026-09-18T03:13:17Z",
     "typical": 269.0,
     "typical_label": "12-month avg, bambulab",
     "verdict": "BUY",

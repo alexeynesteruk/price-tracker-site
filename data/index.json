@@ -1,21 +1,6 @@
 {
-  "generated": "2026-09-18T02:33:32Z",
+  "generated": "2026-09-18T03:13:19Z",
   "items": [
-    {
-      "best_now": {
-        "price_usd": 269.0,
-        "store": "bambulab"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "medium",
-      "id": "bambu-lab-ams-2-pro-84ae",
-      "last_checked": "2026-09-18T02:21:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Bambu Lab AMS 2 Pro",
-      "verdict": "BUY"
-    },
     {
       "best_now": null,
       "bought": null,
@@ -141,6 +126,21 @@
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 269.0,
+        "store": "bambulab"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "medium",
+      "id": "bambu-lab-ams-2-pro-84ae",
+      "last_checked": "2026-09-18T02:21:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Bambu Lab AMS 2 Pro",
+      "verdict": "BUY"
     },
     {
       "best_now": null,
