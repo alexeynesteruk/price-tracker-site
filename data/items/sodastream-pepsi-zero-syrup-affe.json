@@ -67,6 +67,38 @@
       "store": "camel:amazon",
       "suspect": false,
       "ts": "2026-08-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "method": "dom",
+      "price_native": 24.99,
+      "price_usd": 24.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T03:32:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-18T03:32:00Z"
     }
   ],
   "item": {
@@ -78,11 +110,11 @@
       "asin": "B0G4SBF7BQ",
       "model": "\"Best Buy SKU 6596908\"",
       "mpn": "\"Best Buy SKU 6596908\"",
-      "upc": null
+      "upc": "810128431743"
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note sodastream-pepsi-zero-syrup.md (status: bought); marked bought in the vault but no purchase price was recoverable - open a Bought issue to record it",
+      "notes": "imported from vault note sodastream-pepsi-zero-syrup.md (status: bought); marked bought in the vault but no purchase price was recoverable - open a Bought issue to record it; 2026-09-18 resume #3: filled stores (amazon, sodastream, bestbuy, target, walmart); Target/Walmart/Best Buy blocked on live read this run.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -92,14 +124,73 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "paused",
-    "stores": [],
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T03:32:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "sodastream",
+        "last_ok": "2026-09-18T03:32:00Z",
+        "name": "SodaStream",
+        "status": "ok",
+        "url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bestbuy",
+        "last_ok": null,
+        "name": "Best Buy",
+        "status": "blocked",
+        "url": "https://www.bestbuy.com/site/sodastream-pepsi-zero-440ml-4pk/6596908.p?skuId=6596908"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "target",
+        "last_ok": null,
+        "name": "Target",
+        "status": "blocked",
+        "url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "walmart",
+        "last_ok": null,
+        "name": "Walmart",
+        "status": "blocked",
+        "url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543"
+      }
+    ],
     "target_price": 17.39,
     "title": "SodaStream Pepsi Zero Sugar Drink Mix, 4 Pack Cola Syrup",
     "vault_note": "sodastream-pepsi-zero-syrup"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 24.99,
+      "store": "amazon"
+    },
     "confidence": "low",
     "floor": {
       "date": "2026-03-26",
@@ -108,16 +199,16 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $24.99 at amazon. That is 0.0% below the historical average of $24.99 (12-month avg, amazon). No deal events on record; GOOD SALE is absent. FLOOR $17.39 on 2026-03-26. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "absent",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:18:20Z",
-    "typical": 25.12,
-    "typical_label": "12-month avg, camel:amazon",
+    "ts": "2026-09-18T03:29:57Z",
+    "typical": 24.99,
+    "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
