@@ -1,18 +1,6 @@
 {
-  "generated": "2026-09-18T03:13:19Z",
+  "generated": "2026-09-18T03:14:16Z",
   "items": [
-    {
-      "best_now": null,
-      "bought": null,
-      "category": "pchw",
-      "confidence": "medium",
-      "id": "corsair-frame-4000d-rs-b918",
-      "last_checked": null,
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Corsair FRAME 4000D RS",
-      "verdict": "WAIT"
-    },
     {
       "best_now": {
         "price_usd": 699.66,
@@ -182,6 +170,18 @@
       "owner": "alexeynesteruk",
       "state": "paused",
       "title": "Aventon Level 3 Commuter Ebike",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
+      "bought": null,
+      "category": "pchw",
+      "confidence": "medium",
+      "id": "corsair-frame-4000d-rs-b918",
+      "last_checked": null,
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Corsair FRAME 4000D RS",
       "verdict": "WAIT"
     },
     {
