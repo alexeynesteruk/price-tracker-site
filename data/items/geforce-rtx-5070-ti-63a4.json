@@ -288,6 +288,23 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-10",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/geforce-rtx-5070-ti.md",
+      "method": "import",
+      "price_native": 899.99,
+      "price_usd": 899.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/geforce-rtx-5070-ti.md",
+      "store": "woot",
+      "suspect": false,
+      "ts": "2026-07-10T00:00:00Z"
     }
   ],
   "item": {
@@ -328,7 +345,7 @@
     },
     "good_sale": 828.0,
     "lifecycle_note": null,
-    "n_events": 11,
+    "n_events": 12,
     "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
     "rule": "no live price in the last 36 hours",
     "sources": {
@@ -336,7 +353,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T01:49:03Z",
+    "ts": "2026-09-18T03:15:49Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

@@ -152,6 +152,40 @@
       "store": "bhphoto",
       "suspect": false,
       "ts": "2026-08-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2025-10-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-4000d-rs.md",
+      "method": "import",
+      "price_native": 80.0,
+      "price_usd": 80.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/corsair-frame-4000d-rs.md",
+      "store": "woot",
+      "suspect": false,
+      "ts": "2025-10-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-03-07",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-4000d-rs.md",
+      "method": "import",
+      "price_native": 64.0,
+      "price_usd": 64.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/corsair-frame-4000d-rs.md",
+      "store": "woot",
+      "suspect": false,
+      "ts": "2026-03-07T00:00:00Z"
     }
   ],
   "item": {
@@ -185,14 +219,14 @@
   },
   "verdict": {
     "best_now": null,
-    "confidence": "medium",
+    "confidence": "high",
     "floor": {
       "date": "2025-11-24",
       "price_usd": 79.99
     },
-    "good_sale": 70.0,
+    "good_sale": 64.0,
     "lifecycle_note": null,
-    "n_events": 6,
+    "n_events": 8,
     "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
     "rule": "no live price in the last 36 hours",
     "sources": {
@@ -200,7 +234,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T01:49:03Z",
+    "ts": "2026-09-18T03:15:49Z",
     "typical": 99.99,
     "typical_label": "12-month avg, bhphoto",
     "verdict": "WAIT",

@@ -84,6 +84,40 @@
       "store": "corsair",
       "suspect": false,
       "ts": "2026-08-27T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 139.99,
+      "price_usd": 139.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "30",
+      "suspect": false,
+      "ts": "2026-07-09T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 170.99,
+      "price_usd": 170.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "14",
+      "suspect": false,
+      "ts": "2026-08-21T00:00:00Z"
     }
   ],
   "item": {
@@ -122,17 +156,17 @@
       "date": "2026-07-09",
       "price_usd": 139.99
     },
-    "good_sale": null,
+    "good_sale": 139.99,
     "lifecycle_note": null,
-    "n_events": 0,
+    "n_events": 2,
     "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
     "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
-      "good_sale": "absent",
+      "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T01:49:03Z",
+    "ts": "2026-09-18T03:15:49Z",
     "typical": 185.49,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

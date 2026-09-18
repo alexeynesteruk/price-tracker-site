@@ -1,0 +1,142 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "method": "import",
+      "price_native": 4299.99,
+      "price_usd": 4299.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "store": "msi",
+      "suspect": false,
+      "ts": "2026-08-23T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "method": "import",
+      "price_native": 4829.99,
+      "price_usd": 4829.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "store": "asus",
+      "suspect": false,
+      "ts": "2026-08-23T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "method": "import",
+      "price_native": 4929.99,
+      "price_usd": 4929.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "store": "asus",
+      "suspect": false,
+      "ts": "2026-08-23T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "method": "import",
+      "price_native": 4929.99,
+      "price_usd": 4929.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "store": "asus",
+      "suspect": false,
+      "ts": "2026-08-23T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "method": "import",
+      "price_native": 5029.99,
+      "price_usd": 5029.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/nvidia-geforce-rtx-5090-32gb.md",
+      "store": "asus",
+      "suspect": false,
+      "ts": "2026-08-23T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "pchw",
+    "created": "2026-09-18T03:14:58Z",
+    "id": "nvidia-geforce-rtx-5090-32gb-813d",
+    "identifiers": {
+      "asin": null,
+      "model": "GB202",
+      "mpn": "GB202",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note nvidia-geforce-rtx-5090-32gb.md (status: owned); marked bought in the vault but no purchase price was recoverable - open a Bought issue to record it",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": null,
+    "title": "NVIDIA GeForce RTX 5090 32GB (all AIB variants)",
+    "vault_note": "nvidia-geforce-rtx-5090-32gb"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-23",
+      "price_usd": 4299.99
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T03:15:49Z",
+    "typical": 4299.99,
+    "typical_label": "12-month avg, msi",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
