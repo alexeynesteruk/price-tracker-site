@@ -61,5 +61,25 @@
     ],
     "title": "Carory CF820 Cabin Air Filter (activated carbon)"
   },
-  "verdict": null
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 7.99,
+    "lifecycle_note": null,
+    "n_events": 1,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "ok",
+      "purchase": "ok"
+    },
+    "ts": "2026-09-18T17:15:50Z",
+    "typical": 7.99,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
 }

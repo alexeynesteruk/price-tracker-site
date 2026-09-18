@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T17:15:30Z",
+  "generated": "2026-09-18T17:15:52Z",
   "items": [
     {
       "best_now": {
@@ -237,6 +237,24 @@
     },
     {
       "best_now": null,
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-18",
+        "price_native": 7.99,
+        "price_usd": 7.99,
+        "store": "amazon"
+      },
+      "category": "retail",
+      "confidence": "low",
+      "id": "carory-cf820-cabin-filter-81f1",
+      "last_checked": "2026-09-18T16:30:00Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "Carory CF820 Cabin Air Filter (activated carbon)",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
       "bought": null,
       "category": "pchw",
       "confidence": "high",
@@ -465,24 +483,6 @@
       "state": "paused",
       "title": "WD_Black SN850X 2TB",
       "verdict": "WAIT"
-    },
-    {
-      "best_now": null,
-      "bought": {
-        "currency": "USD",
-        "date": "2026-09-18",
-        "price_native": 7.99,
-        "price_usd": 7.99,
-        "store": "amazon"
-      },
-      "category": "retail",
-      "confidence": null,
-      "id": "carory-cf820-cabin-filter-81f1",
-      "last_checked": "2026-09-18T16:30:00Z",
-      "owner": "alexeynesteruk",
-      "state": "bought",
-      "title": "Carory CF820 Cabin Air Filter (activated carbon)",
-      "verdict": null
     }
   ]
 }

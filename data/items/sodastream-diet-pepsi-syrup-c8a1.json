@@ -198,21 +198,21 @@
     },
     "confidence": "low",
     "floor": {
-      "date": "2026-06-24",
-      "price_usd": 20.39
+      "date": "2026-08-16",
+      "price_usd": 19.47
     },
-    "good_sale": null,
+    "good_sale": 19.47,
     "lifecycle_note": null,
-    "n_events": 0,
-    "reason": "Best now $24.64 at amazon. That is 9.2% above the historical average of $22.56 (12-month avg, amazon); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $20.39 on 2026-06-24. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "n_events": 1,
+    "reason": "Best now $24.64 at amazon. That is 14.4% above the historical average of $21.53 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
-      "good_sale": "absent",
+      "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T15:15:04Z",
-    "typical": 22.56,
+    "ts": "2026-09-18T17:15:50Z",
+    "typical": 21.53,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,

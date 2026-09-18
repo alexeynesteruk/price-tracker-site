@@ -188,8 +188,8 @@
     "floor": null,
     "good_sale": 6.66,
     "lifecycle_note": null,
-    "n_events": 1,
-    "reason": "Best now $6.66 at amazon. That is 0.0% below the historical average of $6.66 (12-month avg, amazon). GOOD SALE (p25 of 1 deal events) is $6.66. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "n_events": 2,
+    "reason": "Best now $6.66 at amazon. That is 0.0% below the historical average of $6.66 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $6.66. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
     "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
@@ -200,7 +200,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-18T15:15:04Z",
+    "ts": "2026-09-18T17:15:50Z",
     "typical": 6.66,
     "typical_label": "12-month avg, amazon",
     "verdict": "BUY",

@@ -205,14 +205,26 @@
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-08-27T16:00:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
+      }
+    ],
     "target_price": 126.0,
     "title": "G.SKILL Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30",
     "vault_note": "gskill-trident-z5-neo-rgb-64gb-ddr5-6000-cl30"
@@ -234,7 +246,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T15:15:04Z",
+    "ts": "2026-09-18T17:15:50Z",
     "typical": 989.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
