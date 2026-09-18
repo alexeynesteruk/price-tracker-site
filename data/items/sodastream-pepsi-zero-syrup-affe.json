@@ -1,0 +1,125 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-01-02",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "method": "import",
+      "price_native": 17.49,
+      "price_usd": 17.49,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "store": "bestbuy",
+      "suspect": false,
+      "ts": "2026-01-02T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-02-25",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "method": "import",
+      "price_native": 32.0,
+      "price_usd": 32.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-02-25T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-03-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "method": "import",
+      "price_native": 17.39,
+      "price_usd": 17.39,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-03-26T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "method": "import",
+      "price_native": 25.96,
+      "price_usd": 25.96,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-pepsi-zero-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-08-05T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "sodastream-pepsi-zero-syrup-affe",
+    "identifiers": {
+      "asin": "B0G4SBF7BQ",
+      "model": "\"Best Buy SKU 6596908\"",
+      "mpn": "\"Best Buy SKU 6596908\"",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note sodastream-pepsi-zero-syrup.md (status: bought); marked bought in the vault but no purchase price was recoverable - open a Bought issue to record it",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": 17.39,
+    "title": "SodaStream Pepsi Zero Sugar Drink Mix, 4 Pack Cola Syrup",
+    "vault_note": "sodastream-pepsi-zero-syrup"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-03-26",
+      "price_usd": 17.39
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 25.12,
+    "typical_label": "12-month avg, camel:amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

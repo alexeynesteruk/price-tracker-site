@@ -1,0 +1,131 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-10",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "method": "import",
+      "price_native": 498.99,
+      "price_usd": 498.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "store": "50",
+      "suspect": false,
+      "ts": "2026-08-10T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "method": "import",
+      "price_native": 498.99,
+      "price_usd": 498.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-08-16T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "method": "import",
+      "price_native": 488.99,
+      "price_usd": 488.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-08-16T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "method": "import",
+      "price_native": 488.99,
+      "price_usd": 488.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md",
+      "store": "combo",
+      "suspect": false,
+      "ts": "2026-08-16T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": {
+      "currency": "USD",
+      "date": "2026-08-16",
+      "price_native": 488.99,
+      "price_usd": 488.99,
+      "store": "newegg"
+    },
+    "category": "pchw",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle-d1cb",
+    "identifiers": {
+      "asin": "B0DKFMSMYK",
+      "model": "ASUS B850 MAX GAMING WIFI W",
+      "mpn": "ASUS B850 MAX GAMING WIFI W",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle.md (status: bought)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "bought",
+    "stores": [],
+    "target_price": null,
+    "title": "AMD Ryzen 7 9800X3D + ASUS B850 MAX GAMING WIFI W + Cooler Master Elite Liquid 240",
+    "vault_note": "amd-ryzen-7-9800x3d-asus-b850-max-gaming-w-bundle"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-16",
+      "price_usd": 488.99
+    },
+    "good_sale": 488.99,
+    "lifecycle_note": null,
+    "n_events": 2,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "ok",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 493.99,
+    "typical_label": "12-month avg, newegg",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

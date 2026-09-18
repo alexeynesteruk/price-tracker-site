@@ -1,0 +1,125 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-03-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "method": "import",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-03-04T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "method": "import",
+      "price_native": 20.39,
+      "price_usd": 20.39,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-06-24T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "method": "import",
+      "price_native": 20.49,
+      "price_usd": 20.49,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-08-12T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "method": "import",
+      "price_native": 20.49,
+      "price_usd": 20.49,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/sodastream-diet-pepsi-syrup.md",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-08-16T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "sodastream-diet-pepsi-syrup-c8a1",
+    "identifiers": {
+      "asin": "B0G25QRMBP",
+      "model": "UPC 810128431736",
+      "mpn": "UPC 810128431736",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note sodastream-diet-pepsi-syrup.md (status: bought); marked bought in the vault but no purchase price was recoverable - open a Bought issue to record it",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": 20.39,
+    "title": "SodaStream Diet Pepsi Drink Mix, 4 Pack Cola Syrup",
+    "vault_note": "sodastream-diet-pepsi-syrup"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-06-24",
+      "price_usd": 20.39
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 20.49,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

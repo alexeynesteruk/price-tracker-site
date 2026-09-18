@@ -1,0 +1,74 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/aventon-level-3.md",
+      "method": "import",
+      "price_native": 1699.0,
+      "price_usd": 1699.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/aventon-level-3.md",
+      "store": "aventon",
+      "suspect": false,
+      "ts": "2026-08-05T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "aventon-level-3-2da7",
+    "identifiers": {
+      "asin": null,
+      "model": null,
+      "mpn": null,
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note aventon-level-3.md (status: closed)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": 1450.0,
+    "title": "Aventon Level 3 Commuter Ebike",
+    "vault_note": "aventon-level-3"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-05",
+      "price_usd": 1699.0
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 1699.0,
+    "typical_label": "12-month avg, aventon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

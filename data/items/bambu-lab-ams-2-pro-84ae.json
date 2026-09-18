@@ -1,0 +1,159 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2025-11-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 252.0,
+      "price_usd": 252.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "microcenter",
+      "suspect": false,
+      "ts": "2025-11-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2025-11-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 251.0,
+      "price_usd": 251.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "unknown",
+      "suspect": false,
+      "ts": "2025-11-22T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 269.0,
+      "price_usd": 269.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "unknown",
+      "suspect": false,
+      "ts": "2026-06-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-03",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 319.0,
+      "price_usd": 319.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "camel:3p-new",
+      "suspect": false,
+      "ts": "2026-08-03T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 299.0,
+      "price_usd": 299.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "bhphoto",
+      "suspect": false,
+      "ts": "2026-08-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "method": "import",
+      "price_native": 299.0,
+      "price_usd": 299.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/bambu-lab-ams-2-pro.md",
+      "store": "bhphoto",
+      "suspect": false,
+      "ts": "2026-09-17T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "bambu-lab-ams-2-pro-84ae",
+    "identifiers": {
+      "asin": "B0F6397NCM",
+      "model": "SA007",
+      "mpn": "SA007",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": true,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "active",
+    "stores": [],
+    "target_price": 251.0,
+    "title": "Bambu Lab AMS 2 Pro",
+    "vault_note": "bambu-lab-ams-2-pro"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-05",
+      "price_usd": 299.0
+    },
+    "good_sale": 251.0,
+    "lifecycle_note": null,
+    "n_events": 3,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "ok",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 299.0,
+    "typical_label": "12-month avg, bhphoto",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

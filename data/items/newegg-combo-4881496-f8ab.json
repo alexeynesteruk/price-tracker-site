@@ -1,0 +1,108 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-15",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/newegg-combo-4881496.md",
+      "method": "import",
+      "price_native": 498.99,
+      "price_usd": 498.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/newegg-combo-4881496.md",
+      "store": "9900x",
+      "suspect": false,
+      "ts": "2026-07-15T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-15",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/newegg-combo-4881496.md",
+      "method": "import",
+      "price_native": 718.99,
+      "price_usd": 718.99,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "vault://price-watch/newegg-combo-4881496.md",
+      "store": "9900x",
+      "suspect": false,
+      "ts": "2026-07-15T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/newegg-combo-4881496.md",
+      "method": "import",
+      "price_native": 658.99,
+      "price_usd": 658.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/newegg-combo-4881496.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-08-09T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "pchw",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "newegg-combo-4881496-f8ab",
+    "identifiers": {
+      "asin": null,
+      "model": "Combo.4881496",
+      "mpn": "Combo.4881496",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note newegg-combo-4881496.md (status: closed)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": null,
+    "title": "Newegg Combo 4881496",
+    "vault_note": "newegg-combo-4881496"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-09",
+      "price_usd": 658.99
+    },
+    "good_sale": 498.99,
+    "lifecycle_note": null,
+    "n_events": 2,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "ok",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 658.99,
+    "typical_label": "12-month avg, newegg",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

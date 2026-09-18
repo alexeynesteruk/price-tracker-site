@@ -1,0 +1,142 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2025-10-28",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 219.99,
+      "price_usd": 219.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2025-10-28T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 139.99,
+      "price_usd": 139.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-07-09T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 199.99,
+      "price_usd": 199.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "bestbuy",
+      "suspect": false,
+      "ts": "2026-08-18T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 170.99,
+      "price_usd": 170.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "bestbuy",
+      "suspect": false,
+      "ts": "2026-08-21T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "method": "import",
+      "price_native": 199.99,
+      "price_usd": 199.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/corsair-frame-5000d-rs-argb-black.md",
+      "store": "corsair",
+      "suspect": false,
+      "ts": "2026-08-27T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "pchw",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "corsair-frame-5000d-rs-argb-black-6a13",
+    "identifiers": {
+      "asin": "B0F3XP5B84",
+      "model": "CC-9011309-WW",
+      "mpn": "CC-9011309-WW",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note corsair-frame-5000d-rs-argb-black.md (status: closed)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "paused",
+    "stores": [],
+    "target_price": 139.99,
+    "title": "Corsair FRAME 5000D RS ARGB Black",
+    "vault_note": "corsair-frame-5000d-rs-argb-black"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-07-09",
+      "price_usd": 139.99
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 185.49,
+    "typical_label": "12-month avg, bestbuy",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

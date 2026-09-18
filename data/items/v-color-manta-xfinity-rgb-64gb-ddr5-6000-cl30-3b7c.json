@@ -1,0 +1,108 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-08-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "method": "import",
+      "price_native": 879.99,
+      "price_usd": 879.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-08-18T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-15",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "method": "import",
+      "price_native": 989.99,
+      "price_usd": 989.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-15T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "method": "import",
+      "price_native": 989.99,
+      "price_usd": 989.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "vault://price-watch/v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-17T00:00:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "pchw",
+    "created": "2026-09-18T01:48:49Z",
+    "id": "v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30-3b7c",
+    "identifiers": {
+      "asin": null,
+      "model": "TMXFL3260830WWK",
+      "mpn": "TMXFL3260830WWK",
+      "upc": null
+    },
+    "issue": 0,
+    "lifecycle": {
+      "notes": "imported from vault note v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md (status: watching)",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": true,
+    "owner": "alexeynesteruk",
+    "reviews": null,
+    "seed_sources": {
+      "vault": "ok"
+    },
+    "state": "active",
+    "stores": [],
+    "target_price": null,
+    "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
+    "vault_note": "v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30"
+  },
+  "verdict": {
+    "best_now": null,
+    "confidence": "low",
+    "floor": {
+      "date": "2026-08-18",
+      "price_usd": 879.99
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
+    "sources": {
+      "baseline": "ok",
+      "good_sale": "absent",
+      "vault": "ok"
+    },
+    "ts": "2026-09-18T01:49:03Z",
+    "typical": 953.32,
+    "typical_label": "12-month avg, newegg",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
