@@ -70,7 +70,8 @@ function anchorsHtml(v) {
 function drawChart(page, period, hiddenStores) {
   const days = PERIODS[period];
   const cutoff = days ? Date.now() - days * 86400e3 : 0;
-  const rows = page.history.filter((r) => !r.suspect && new Date(r.ts).getTime() >= cutoff);
+  // out-of-stock rows are recorded with a null price; they have nothing to plot
+  const rows = page.history.filter((r) => !r.suspect && r.price_usd != null && new Date(r.ts).getTime() >= cutoff);
   const stores = [...new Set(rows.map((r) => r.store))];
   const palette = ["#1f77b4", "#d62728", "#2ca02c", "#9467bd", "#ff7f0e", "#17becf", "#8c564b", "#e377c2", "#7f7f7f"];
   const datasets = stores.map((s, i) => ({
@@ -153,7 +154,9 @@ async function renderItem(id) {
   const it = page.item;
   const v = page.verdict;
   const state = { period: "1y", hidden: new Set() };
-  const recent = page.history.filter((r) => !r.suspect && Date.now() - new Date(r.ts) < 365 * 86400e3);
+  const recent = page.history.filter(
+    (r) => !r.suspect && r.price_usd != null && Date.now() - new Date(r.ts) < 365 * 86400e3
+  );
   const low12 = recent.length ? Math.min(...recent.map((r) => r.price_usd)) : null;
   const bestStore = v && v.best_now ? it.stores.find((s) => s.key === v.best_now.store) : null;
   $("#app").innerHTML = `
