@@ -1,0 +1,194 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-14",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19759824-techron-complete-fuel-system-cleaner-6-12oz-bottles-39-98",
+      "method": "aggregator",
+      "price_native": 6.66,
+      "price_usd": 6.66,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19759824-techron-complete-fuel-system-cleaner-6-12oz-bottles-39-98",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-07-14T17:53:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O",
+      "method": "llm",
+      "price_native": 6.66,
+      "price_usd": 6.66,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T15:09:27Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 14.69,
+      "price_usd": 14.69,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-18T15:09:27Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T15:09:03Z",
+    "id": "chevron-techron-complete-fuel-system-cleaner-12oz-7a8a",
+    "identifiers": {
+      "asin": "B00092893O",
+      "model": "67740",
+      "mpn": "67740",
+      "upc": "00023968677404"
+    },
+    "issue": 4,
+    "lifecycle": {
+      "notes": "Pin CHV/MPN 67740 / UPC 00023968677404 — Techron Complete Fuel System Cleaner 12 oz ONLY (aka Concentrate Plus Complete). Issue Amazon URL B00092893O is the 67740-CASE 6x12oz multipack of the same formula; track pack price and note per-bottle (~pack/6). Single-bottle Amazon ASIN also seen: B006ZC4VTS (Techron Complete 12 Oz Model CHEV67740) with marketplace offers, no clear Amazon buy-box at discovery. Dropped AutoZone listings: 12oz part 266362 and 20oz 65740A are different SKUs. Dropped Techron High Mileage and 20/32oz Completes. Prior buy context (notes only): NAPA #30996943 on 2025-03-14 qty 3 ~$5.49/ea monthly special. Google Shopping requested for seed/history but blocked (consent/empty shells); no chart points recorded.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Per-bottle cost varies widely by retailer and pack size",
+        "Strong chemical odor noted by some reviewers",
+        "Easy to confuse with High Mileage / larger-oz Techron SKUs"
+      ],
+      "pros": [
+        "PEA detergent cleans injectors, valves, and combustion chambers in one tank",
+        "Safe for catalytic converters and O2 sensors; ethanol-blend compatible",
+        "Strong long-run Amazon rating volume on the CASE listing"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B00092893O",
+        "https://www.napaonline.com/en/p/CHV67740"
+      ],
+      "summary": "Amazon lists about 4.6/5 from ~15,966 ratings on the 6x12oz CASE ASIN B00092893O. Widely recommended PEA-based complete fuel-system cleaner used every ~3,000 miles; common praise for restoring idle/power and fuel-gauge behavior, with some complaints about price per bottle and smell."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "ok"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T15:09:03Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B00092893O"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-09-18T15:09:03Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "napa",
+        "last_ok": null,
+        "name": "NAPA",
+        "status": "blocked",
+        "url": "https://www.napaonline.com/en/p/CHV67740"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "oreilly",
+        "last_ok": null,
+        "name": "O'Reilly",
+        "status": "blocked",
+        "url": "https://www.oreillyauto.com/detail/c/techron/techron-12-ounce-fuel-treatment/chv3/67740"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "advance",
+        "last_ok": null,
+        "name": "Advance Auto",
+        "status": "blocked",
+        "url": "https://shop.advanceautoparts.com/p/chevron-techron-complete-fuel-system-cleaner-maximizes-restores-and-cleans-12-oz-67740/7081073-P"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "samsclub",
+        "last_ok": null,
+        "name": "Sam's Club",
+        "status": "blocked",
+        "url": "https://www.samsclub.com/ip/Techron-Complete-Fuel-System-Cleaner-12-oz-6-pk/16341958639"
+      }
+    ],
+    "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 6.66,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 6.66,
+    "lifecycle_note": null,
+    "n_events": 1,
+    "reason": "Best now $6.66 at amazon. That is 0.0% below the historical average of $6.66 (12-month avg, amazon). GOOD SALE (p25 of 1 deal events) is $6.66. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "ok"
+    },
+    "ts": "2026-09-18T15:09:39Z",
+    "typical": 6.66,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "BUY",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
