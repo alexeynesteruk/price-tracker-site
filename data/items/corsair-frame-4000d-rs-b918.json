@@ -201,7 +201,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note corsair-frame-4000d-rs.md (status: watching); Superseded 2026-09-17: Alexey bought Corsair FRAME 5000D RS ARGB White (Best Buy BBY01-807241036281, 2026-08-27, $100.99). 4000D RS watch paused.",
+      "notes": "imported from vault note corsair-frame-4000d-rs.md (status: watching); Superseded 2026-09-17: Alexey bought Corsair FRAME 5000D RS ARGB White (Best Buy BBY01-807241036281, 2026-08-27, $100.99). 4000D RS watch paused.; User confirmed remove from watch 2026-09-18 — leave paused, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -234,7 +234,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T15:28:39Z",
+    "ts": "2026-09-18T15:15:04Z",
     "typical": 99.99,
     "typical_label": "12-month avg, bhphoto",
     "verdict": "WAIT",

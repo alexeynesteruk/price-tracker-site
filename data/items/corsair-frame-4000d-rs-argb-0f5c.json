@@ -235,7 +235,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note corsair-frame-4000d-rs-argb.md (status: closed)",
+      "notes": "imported from vault note corsair-frame-4000d-rs-argb.md (status: closed); User confirmed remove from watch 2026-09-18 — leave paused, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -268,7 +268,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T15:28:39Z",
+    "ts": "2026-09-18T15:15:04Z",
     "typical": 87.49,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
