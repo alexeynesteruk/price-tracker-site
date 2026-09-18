@@ -101,6 +101,54 @@
       "store": "bhphoto",
       "suspect": false,
       "ts": "2026-09-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://us.store.bambulab.com/products/ams-2-pro",
+      "method": "dom",
+      "price_native": 269.0,
+      "price_usd": 269.0,
+      "promo": "sale",
+      "source_url": "https://us.store.bambulab.com/products/ams-2-pro",
+      "store": "bambulab",
+      "suspect": false,
+      "ts": "2026-09-18T02:21:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system",
+      "method": "dom",
+      "price_native": 299.99,
+      "price_usd": 299.99,
+      "promo": null,
+      "source_url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system",
+      "store": "microcenter",
+      "suspect": false,
+      "ts": "2026-09-18T02:21:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0F6397NCM",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0F6397NCM",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T02:21:00Z"
     }
   ],
   "item": {
@@ -116,43 +164,91 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching)",
+      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching); Owned via Best Buy P2S AMS Combo (SKU 6647058, order BBY01-807175594508, 2026-05-04, product $799.99 / total $851.99). Standalone AMS 2 Pro watch paused 2026-09-17 — not a separate AMS purchase; combo price not attributed to this item.",
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
-    "stores": [],
+    "state": "paused",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "bambulab",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Bambu Lab US",
+        "status": "ok",
+        "url": "https://us.store.bambulab.com/products/ams-2-pro"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "microcenter",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Micro Center",
+        "status": "ok",
+        "url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0F6397NCM"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bestbuy",
+        "last_ok": null,
+        "name": "Best Buy",
+        "status": "blocked",
+        "url": "https://www.bestbuy.com/site/bambu-lab-ams-2-pro-automatic-material-system-black/6631455.p?skuId=6631455"
+      }
+    ],
     "target_price": 251.0,
     "title": "Bambu Lab AMS 2 Pro",
     "vault_note": "bambu-lab-ams-2-pro"
   },
   "verdict": {
-    "best_now": null,
-    "confidence": "low",
+    "best_now": {
+      "price_usd": 269.0,
+      "store": "bambulab"
+    },
+    "confidence": "medium",
     "floor": {
-      "date": "2026-08-05",
-      "price_usd": 299.0
+      "date": "2026-09-18",
+      "price_usd": 269.0
     },
     "good_sale": 251.0,
     "lifecycle_note": null,
-    "n_events": 3,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "n_events": 4,
+    "reason": "Best now $269.00 at bambulab. That is 0.0% below the historical average of $269.00 (12-month avg, bambulab). GOOD SALE (p25 of 4 deal events) is $251.00. FLOOR $269.00 on 2026-09-18. Verdict BUY (within 3% of the all-time FLOOR), confidence medium. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:15:49Z",
-    "typical": 299.0,
-    "typical_label": "12-month avg, bhphoto",
-    "verdict": "WAIT",
+    "ts": "2026-09-18T03:16:44Z",
+    "typical": 269.0,
+    "typical_label": "12-month avg, bambulab",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

@@ -135,6 +135,54 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "method": "dom",
+      "price_native": 15.97,
+      "price_usd": 15.97,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T02:21:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186",
+      "method": "llm",
+      "price_native": 15.99,
+      "price_usd": 15.99,
+      "promo": null,
+      "source_url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-09-18T02:32:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349",
+      "method": "llm",
+      "price_native": 15.97,
+      "price_usd": 15.97,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-18T02:32:00Z"
     }
   ],
   "item": {
@@ -154,20 +202,57 @@
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0DT1JKGPH"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "target",
+        "last_ok": "2026-09-18T02:32:00Z",
+        "name": "Target",
+        "status": "ok",
+        "url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-09-18T02:32:00Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349"
+      }
+    ],
     "target_price": 6.3,
     "title": "Nature's Bounty High Absorption Magnesium Glycinate 240 mg, 120 ct",
     "vault_note": "natures-bounty-magnesium-glycinate-240mg"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 15.97,
+      "store": "amazon"
+    },
     "confidence": "low",
     "floor": {
       "date": "2025-03-30",
@@ -176,15 +261,15 @@
     "good_sale": 6.3,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $15.97 at amazon. That is 3.8% above the historical average of $15.38 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:15:49Z",
-    "typical": 14.79,
+    "ts": "2026-09-18T03:16:44Z",
+    "typical": 15.38,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,

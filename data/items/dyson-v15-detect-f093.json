@@ -271,6 +271,22 @@
       "store": "bestbuy",
       "suspect": false,
       "ts": "2026-09-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0C2J8KJH9",
+      "method": "dom",
+      "price_native": 699.66,
+      "price_usd": 699.66,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B0C2J8KJH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T02:21:00Z"
     }
   ],
   "item": {
@@ -286,24 +302,39 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note dyson-v15-detect.md (status: watching)",
+      "notes": "imported from vault note dyson-v15-detect.md (status: watching) | 2026-09-18 Job E: Costco/Best Buy listings seen were different model numbers (448182-01 / 448709-01 Extra bundles); pinned 447261-01 / B0C2J8KJH9 only",
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0C2J8KJH9"
+      }
+    ],
     "target_price": 500.0,
     "title": "Dyson V15 Detect",
     "vault_note": "dyson-v15-detect"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 699.66,
+      "store": "amazon"
+    },
     "confidence": "medium",
     "floor": {
       "date": "2023-12-16",
@@ -311,15 +342,15 @@
     },
     "good_sale": 500.0,
     "lifecycle_note": null,
-    "n_events": 6,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "n_events": 7,
+    "reason": "Best now $699.66 at amazon. That is 7.6% above the historical average of $649.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 7 deal events) is $500.00. FLOOR $499.99 on 2023-12-16. Verdict WAIT (no rule matched), confidence medium. No recurring window found.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T03:15:49Z",
+    "ts": "2026-09-18T03:16:44Z",
     "typical": 649.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
