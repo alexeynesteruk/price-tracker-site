@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T03:14:16Z",
+  "generated": "2026-09-18T03:17:11Z",
   "items": [
     {
       "best_now": {
@@ -20,7 +20,7 @@
       "best_now": null,
       "bought": null,
       "category": "pchw",
-      "confidence": "low",
+      "confidence": "medium",
       "id": "gskill-trident-z5-neo-rgb-64gb-ddr5-6000-cl30-7f69",
       "last_checked": null,
       "owner": "alexeynesteruk",
@@ -176,7 +176,7 @@
       "best_now": null,
       "bought": null,
       "category": "pchw",
-      "confidence": "medium",
+      "confidence": "high",
       "id": "corsair-frame-4000d-rs-b918",
       "last_checked": null,
       "owner": "alexeynesteruk",
@@ -230,7 +230,7 @@
       "best_now": null,
       "bought": null,
       "category": "pchw",
-      "confidence": "low",
+      "confidence": "high",
       "id": "msi-mag-b850-tomahawk-max-wifi-e8c3",
       "last_checked": null,
       "owner": "alexeynesteruk",
@@ -260,6 +260,18 @@
       "owner": "alexeynesteruk",
       "state": "paused",
       "title": "Ninja Foodi AG301 5-in-1 Indoor Grill & Air Fryer",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
+      "bought": null,
+      "category": "pchw",
+      "confidence": "low",
+      "id": "nvidia-geforce-rtx-5090-32gb-813d",
+      "last_checked": null,
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "NVIDIA GeForce RTX 5090 32GB (all AIB variants)",
       "verdict": "WAIT"
     },
     {
