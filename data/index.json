@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T03:22:13Z",
+  "generated": "2026-09-18T03:29:01Z",
   "items": [
     {
       "best_now": {
@@ -89,6 +89,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Samsung 37\" ViewFinity S8 (S80UD) 4K UHD HDR10 60Hz VA Monitor",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 24.64,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "sodastream-diet-pepsi-syrup-c8a1",
+      "last_checked": "2026-09-18T03:28:00Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "SodaStream Diet Pepsi Drink Mix, 4 Pack Cola Syrup",
       "verdict": "WAIT"
     },
     {
@@ -260,18 +275,6 @@
       "owner": "alexeynesteruk",
       "state": "paused",
       "title": "NVIDIA GeForce RTX 5090 32GB (all AIB variants)",
-      "verdict": "WAIT"
-    },
-    {
-      "best_now": null,
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "sodastream-diet-pepsi-syrup-c8a1",
-      "last_checked": null,
-      "owner": "alexeynesteruk",
-      "state": "paused",
-      "title": "SodaStream Diet Pepsi Drink Mix, 4 Pack Cola Syrup",
       "verdict": "WAIT"
     },
     {
