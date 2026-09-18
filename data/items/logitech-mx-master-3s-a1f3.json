@@ -477,6 +477,22 @@
       "store": "lenovo",
       "suspect": false,
       "ts": "2026-09-18T02:32:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
     }
   ],
   "item": {
@@ -529,7 +545,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-18T02:21:00Z",
+        "last_ok": "2026-09-18T17:36:34Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -538,7 +554,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "bestbuy",
         "last_ok": null,
         "name": "Best Buy",
@@ -549,22 +565,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-18T02:32:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/Logitech-MX-Master-3S-Wireless-Mouse-Graphite/1520211987"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "lenovo",
         "last_ok": "2026-09-18T02:32:00Z",
         "name": "Lenovo",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.lenovo.com/us/en/p/accessories-and-software/mice/mice/78034551"
       }
     ],
@@ -593,7 +609,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T17:15:50Z",
+    "ts": "2026-09-18T17:36:44Z",
     "typical": 79.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

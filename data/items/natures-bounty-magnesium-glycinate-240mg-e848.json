@@ -183,6 +183,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-18T02:32:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "method": "dom",
+      "price_native": 17.29,
+      "price_usd": 17.29,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186",
+      "method": "dom",
+      "price_native": 17.59,
+      "price_usd": 17.59,
+      "promo": null,
+      "source_url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
     }
   ],
   "item": {
@@ -216,7 +248,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-18T02:21:00Z",
+        "last_ok": "2026-09-18T17:36:34Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DT1JKGPH"
@@ -227,7 +259,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "target",
-        "last_ok": "2026-09-18T02:32:00Z",
+        "last_ok": "2026-09-18T17:36:34Z",
         "name": "Target",
         "status": "ok",
         "url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186"
@@ -236,11 +268,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-18T02:32:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349"
       }
     ],
@@ -251,7 +283,7 @@
   "verdict": {
     "best_now": {
       "price_usd": 15.97,
-      "store": "amazon"
+      "store": "walmart"
     },
     "confidence": "low",
     "floor": {
@@ -261,16 +293,16 @@
     "good_sale": 6.3,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $15.97 at amazon. That is 3.8% above the historical average of $15.38 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $15.97 at walmart. That is 0.0% below the historical average of $15.97 (12-month avg, walmart). GOOD SALE (p25 of 1 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T17:15:50Z",
-    "typical": 15.38,
-    "typical_label": "12-month avg, amazon",
+    "ts": "2026-09-18T17:36:44Z",
+    "typical": 15.97,
+    "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"

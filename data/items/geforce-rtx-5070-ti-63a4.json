@@ -305,6 +305,22 @@
       "store": "woot",
       "suspect": false,
       "ts": "2026-07-10T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "dom",
+      "price_native": 1199.99,
+      "price_usd": 1199.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
     }
   ],
   "item": {
@@ -320,24 +336,72 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note geforce-rtx-5070-ti.md (status: watching)",
+      "notes": "imported from vault note geforce-rtx-5070-ti.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/bhphoto/walmart; dropped Newegg (refurbished-only listings for VCG5070T16TFXPB1-O).",
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T17:36:34Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0DXL7GSYC"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bestbuy",
+        "last_ok": null,
+        "name": "Best Buy",
+        "status": "blocked",
+        "url": "https://www.bestbuy.com/site/pny-geforce-rtx-5070-ti-16gb-oc-gddr7-pci-express-5-0-graphics-card-with-triple-fan-black/6620367.p?skuId=6620367"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bhphoto",
+        "last_ok": null,
+        "name": "B&H Photo",
+        "status": "blocked",
+        "url": "https://www.bhphotovideo.com/c/product/1874643-REG/pny_vcg5070t16tfxpb1_o_geforce_rtx_5070_ti.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "walmart",
+        "last_ok": null,
+        "name": "Walmart",
+        "status": "blocked",
+        "url": "https://www.walmart.com/ip/PNY-GeForce-RTX-5070-Ti-Overclocked-Triple-Fan-Graphics-DLSS-4/15315519355"
+      }
+    ],
     "target_price": 828.0,
     "title": "GeForce RTX 5070 Ti",
     "vault_note": "geforce-rtx-5070-ti"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 1199.99,
+      "store": "amazon"
+    },
     "confidence": "high",
     "floor": {
       "date": "2025-08-18",
@@ -346,14 +410,14 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $1199.99 at amazon. That is 20.0% above the historical average of $999.99 (12-month avg, bestbuy); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T17:15:50Z",
+    "ts": "2026-09-18T17:36:44Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

@@ -238,6 +238,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-08-05T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "dom",
+      "price_native": 1247.9,
+      "price_usd": 1247.9,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
     }
   ],
   "item": {
@@ -253,24 +269,83 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note lg-c4-65-oled.md (status: watching)",
+      "notes": "imported from vault note lg-c4-65-oled.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/walmart/target/microcenter; LG.com product URL 404; skipped Walmart warranty-bundle SKU.",
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T17:36:34Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0CVS18PH9"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bestbuy",
+        "last_ok": null,
+        "name": "Best Buy",
+        "status": "blocked",
+        "url": "https://www.bestbuy.com/site/lg-65-class-c4-series-oled-evo-4k-uhd-smart-webos-tv-2024/6578042.p?skuId=6578042"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "walmart",
+        "last_ok": null,
+        "name": "Walmart",
+        "status": "blocked",
+        "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "target",
+        "last_ok": null,
+        "name": "Target",
+        "status": "blocked",
+        "url": "https://www.target.com/p/lg-oled65c4p-65-inch-class-c4-series-oled-evo-4k-hdr-smart-tv/-/A-1001183631"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "microcenter",
+        "last_ok": null,
+        "name": "Micro Center",
+        "status": "blocked",
+        "url": "https://www.microcenter.com/product/677951/lg-oled65c4pua-65-class-(645-diag)-4k-ultra-hd-smart-oled-tv"
+      }
+    ],
     "target_price": 1196.0,
     "title": "LG C4 65\" OLED TV (OLED65C4PUA)",
     "vault_note": "lg-c4-65-oled"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 1247.9,
+      "store": "amazon"
+    },
     "confidence": "medium",
     "floor": {
       "date": "2026-08-05",
@@ -279,14 +354,14 @@
     "good_sale": 958.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $1247.90 at amazon. That is 4.5% above the historical average of $1194.00 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $958.00. FLOOR $1194.00 on 2026-08-05. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 7, expect $800.00-$958.00.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T17:15:50Z",
+    "ts": "2026-09-18T17:36:44Z",
     "typical": 1194.0,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

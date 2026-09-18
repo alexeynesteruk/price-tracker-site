@@ -15,6 +15,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-18T15:28:30Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DFRXSQNM",
+      "method": "dom",
+      "price_native": 11.87,
+      "price_usd": 11.87,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DFRXSQNM",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T17:36:34Z"
     }
   ],
   "item": {
@@ -66,7 +82,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-18T15:28:30Z",
+        "last_ok": "2026-09-18T17:36:34Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DFRXSQNM"
@@ -95,7 +111,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-18T17:15:50Z",
+    "ts": "2026-09-18T17:36:44Z",
     "typical": 11.87,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

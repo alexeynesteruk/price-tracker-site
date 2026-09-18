@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T17:15:52Z",
+  "generated": "2026-09-18T17:37:03Z",
   "items": [
     {
       "best_now": {
@@ -10,7 +10,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "chevron-techron-complete-fuel-system-cleaner-12oz-7a8a",
-      "last_checked": "2026-09-18T16:00:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz",
@@ -25,7 +25,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
-      "last_checked": "2026-09-18T15:15:01Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
@@ -40,7 +40,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "epauto-cp820-471d",
-      "last_checked": "2026-09-18T15:28:30Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "EPAuto CP820 Cabin Air Filter (CF12820 equiv, carbon)",
@@ -55,43 +55,52 @@
       "category": "retail",
       "confidence": "low",
       "id": "fram-cf12820-786e",
-      "last_checked": "2026-09-18T15:28:45Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "FRAM Fresh Breeze CF12820 Cabin Air Filter",
       "verdict": "WAIT"
     },
     {
-      "best_now": null,
+      "best_now": {
+        "price_usd": 1149.99,
+        "store": "amazon"
+      },
       "bought": null,
       "category": "pchw",
       "confidence": "medium",
       "id": "gskill-trident-z5-neo-rgb-64gb-ddr5-6000-cl30-7f69",
-      "last_checked": "2026-08-27T16:00:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "G.SKILL Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30",
       "verdict": "WAIT"
     },
     {
-      "best_now": null,
+      "best_now": {
+        "price_usd": 1199.99,
+        "store": "amazon"
+      },
       "bought": null,
       "category": "pchw",
       "confidence": "high",
       "id": "geforce-rtx-5070-ti-63a4",
-      "last_checked": null,
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "GeForce RTX 5070 Ti",
       "verdict": "WAIT"
     },
     {
-      "best_now": null,
+      "best_now": {
+        "price_usd": 1247.9,
+        "store": "amazon"
+      },
       "bought": null,
       "category": "retail",
       "confidence": "medium",
       "id": "lg-c4-65-oled-4b44",
-      "last_checked": null,
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "LG C4 65\" OLED TV (OLED65C4PUA)",
@@ -103,7 +112,7 @@
       "category": "pchw",
       "confidence": "low",
       "id": "logitech-mx-master-3s-a1f3",
-      "last_checked": "2026-09-18T02:32:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Logitech MX Master 3S Wireless Mouse, Graphite",
@@ -112,25 +121,28 @@
     {
       "best_now": {
         "price_usd": 15.97,
-        "store": "amazon"
+        "store": "walmart"
       },
       "bought": null,
       "category": "retail",
       "confidence": "low",
       "id": "natures-bounty-magnesium-glycinate-240mg-e848",
-      "last_checked": "2026-09-18T02:32:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Nature's Bounty High Absorption Magnesium Glycinate 240 mg, 120 ct",
       "verdict": "WAIT"
     },
     {
-      "best_now": null,
+      "best_now": {
+        "price_usd": 496.0,
+        "store": "amazon"
+      },
       "bought": null,
       "category": "pchw",
       "confidence": "medium",
       "id": "samsung-viewfinity-s80ud-37-6300",
-      "last_checked": null,
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Samsung 37\" ViewFinity S8 (S80UD) 4K UHD HDR10 60Hz VA Monitor",
@@ -145,7 +157,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "sodastream-diet-pepsi-syrup-c8a1",
-      "last_checked": "2026-09-18T03:28:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "SodaStream Diet Pepsi Drink Mix, 4 Pack Cola Syrup",
@@ -160,7 +172,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "sodastream-pepsi-zero-syrup-affe",
-      "last_checked": "2026-09-18T03:32:00Z",
+      "last_checked": "2026-09-18T17:36:34Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "SodaStream Pepsi Zero Sugar Drink Mix, 4 Pack Cola Syrup",
