@@ -1,0 +1,117 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0D6CCJH2Y",
+      "method": "llm",
+      "price_native": 26.98,
+      "price_usd": 26.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0D6CCJH2Y",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-18T15:28:45Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-18T15:28:45Z",
+    "id": "fram-cf12820-786e",
+    "identifiers": {
+      "asin": "B0D6CCJH2Y",
+      "model": "CF12820",
+      "mpn": "CF12820",
+      "upc": null
+    },
+    "issue": 6,
+    "lifecycle": {
+      "notes": "Pin ASIN B0D6CCJH2Y / model+MPN CF12820 Fresh Breeze (Arm & Hammer). Official FRAM fit includes 2026 Kia Sportage L4-2.5L. OE crosses 97133-L1000 / 97133-N9100. NOT EPAuto CP820 (separate track) and NOT FRAM CV12820 TrueAir (different SKU seen at Walmart ~$19.97). NEW only. Dropped Walmart: no FRAM Fresh Breeze CF12820 listing (only CV12820 TrueAir and 3P CF12820 generics). AutoZone / O'Reilly / Advance: product pages blocked (geo wall / Akamai / timeout) — could not pin a verified buy URL this run; leave off stores[] rather than invent SKUs. Brand fram.com is catalog/info (no live cart price readable). Camel Cloudflare-blocked; Slickdeals 0 hits; Reddit blocked/no matching deals. Issue note: OEM Kia 97133N9100 ~$25.43 reference — Amazon live $26.98 is above that.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Amazon live price (~$27) sits at/above typical OEM online (~$25) so little discount vs dealer part alone",
+        "Easy to confuse with FRAM CV12820 TrueAir and generic CF12820-labeled filters",
+        "Sparse public review volume on this exact ASIN at discovery"
+      ],
+      "pros": [
+        "Official CF12820 Fresh Breeze SKU with documented 2026 Sportage L4-2.5L fit",
+        "Arm & Hammer baking soda + carbon odor control (Fresh Breeze line)",
+        "Clear OE crosses to Hyundai/Kia 97133-L1000 / 97133-N9100"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B0D6CCJH2Y",
+        "https://www.fram.com/fram-fresh-breeze-cabin-air-filter-cf12820"
+      ],
+      "summary": "FRAM Fresh Breeze line is widely documented for Arm & Hammer baking-soda + carbon odor control and ~98% dust/pollen filtration; this ASIN is new enough that Amazon showed no public star summary at discovery. Brand page confirms Sportage 2023–2026 / 2026 2.5L fit."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T15:28:45Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0D6CCJH2Y"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "fram",
+        "last_ok": null,
+        "name": "FRAM",
+        "status": "blocked",
+        "url": "https://www.fram.com/fram-fresh-breeze-cabin-air-filter-cf12820"
+      }
+    ],
+    "title": "FRAM Fresh Breeze CF12820 Cabin Air Filter"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 26.98,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $26.98 at amazon. That is 0.0% below the historical average of $26.98 (12-month avg, amazon). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-09-18T15:29:01Z",
+    "typical": 26.98,
+    "typical_label": "12-month avg, amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
