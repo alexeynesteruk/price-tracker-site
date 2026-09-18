@@ -36,13 +36,7 @@
     }
   ],
   "item": {
-    "bought": {
-      "currency": "USD",
-      "date": "2026-08-14",
-      "price_native": 32.31,
-      "price_usd": 32.31,
-      "store": "amazon"
-    },
+    "bought": null,
     "category": "pchw",
     "created": "2026-09-18T01:48:49Z",
     "id": "thermalright-phantom-spirit-120-se-argb-d249",
@@ -54,7 +48,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note thermalright-phantom-spirit-120-se-argb.md (status: bought)",
+      "notes": "imported from vault note thermalright-phantom-spirit-120-se-argb.md (status: bought); Amazon order 114-7410120-0690650 on 2026-08-14 for $32.31 was returned; refund completed 2026-08-30 (Amex). Cleared bought 2026-09-17 — not owned. Paused pending whether to rebuy.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -64,7 +58,7 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "bought",
+    "state": "paused",
     "stores": [],
     "target_price": 32.0,
     "title": "Thermalright Phantom Spirit 120 SE ARGB",

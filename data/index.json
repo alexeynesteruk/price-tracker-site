@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T03:30:07Z",
+  "generated": "2026-09-18T03:48:49Z",
   "items": [
     {
       "best_now": {
@@ -336,19 +336,13 @@
     },
     {
       "best_now": null,
-      "bought": {
-        "currency": "USD",
-        "date": "2026-08-14",
-        "price_native": 32.31,
-        "price_usd": 32.31,
-        "store": "amazon"
-      },
+      "bought": null,
       "category": "pchw",
       "confidence": "low",
       "id": "thermalright-phantom-spirit-120-se-argb-d249",
       "last_checked": null,
       "owner": "alexeynesteruk",
-      "state": "bought",
+      "state": "paused",
       "title": "Thermalright Phantom Spirit 120 SE ARGB",
       "verdict": "WAIT"
     },
