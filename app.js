@@ -74,20 +74,27 @@ function drawChart(page, period, hiddenStores) {
   const rows = page.history.filter((r) => !r.suspect && r.price_usd != null && new Date(r.ts).getTime() >= cutoff);
   const stores = [...new Set(rows.map((r) => r.store))];
   const palette = ["#1f77b4", "#d62728", "#2ca02c", "#9467bd", "#ff7f0e", "#17becf", "#8c564b", "#e377c2", "#7f7f7f"];
-  const datasets = stores.map((s, i) => ({
-    label: s,
-    data: rows
-      .filter((r) => r.store === s)
-      .map((r) => ({ x: new Date(r.ts).getTime(), y: r.price_usd, promo: r.promo, kind: r.kind }))
-      .sort((a, b) => a.x - b.x),
-    borderColor: palette[i % palette.length],
-    backgroundColor: palette[i % palette.length],
-    borderDash: rows.find((r) => r.store === s).kind === "seed" ? [6, 4] : [],
-    hidden: hiddenStores.has(s),
-    stepped: true,
-    pointRadius: 3,
-    tension: 0,
-  }));
+  const datasets = stores.map((s, i) => {
+    // Live polls mean "this price held until the next poll", so a stepped line is honest.
+    // Seed rows are isolated points in time (a camel lowest-ever, a dated deal event);
+    // joining them would draw a trajectory that was never observed.
+    const isSeed = rows.find((r) => r.store === s).kind === "seed";
+    return {
+      label: s,
+      data: rows
+        .filter((r) => r.store === s)
+        .map((r) => ({ x: new Date(r.ts).getTime(), y: r.price_usd, promo: r.promo, kind: r.kind }))
+        .sort((a, b) => a.x - b.x),
+      borderColor: palette[i % palette.length],
+      backgroundColor: palette[i % palette.length],
+      showLine: !isSeed,
+      hidden: hiddenStores.has(s),
+      stepped: !isSeed,
+      pointRadius: isSeed ? 4 : 3,
+      pointStyle: isSeed ? "circle" : "rect",
+      tension: 0,
+    };
+  });
   const lines = [];
   const v = page.verdict || {};
   if (v.good_sale != null) lines.push({ y: v.good_sale, label: "good sale", color: "#1a7f37" });
