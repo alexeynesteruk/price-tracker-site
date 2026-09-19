@@ -321,6 +321,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-18T17:36:34Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-19",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "dom",
+      "price_native": 1199.99,
+      "price_usd": 1199.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-19T17:25:09Z"
     }
   ],
   "item": {
@@ -354,7 +370,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-18T17:36:34Z",
+        "last_ok": "2026-09-19T17:25:09Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -363,7 +379,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 3,
         "key": "bestbuy",
         "last_ok": null,
         "name": "Best Buy",
@@ -374,7 +390,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 3,
         "key": "bhphoto",
         "last_ok": null,
         "name": "B&H Photo",
@@ -385,7 +401,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 3,
         "key": "walmart",
         "last_ok": null,
         "name": "Walmart",
@@ -417,7 +433,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T18:22:16Z",
+    "ts": "2026-09-19T17:25:31Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

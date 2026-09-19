@@ -50,6 +50,22 @@
       "store": "newegg",
       "suspect": false,
       "ts": "2026-09-17T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "method": "dom",
+      "price_native": 989.99,
+      "price_usd": 989.99,
+      "promo": null,
+      "source_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-19T02:26:55Z"
     }
   ],
   "item": {
@@ -65,24 +81,39 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md (status: watching)",
+      "notes": "imported from vault note v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30.md (status: watching); 2026-09-19: Job E filled Newegg only (exact TMXFL3260830WWK white 64GB CL30). No clean Amazon/BestBuy/Walmart/B&H US listing found.",
       "successor_announced": null,
       "successor_shipped": null
     },
-    "needs_stores": true,
+    "needs_stores": false,
     "owner": "alexeynesteruk",
     "reviews": null,
     "seed_sources": {
       "vault": "ok"
     },
     "state": "active",
-    "stores": [],
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "newegg",
+        "last_ok": "2026-09-19T02:26:55Z",
+        "name": "Newegg",
+        "status": "blocked",
+        "url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2"
+      }
+    ],
     "target_price": null,
     "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
     "vault_note": "v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 989.99,
+      "store": "newegg"
+    },
     "confidence": "low",
     "floor": {
       "date": "2026-08-18",
@@ -91,15 +122,15 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $989.99 at newegg. That is 2.9% above the historical average of $962.49 (12-month avg, newegg); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $879.99 on 2026-08-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "absent",
       "vault": "ok"
     },
-    "ts": "2026-09-18T18:22:16Z",
-    "typical": 953.32,
+    "ts": "2026-09-19T17:25:31Z",
+    "typical": 962.49,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
     "window": null,

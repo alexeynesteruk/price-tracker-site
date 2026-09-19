@@ -337,10 +337,7 @@
     "vault_note": "dyson-v15-detect"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 699.66,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "medium",
     "floor": {
       "date": "2023-12-16",
@@ -349,14 +346,14 @@
     "good_sale": 500.0,
     "lifecycle_note": null,
     "n_events": 7,
-    "reason": "Best now $699.66 at amazon. That is 7.6% above the historical average of $649.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 7 deal events) is $500.00. FLOOR $499.99 on 2023-12-16. Verdict WAIT (no rule matched), confidence medium. No recurring window found.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T18:22:16Z",
+    "ts": "2026-09-19T17:25:31Z",
     "typical": 649.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

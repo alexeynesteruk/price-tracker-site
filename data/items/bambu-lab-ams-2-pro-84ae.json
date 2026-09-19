@@ -226,29 +226,26 @@
     "vault_note": "bambu-lab-ams-2-pro"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 269.0,
-      "store": "bambulab"
-    },
+    "best_now": null,
     "confidence": "medium",
     "floor": {
-      "date": "2026-08-05",
-      "price_usd": 299.0
+      "date": "2026-09-18",
+      "price_usd": 269.0
     },
     "good_sale": 251.0,
     "lifecycle_note": null,
     "n_events": 4,
-    "reason": "Best now $269.00 at bambulab. That is 0.0% below the historical average of $269.00 (12-month avg, bambulab). GOOD SALE (p25 of 4 deal events) is $251.00. FLOOR $299.00 on 2026-08-05. Verdict BUY (within 3% of the all-time FLOOR), confidence medium. Item too young for a recurring window.",
-    "rule": "within 3% of the all-time FLOOR",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-18T18:22:16Z",
+    "ts": "2026-09-19T17:25:31Z",
     "typical": 269.0,
     "typical_label": "12-month avg, bambulab",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
