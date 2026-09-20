@@ -144,6 +144,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-20T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O",
+      "method": "dom",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": true,
+      "ts": "2026-09-20T17:12:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "dom",
+      "price_native": 14.69,
+      "price_usd": 14.69,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-20T17:12:00Z"
     }
   ],
   "item": {
@@ -196,7 +228,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-20T02:28:00Z",
+        "last_ok": "2026-09-20T17:12:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -207,7 +239,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-20T02:28:00Z",
+        "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -216,7 +248,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "napa",
         "last_ok": null,
         "name": "NAPA",
@@ -227,7 +259,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "oreilly",
         "last_ok": null,
         "name": "O'Reilly",
@@ -238,7 +270,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "advance",
         "last_ok": null,
         "name": "Advance Auto",
@@ -249,7 +281,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "samsclub",
         "last_ok": null,
         "name": "Sam's Club",
@@ -261,16 +293,19 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 6.66,
-      "store": "amazon"
+      "price_usd": 14.69,
+      "store": "walmart"
     },
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-09-18",
+      "price_usd": 6.66
+    },
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $6.66 at amazon. That is 0.0% below the historical average of $6.66 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $6.66. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "Best now $14.69 at walmart. That is 120.6% above the historical average of $6.66 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 2 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -280,10 +315,10 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-20T02:28:56Z",
+    "ts": "2026-09-20T17:15:16Z",
     "typical": 6.66,
     "typical_label": "12-month avg, amazon",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

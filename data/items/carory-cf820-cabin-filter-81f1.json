@@ -64,7 +64,10 @@
   "verdict": {
     "best_now": null,
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-09-18",
+      "price_usd": 7.99
+    },
     "good_sale": 7.99,
     "lifecycle_note": null,
     "n_events": 1,
@@ -75,7 +78,7 @@
       "good_sale": "ok",
       "purchase": "ok"
     },
-    "ts": "2026-09-20T02:28:56Z",
+    "ts": "2026-09-20T17:15:16Z",
     "typical": 7.99,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

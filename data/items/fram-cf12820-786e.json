@@ -103,17 +103,17 @@
     "title": "FRAM Fresh Breeze CF12820 Cabin Air Filter"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 26.98,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-09-18",
+      "price_usd": 26.98
+    },
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $26.98 at amazon. That is 0.0% below the historical average of $26.98 (12-month avg, amazon). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -123,7 +123,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-20T02:28:56Z",
+    "ts": "2026-09-20T17:15:16Z",
     "typical": 26.98,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

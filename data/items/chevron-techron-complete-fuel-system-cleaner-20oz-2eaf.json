@@ -129,6 +129,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-20T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893E",
+      "method": "dom",
+      "price_native": 16.99,
+      "price_usd": 16.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893E",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-20T17:12:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-Techron-Concentrate-Plus-Fuel-System-Cleaner-20-oz-Pack-of-1/8606556183",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-Techron-Concentrate-Plus-Fuel-System-Cleaner-20-oz-Pack-of-1/8606556183",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-20T17:12:00Z"
     }
   ],
   "item": {
@@ -181,7 +213,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-20T02:28:00Z",
+        "last_ok": "2026-09-20T17:12:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893E"
@@ -192,7 +224,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-20T02:28:00Z",
+        "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-Techron-Concentrate-Plus-Fuel-System-Cleaner-20-oz-Pack-of-1/8606556183"
@@ -201,7 +233,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "autozone",
         "last_ok": null,
         "name": "AutoZone",
@@ -212,7 +244,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "oreilly",
         "last_ok": null,
         "name": "O'Reilly",
@@ -223,7 +255,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "advance",
         "last_ok": null,
         "name": "Advance Auto",
@@ -239,12 +271,15 @@
       "store": "amazon"
     },
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-09-18",
+      "price_usd": 16.99
+    },
     "good_sale": 8.5,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $16.99 at amazon. That is 0.0% below the historical average of $16.99 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $8.50. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "Best now $16.99 at amazon. That is 0.0% below the historical average of $16.99 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $8.50. FLOOR $16.99 on 2026-09-18. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -254,10 +289,10 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-20T02:28:56Z",
+    "ts": "2026-09-20T17:15:16Z",
     "typical": 16.99,
     "typical_label": "12-month avg, amazon",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
