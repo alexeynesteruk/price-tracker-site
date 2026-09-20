@@ -176,7 +176,7 @@
     },
     "issue": 5,
     "lifecycle": {
-      "notes": "Pin MPN/CHV 65740 / UPC 023968657406 / ASIN B00092893E — Techron Complete / Concentrate Plus Fuel System Cleaner 20 oz ONLY (PEA). Distinct from tracked 12 oz (MPN 67740 / ASIN B00092893O / item chevron-techron-complete-fuel-system-cleaner-12oz-7a8a). AutoZone lists same 20 oz as part 65740A / SKU 27796. Dropped: High Mileage, Diesel, 12 oz Completes, 32 oz Completes, wrong UPCs. NAPA online search found no CHV65740 20 oz product page (only CHV67740 12 oz). Target not found carrying this SKU. CASE multipacks (65740-CASE 6x20oz) noted for seed per-bottle math only; single-bottle Amazon ASIN B00092893E is the pinned live URL. Local pickup context (notes only): Saint Augustine FL 32095 / Jacksonville; NAPA 8949 Philips Hwy Jacksonville.",
+      "notes": "Pin MPN/CHV 65740 / UPC 023968657406 / ASIN B00092893E — Techron Complete / Concentrate Plus Fuel System Cleaner 20 oz ONLY (PEA). Distinct from tracked 12 oz (MPN 67740 / ASIN B00092893O / item chevron-techron-complete-fuel-system-cleaner-12oz-7a8a). AutoZone lists same 20 oz as part 65740A / SKU 27796. Dropped: High Mileage, Diesel, 12 oz Completes, 32 oz Completes, wrong UPCs. NAPA online search found no CHV65740 20 oz product page (only CHV67740 12 oz). Target not found carrying this SKU. CASE multipacks (65740-CASE 6x20oz) noted for seed per-bottle math only; single-bottle Amazon ASIN B00092893E is the pinned live URL. Local pickup context (notes only): Saint Augustine FL 32095 / Jacksonville; NAPA 8949 Philips Hwy Jacksonville.; Paused 2026-09-20: Alexey already bought Amazon 6x12oz pack (chevron-techron-complete-fuel-system-cleaner-12oz-7a8a / order 112-4172897-3085063); no need for separate 20oz BUY chase.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -205,7 +205,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
         "active": true,

@@ -1,21 +1,6 @@
 {
-  "generated": "2026-09-20T17:15:30Z",
+  "generated": "2026-09-20T18:53:50Z",
   "items": [
-    {
-      "best_now": {
-        "price_usd": 16.99,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
-      "last_checked": "2026-09-20T17:12:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
-      "verdict": "BUY"
-    },
     {
       "best_now": {
         "price_usd": 80.92,
@@ -177,6 +162,21 @@
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 16.99,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
+      "last_checked": "2026-09-20T17:12:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
+      "verdict": "BUY"
     },
     {
       "best_now": null,
