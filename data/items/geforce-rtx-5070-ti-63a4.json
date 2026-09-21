@@ -443,7 +443,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 6,
+        "fails": 5,
         "key": "bestbuy",
         "last_ok": null,
         "name": "Best Buy",
@@ -497,7 +497,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T02:28:52Z",
+    "ts": "2026-09-21T02:29:39Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

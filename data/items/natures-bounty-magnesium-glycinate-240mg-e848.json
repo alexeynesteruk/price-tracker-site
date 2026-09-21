@@ -417,22 +417,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349"
       }
     ],
@@ -460,7 +460,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T02:28:52Z",
+    "ts": "2026-09-21T02:29:39Z",
     "typical": 15.98,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",

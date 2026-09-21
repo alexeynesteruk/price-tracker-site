@@ -424,22 +424,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.walmart.com/ip/SodaStream-Diet-Pepsi-Soda-Mix-14-9-fl-oz-Pack-of-4/1633673601"
       }
     ],
@@ -467,7 +467,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T02:28:52Z",
+    "ts": "2026-09-21T02:29:39Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

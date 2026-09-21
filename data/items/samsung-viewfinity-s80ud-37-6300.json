@@ -587,7 +587,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 1,
         "key": "bestbuy",
         "last_ok": "2026-09-20T02:28:00Z",
         "name": "Best Buy",
@@ -609,11 +609,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806"
       },
       {
@@ -652,7 +652,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T02:28:52Z",
+    "ts": "2026-09-21T02:29:39Z",
     "typical": 463.32,
     "typical_label": "12-month avg, samsung",
     "verdict": "WAIT",
