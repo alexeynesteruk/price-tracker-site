@@ -371,6 +371,54 @@
       "store": "sodastream",
       "suspect": false,
       "ts": "2026-09-21T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "method": "dom",
+      "price_native": 23.99,
+      "price_usd": 23.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-21T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "method": "dom",
+      "price_native": 24.99,
+      "price_usd": 24.99,
+      "promo": null,
+      "source_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-09-21T17:35:00Z"
     }
   ],
   "item": {
@@ -404,7 +452,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-21T02:28:00Z",
+        "last_ok": "2026-09-21T17:35:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
@@ -415,7 +463,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-21T02:28:00Z",
+        "last_ok": "2026-09-21T17:35:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -426,7 +474,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "target",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T17:35:00Z",
         "name": "Target",
         "status": "ok",
         "url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137"
@@ -435,11 +483,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/SodaStream-Diet-Pepsi-Soda-Mix-14-9-fl-oz-Pack-of-4/1633673601"
       }
     ],
@@ -449,8 +497,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 24.64,
-      "store": "amazon"
+      "price_usd": 21.74,
+      "store": "sodastream"
     },
     "confidence": "low",
     "floor": {
@@ -460,14 +508,14 @@
     "good_sale": 19.47,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $24.64 at amazon. That is 5.8% above the historical average of $23.29 (12-month avg, camel:amazon); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $21.74 at sodastream. That is 6.7% below the historical average of $23.29 (12-month avg, camel:amazon). GOOD SALE (p25 of 1 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T13:34:45Z",
+    "ts": "2026-09-21T17:35:30Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

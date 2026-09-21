@@ -653,6 +653,38 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-21T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Logitech-MX-Master-3S-Wireless-Mouse-Graphite/1520211987",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Logitech-MX-Master-3S-Wireless-Mouse-Graphite/1520211987",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-21T17:35:00Z"
     }
   ],
   "item": {
@@ -705,7 +737,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-21T02:28:00Z",
+        "last_ok": "2026-09-21T17:35:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -714,7 +746,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "bestbuy",
         "last_ok": "2026-09-20T02:28:00Z",
         "name": "Best Buy",
@@ -727,7 +759,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T17:35:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Logitech-MX-Master-3S-Wireless-Mouse-Graphite/1520211987"
@@ -736,7 +768,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 6,
+        "fails": 7,
         "key": "lenovo",
         "last_ok": "2026-09-18T02:32:00Z",
         "name": "Lenovo",
@@ -769,7 +801,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-21T13:34:45Z",
+    "ts": "2026-09-21T17:35:30Z",
     "typical": 79.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
