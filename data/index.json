@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T13:34:45Z",
+  "generated": "2026-09-21T14:21:11Z",
   "items": [
     {
       "best_now": {
@@ -14,21 +14,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Waveshare 10.85inch e-Paper HAT+",
-      "verdict": "BUY"
-    },
-    {
-      "best_now": {
-        "price_usd": 7.42,
-        "store": "walmart"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "wd-40-specialist-silicone-11oz-c10b",
-      "last_checked": "2026-09-21T13:35:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "WD-40 Specialist Silicone Lubricant with Smart Straw, 11 oz",
       "verdict": "BUY"
     },
     {
@@ -506,6 +491,27 @@
       "owner": "alexeynesteruk",
       "state": "bought",
       "title": "V-Color Manta XSky RGB 32GB (2x16GB) DDR5-6000 CL30",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 7.65,
+        "store": "walmart"
+      },
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-21",
+        "price_native": 7.65,
+        "price_usd": 7.65,
+        "store": "walmart"
+      },
+      "category": "retail",
+      "confidence": "low",
+      "id": "wd-40-specialist-silicone-11oz-c10b",
+      "last_checked": "2026-09-21T14:20:23Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "WD-40 Specialist Silicone Lubricant with Smart Straw, 11 oz",
       "verdict": "WAIT"
     },
     {

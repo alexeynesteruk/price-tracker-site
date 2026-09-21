@@ -47,10 +47,32 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-21T13:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836",
+      "method": "llm",
+      "price_native": 7.65,
+      "price_usd": 7.65,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-21T14:20:23Z"
     }
   ],
   "item": {
-    "bought": null,
+    "bought": {
+      "currency": "USD",
+      "date": "2026-09-21",
+      "price_native": 7.65,
+      "price_usd": 7.65,
+      "store": "walmart"
+    },
     "category": "retail",
     "created": "2026-09-21T13:35:00Z",
     "id": "wd-40-specialist-silicone-11oz-c10b",
@@ -91,7 +113,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "state": "active",
+    "state": "bought",
     "stores": [
       {
         "active": true,
@@ -153,7 +175,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 7.42,
+      "price_usd": 7.65,
       "store": "walmart"
     },
     "confidence": "low",
@@ -161,8 +183,8 @@
     "good_sale": 7.42,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $7.42 at walmart. That is 0.0% below the historical average of $7.42 (12-month avg, walmart). GOOD SALE (p25 of 1 deal events) is $7.42. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "Best now $7.65 at walmart. That is 1.5% above the historical average of $7.54 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $7.42. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -172,10 +194,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-21T13:34:45Z",
-    "typical": 7.42,
+    "ts": "2026-09-21T14:20:40Z",
+    "typical": 7.54,
     "typical_label": "12-month avg, walmart",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
