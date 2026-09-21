@@ -637,6 +637,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-20T17:12:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T02:28:00Z"
     }
   ],
   "item": {
@@ -689,7 +705,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -698,7 +714,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "bestbuy",
         "last_ok": "2026-09-20T02:28:00Z",
         "name": "Best Buy",
@@ -709,18 +725,18 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/Logitech-MX-Master-3S-Wireless-Mouse-Graphite/1520211987"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "lenovo",
         "last_ok": "2026-09-18T02:32:00Z",
         "name": "Lenovo",
@@ -753,7 +769,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-20T17:15:16Z",
+    "ts": "2026-09-21T02:28:52Z",
     "typical": 79.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

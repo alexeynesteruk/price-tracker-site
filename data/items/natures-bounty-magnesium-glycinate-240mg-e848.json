@@ -359,6 +359,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-20T17:12:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "method": "dom",
+      "price_native": 17.56,
+      "price_usd": 17.56,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DT1JKGPH",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T02:28:00Z"
     }
   ],
   "item": {
@@ -392,7 +408,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DT1JKGPH"
@@ -401,22 +417,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/nature-39-s-bounty-magnesium-glycinate-dietary-supplement-capsules-120ct/-/A-94911186"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/Nature-s-Bounty-Magnesium-Glycinate-120ct-Capsules/16948674349"
       }
     ],
@@ -427,7 +443,7 @@
   "verdict": {
     "best_now": {
       "price_usd": 15.99,
-      "store": "amazon"
+      "store": "target"
     },
     "confidence": "low",
     "floor": {
@@ -437,14 +453,14 @@
     "good_sale": 6.3,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $15.99 at amazon. That is 0.1% above the historical average of $15.98 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $15.99 at target. That is 0.1% above the historical average of $15.98 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-20T17:15:16Z",
+    "ts": "2026-09-21T02:28:52Z",
     "typical": 15.98,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",

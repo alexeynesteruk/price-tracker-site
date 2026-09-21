@@ -355,6 +355,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-20T17:12:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "method": "dom",
+      "price_native": 24.99,
+      "price_usd": 24.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-21T02:28:00Z"
     }
   ],
   "item": {
@@ -388,7 +420,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
@@ -399,7 +431,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-20T17:12:00Z",
+        "last_ok": "2026-09-21T02:28:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk"
@@ -408,7 +440,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "bestbuy",
         "last_ok": "2026-09-20T02:28:00Z",
         "name": "Best Buy",
@@ -419,22 +451,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543"
       }
     ],
@@ -462,7 +494,7 @@
       "good_sale": "absent",
       "vault": "ok"
     },
-    "ts": "2026-09-20T17:15:16Z",
+    "ts": "2026-09-21T02:28:52Z",
     "typical": 24.99,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
