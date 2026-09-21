@@ -1,0 +1,182 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836",
+      "method": "llm",
+      "price_native": 7.42,
+      "price_usd": 7.42,
+      "promo": "sale",
+      "source_url": "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-21T13:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.simsupply.com/categories/home-garden-auto/automotive/wd-40-specialist-11-oz-aerosol-water-resistant-silicone-lubricant-300012-300012-579145/",
+      "method": "llm",
+      "price_native": 9.62,
+      "price_usd": 9.62,
+      "promo": null,
+      "source_url": "https://www.simsupply.com/categories/home-garden-auto/automotive/wd-40-specialist-11-oz-aerosol-water-resistant-silicone-lubricant-300012-300012-579145/",
+      "store": "simsupply",
+      "suspect": false,
+      "ts": "2026-09-21T13:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B07ZBKH79N",
+      "method": "llm",
+      "price_native": 15.29,
+      "price_usd": 15.29,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B07ZBKH79N",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-21T13:35:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-21T13:35:00Z",
+    "id": "wd-40-specialist-silicone-11oz-c10b",
+    "identifiers": {
+      "asin": "B07ZBKH79N",
+      "model": "300012",
+      "mpn": "300012",
+      "upc": "079567300014"
+    },
+    "issue": 10,
+    "lifecycle": {
+      "notes": "Pin ASIN B07ZBKH79N / MPN 300012 / UPC 079567300014 — Specialist Silicone Lubricant Smart Straw 11 oz SINGLE can ONLY. NOT Dry PTFE, NOT White Lithium, NOT Specialist Spray and Stay Gel, NOT Penetrant. Alt ASINs mentioned for same silicone family: B081PFZFTR / B07ZBJXQ8X (not pinned). Amazon AOD: No featured offers available; NEW marketplace from ~$15.29. Home Depot model 300012 listing URL pinned but page Cloudflare/Akamai blocked at discovery (fails=1). O'Reilly part 30001 URL pinned but Access Denied at discovery (fails=1). Ship-to St Augustine FL 32095. NEW genuine only.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Amazon buy box frequently empty; 3P premiums appear",
+        "Easy to grab the wrong Specialist SKU (Dry PTFE / White Lithium / Gel / Penetrant)",
+        "Price swings a lot between grocery/auto/warehouse channels"
+      ],
+      "pros": [
+        "Safe on rubber, plastic, vinyl, and metal",
+        "Quick-drying clear film that resists water and dirt pickup",
+        "Smart Straw stream/spray permanently attached"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B07ZBKH79N",
+        "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836"
+      ],
+      "summary": "Amazon product page shows about 4.8/5 stars. Specialist Silicone is widely used for rubber/vinyl/plastic-safe lubrication and waterproofing; reviewers like the clear dry film and Smart Straw, with occasional complaints about overspray smell and price variance across multipacks."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-09-21T13:35:00Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/WD-40-Specialist-Water-Resistant-Silicone-Lubricant-11-Oz/21838836"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "simsupply",
+        "last_ok": "2026-09-21T13:35:00Z",
+        "name": "SIM Supply",
+        "status": "ok",
+        "url": "https://www.simsupply.com/categories/home-garden-auto/automotive/wd-40-specialist-11-oz-aerosol-water-resistant-silicone-lubricant-300012-300012-579145/"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-21T13:35:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B07ZBKH79N"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "homedepot",
+        "last_ok": null,
+        "name": "Home Depot",
+        "status": "blocked",
+        "url": "https://www.homedepot.com/p/WD-40-SPECIALIST-11-oz-Silicone-Quick-Drying-Lubricant-with-Smart-Straw-Spray-300012/204500174"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "oreilly",
+        "last_ok": null,
+        "name": "O'Reilly",
+        "status": "blocked",
+        "url": "https://www.oreillyauto.com/detail/c/wd-40/oil--chemicals---fluids/maintenance-chemicals/lubricants/penetrating---fogging-oil/66125cac49f7/wd-40-11-ounce-silicone/wd00/30001"
+      }
+    ],
+    "title": "WD-40 Specialist Silicone Lubricant with Smart Straw, 11 oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 7.42,
+      "store": "walmart"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 7.42,
+    "lifecycle_note": null,
+    "n_events": 1,
+    "reason": "Best now $7.42 at walmart. That is 0.0% below the historical average of $7.42 (12-month avg, walmart). GOOD SALE (p25 of 1 deal events) is $7.42. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-09-21T13:34:45Z",
+    "typical": 7.42,
+    "typical_label": "12-month avg, walmart",
+    "verdict": "BUY",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
