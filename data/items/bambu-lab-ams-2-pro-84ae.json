@@ -181,7 +181,52 @@
       "vault": "ok"
     },
     "state": "bought",
-    "stores": [],
+    "stores": [
+      {
+        "active": false,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "bambulab",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Bambu Lab US",
+        "status": "ok",
+        "url": "https://us.store.bambulab.com/products/ams-2-pro"
+      },
+      {
+        "active": false,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "microcenter",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Micro Center",
+        "status": "ok",
+        "url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system"
+      },
+      {
+        "active": false,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-18T02:21:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0F6397NCM"
+      },
+      {
+        "active": false,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bestbuy",
+        "last_ok": null,
+        "name": "Best Buy",
+        "status": "blocked",
+        "url": "https://www.bestbuy.com/site/bambu-lab-ams-2-pro-automatic-material-system-black/6631455.p?skuId=6631455"
+      }
+    ],
     "target_price": 251.0,
     "title": "Bambu Lab AMS 2 Pro",
     "vault_note": "bambu-lab-ams-2-pro"
