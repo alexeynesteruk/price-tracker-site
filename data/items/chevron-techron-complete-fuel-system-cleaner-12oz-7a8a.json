@@ -272,6 +272,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-22T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O",
+      "method": "llm",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": true,
+      "ts": "2026-09-22T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 14.69,
+      "price_usd": 14.69,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-22T17:35:00Z"
     }
   ],
   "item": {
@@ -324,7 +356,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-22T02:25:00Z",
+        "last_ok": "2026-09-22T17:35:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -335,7 +367,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-22T02:25:00Z",
+        "last_ok": "2026-09-22T17:35:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -344,51 +376,54 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 9,
+        "fails": 10,
         "key": "napa",
         "last_ok": null,
         "name": "NAPA",
-        "status": "blocked",
+        "status": "gone",
         "url": "https://www.napaonline.com/en/p/CHV67740"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 9,
+        "fails": 10,
         "key": "oreilly",
         "last_ok": null,
         "name": "O'Reilly",
-        "status": "blocked",
+        "status": "gone",
         "url": "https://www.oreillyauto.com/detail/c/techron/techron-12-ounce-fuel-treatment/chv3/67740"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 9,
+        "fails": 10,
         "key": "advance",
         "last_ok": null,
         "name": "Advance Auto",
-        "status": "blocked",
+        "status": "gone",
         "url": "https://shop.advanceautoparts.com/p/chevron-techron-complete-fuel-system-cleaner-maximizes-restores-and-cleans-12-oz-67740/7081073-P"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 9,
+        "fails": 10,
         "key": "samsclub",
         "last_ok": null,
         "name": "Sam's Club",
-        "status": "blocked",
+        "status": "gone",
         "url": "https://www.samsclub.com/ip/Techron-Complete-Fuel-System-Cleaner-12-oz-6-pk/16341958639"
       }
     ],
     "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 14.69,
+      "store": "walmart"
+    },
     "confidence": "low",
     "floor": {
       "date": "2026-09-18",
@@ -397,8 +432,8 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $14.69 at walmart. That is 120.6% above the historical average of $6.66 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 2 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -408,7 +443,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-22T15:23:56Z",
+    "ts": "2026-09-22T17:35:45Z",
     "typical": 6.66,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

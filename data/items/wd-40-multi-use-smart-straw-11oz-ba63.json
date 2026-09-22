@@ -143,6 +143,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-22T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000NV5PRE",
+      "method": "llm",
+      "price_native": 17.99,
+      "price_usd": 17.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B000NV5PRE",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-22T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746",
+      "method": "llm",
+      "price_native": 16.99,
+      "price_usd": 16.99,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-22T17:35:00Z"
     }
   ],
   "item": {
@@ -195,7 +227,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-22T02:25:00Z",
+        "last_ok": "2026-09-22T17:35:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B000NV5PRE"
@@ -204,11 +236,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "ace",
         "last_ok": "2026-09-22T02:25:00Z",
         "name": "Ace Hardware",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.acehardware.com/departments/automotive-rv-and-marine/fluids-and-lubrication/lubricants/1605641"
       },
       {
@@ -217,7 +249,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-22T02:25:00Z",
+        "last_ok": "2026-09-22T17:35:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746"
@@ -246,7 +278,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-22T15:23:56Z",
+    "ts": "2026-09-22T17:35:45Z",
     "typical": 9.59,
     "typical_label": "12-month avg, ace",
     "verdict": "WAIT",
