@@ -266,10 +266,7 @@
     "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 16.99,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2026-09-18",
@@ -278,8 +275,8 @@
     "good_sale": 8.5,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $16.99 at amazon. That is 0.0% below the historical average of $16.99 (12-month avg, amazon). GOOD SALE (p25 of 2 deal events) is $8.50. FLOOR $16.99 on 2026-09-18. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
-    "rule": "within 3% of the all-time FLOOR",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -289,10 +286,10 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-22T02:24:31Z",
+    "ts": "2026-09-22T15:23:56Z",
     "typical": 16.99,
     "typical_label": "12-month avg, amazon",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

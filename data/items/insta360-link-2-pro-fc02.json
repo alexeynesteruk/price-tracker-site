@@ -1,0 +1,254 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "method": "aggregator",
+      "price_native": 199.99,
+      "price_usd": 199.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "store": "camel:3p-new",
+      "suspect": false,
+      "ts": "2026-06-23T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-07-06",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "method": "aggregator",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "store": "camel:3p-new",
+      "suspect": false,
+      "ts": "2026-07-06T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "method": "aggregator",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B0G3T1QKWL",
+      "store": "camel:3p-new",
+      "suspect": false,
+      "ts": "2026-09-18T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-22T15:23:53Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.bestbuy.com/product/insta360-link2-pro-black/J39VLTZFKV",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.bestbuy.com/product/insta360-link2-pro-black/J39VLTZFKV",
+      "store": "bestbuy",
+      "suspect": false,
+      "ts": "2026-09-22T15:23:53Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-22T15:23:53Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://store.insta360.com/product/link-2-pro",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://store.insta360.com/product/link-2-pro",
+      "store": "insta360",
+      "suspect": false,
+      "ts": "2026-09-22T15:23:53Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-22T15:23:53Z",
+    "id": "insta360-link-2-pro-fc02",
+    "identifiers": {
+      "asin": "B0G3T1QKWL",
+      "model": "CINSABPA",
+      "mpn": "CINSABPA",
+      "upc": "842126108624"
+    },
+    "issue": 11,
+    "lifecycle": {
+      "notes": "Pin Link 2 Pro ONLY — model CINSABPA / ASIN B0G3T1QKWL (alt listing B0GH86DZL2 same SKU), 1/1.3\" sensor + 2-axis gimbal, Graphite Black Standard Bundle. NOT Link 2 (CINSABNB, 1/2\"), NOT Link 2C, NOT Link 2C Pro. Sibling SKUs on same official PDP; no successor announced as of 2026-09-22. UPC 842126108624 from Amazon/Aztek listings.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Expensive if you only need basic sit-at-desk video calls",
+        "Gesture controls can be inconsistent; no physical lens cap (privacy tilt instead)",
+        "Cheaper Link 2 / Link 2C may be enough if you do not need the larger sensor"
+      ],
+      "pros": [
+        "Outstanding 4K image quality and low-light from larger 1/1.3\" sensor",
+        "Smooth two-axis AI gimbal tracking for individuals and groups",
+        "Desk view, whiteboard mode, and gesture controls help presentations"
+      ],
+      "sources": [
+        "https://www.tomsguide.com/computing/peripherals/insta360-link-2-pro-review",
+        "https://www.trustedreviews.com/reviews/insta360-link-2-pro",
+        "https://www.amazon.com/dp/B0G3T1QKWL",
+        "https://www.bestbuy.com/product/insta360-link2-pro-black/J39VLTZFKV"
+      ],
+      "summary": "Tom's Guide and Trusted Reviews call it an excellent premium 4K webcam: strong image quality from the 1/1.3\" sensor, smooth gimbal tracking, useful desk/whiteboard modes; main knock is the $249 price for basic call use. Amazon ~4.5/5 (376 ratings); Best Buy 4.3/5 (12)."
+    },
+    "seed_sources": {
+      "camel": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-22T15:23:53Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B0G3T1QKWL"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "bestbuy",
+        "last_ok": "2026-09-22T15:23:53Z",
+        "name": "Best Buy",
+        "status": "ok",
+        "url": "https://www.bestbuy.com/product/insta360-link2-pro-black/J39VLTZFKV"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "bh",
+        "last_ok": null,
+        "name": "B&H",
+        "status": "blocked",
+        "url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "newegg",
+        "last_ok": "2026-09-22T15:23:53Z",
+        "name": "Newegg",
+        "status": "ok",
+        "url": "https://www.newegg.com/p/1EF-00J0-00022"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "insta360",
+        "last_ok": "2026-09-22T15:23:53Z",
+        "name": "Insta360 Store",
+        "status": "ok",
+        "url": "https://store.insta360.com/product/link-2-pro"
+      }
+    ],
+    "title": "Insta360 Link 2 Pro"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 249.99,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": {
+      "date": "2026-06-23",
+      "price_usd": 199.99
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $249.99 at amazon. That is 7.1% above the historical average of $233.32 (12-month avg, camel:3p-new); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "ok",
+      "good_sale": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-09-22T15:23:56Z",
+    "typical": 233.32,
+    "typical_label": "12-month avg, camel:3p-new",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

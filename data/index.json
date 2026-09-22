@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T02:24:38Z",
+  "generated": "2026-09-22T15:24:07Z",
   "items": [
     {
       "best_now": {
@@ -56,6 +56,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "GeForce RTX 5070 Ti",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 249.99,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "insta360-link-2-pro-fc02",
+      "last_checked": "2026-09-22T15:23:53Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Insta360 Link 2 Pro",
       "verdict": "WAIT"
     },
     {
@@ -176,21 +191,6 @@
       "verdict": "WAIT"
     },
     {
-      "best_now": {
-        "price_usd": 16.99,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
-      "last_checked": "2026-09-20T17:12:00Z",
-      "owner": "alexeynesteruk",
-      "state": "paused",
-      "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
-      "verdict": "BUY"
-    },
-    {
       "best_now": null,
       "bought": null,
       "category": "pchw",
@@ -260,6 +260,18 @@
       "owner": "alexeynesteruk",
       "state": "bought",
       "title": "Carory CF820 Cabin Air Filter (activated carbon)",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "chevron-techron-complete-fuel-system-cleaner-20oz-2eaf",
+      "last_checked": "2026-09-20T17:12:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Chevron Techron Complete Fuel System Cleaner, 20 oz",
       "verdict": "WAIT"
     },
     {
