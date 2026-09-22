@@ -170,7 +170,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note bambu-lab-ams-2-pro.md; Best Buy order BBY01-807175594508 P2S AMS Combo SKU 6647058 product $799.99 / total $851.99 - AMS included in combo, not a separate AMS purchase; watch closed 2026-09-22. Stores deactivated (active:false) because live history rows require store keys; state=bought stops Price Watch checks.",
+      "notes": "imported from vault note bambu-lab-ams-2-pro.md; Best Buy order BBY01-807175594508 P2S AMS Combo SKU 6647058 product $799.99 / total $851.99 - AMS included in combo, not a separate AMS purchase; watch closed 2026-09-22. Stores deactivated (active:false) because live history rows require store keys; state=bought stops Price Watch checks. 2026-09-22: Best Buy P2S AMS Combo product price (order BBY01-807175594508, SKU 6647058, order total $851.99). AMS 2 Pro included in combo — not standalone AMS purchase. No separate AMS 2 Pro order.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -181,52 +181,7 @@
       "vault": "ok"
     },
     "state": "bought",
-    "stores": [
-      {
-        "active": false,
-        "condition": "new",
-        "currency": "USD",
-        "fails": 0,
-        "key": "bambulab",
-        "last_ok": "2026-09-18T02:21:00Z",
-        "name": "Bambu Lab US",
-        "status": "ok",
-        "url": "https://us.store.bambulab.com/products/ams-2-pro"
-      },
-      {
-        "active": false,
-        "condition": "new",
-        "currency": "USD",
-        "fails": 0,
-        "key": "microcenter",
-        "last_ok": "2026-09-18T02:21:00Z",
-        "name": "Micro Center",
-        "status": "ok",
-        "url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system"
-      },
-      {
-        "active": false,
-        "condition": "new",
-        "currency": "USD",
-        "fails": 0,
-        "key": "amazon",
-        "last_ok": "2026-09-18T02:21:00Z",
-        "name": "Amazon",
-        "status": "ok",
-        "url": "https://www.amazon.com/dp/B0F6397NCM"
-      },
-      {
-        "active": false,
-        "condition": "new",
-        "currency": "USD",
-        "fails": 1,
-        "key": "bestbuy",
-        "last_ok": null,
-        "name": "Best Buy",
-        "status": "blocked",
-        "url": "https://www.bestbuy.com/site/bambu-lab-ams-2-pro-automatic-material-system-black/6631455.p?skuId=6631455"
-      }
-    ],
+    "stores": [],
     "target_price": 251.0,
     "title": "Bambu Lab AMS 2 Pro",
     "vault_note": "bambu-lab-ams-2-pro"
