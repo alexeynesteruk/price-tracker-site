@@ -240,6 +240,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-21T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O?th=1",
+      "method": "llm",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": true,
+      "ts": "2026-09-22T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-21",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-22T02:25:00Z"
     }
   ],
   "item": {
@@ -292,7 +324,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-21T17:35:00Z",
+        "last_ok": "2026-09-22T02:25:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -303,7 +335,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-21T17:35:00Z",
+        "last_ok": "2026-09-22T02:25:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -312,7 +344,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "napa",
         "last_ok": null,
         "name": "NAPA",
@@ -323,7 +355,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "oreilly",
         "last_ok": null,
         "name": "O'Reilly",
@@ -334,7 +366,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "advance",
         "last_ok": null,
         "name": "Advance Auto",
@@ -345,7 +377,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "samsclub",
         "last_ok": null,
         "name": "Sam's Club",
@@ -356,10 +388,7 @@
     "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 14.69,
-      "store": "walmart"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2026-09-18",
@@ -368,8 +397,8 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $14.69 at walmart. That is 120.6% above the historical average of $6.66 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 2 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -379,7 +408,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-21T17:35:30Z",
+    "ts": "2026-09-22T02:24:31Z",
     "typical": 6.66,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
