@@ -308,7 +308,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note dyson-v15-detect.md (status: watching) | 2026-09-18 Job E: Costco/Best Buy listings seen were different model numbers (448182-01 / 448709-01 Extra bundles); pinned 447261-01 / B0C2J8KJH9 only; Bought Walmart order 2000138-81247424 on 2025-11-25: Restored Premium Dyson V15 Detect Total Clean Extra (Yellow/Nickel), item 9239851227, $299.99 pre-tax / $319.49 total (seller Dyson, Inc.). Delivered 2025-11-29. Watch stopped 2026-09-18.",
+      "notes": "imported from vault note dyson-v15-detect.md (status: watching) | 2026-09-18 Job E: Costco/Best Buy listings seen were different model numbers (448182-01 / 448709-01 Extra bundles); pinned 447261-01 / B0C2J8KJH9 only; Bought Walmart order 2000138-81247424 on 2025-11-25: Restored Premium Dyson V15 Detect Total Clean Extra (Yellow/Nickel), item 9239851227, $299.99 pre-tax / $319.49 total (seller Dyson, Inc.). Delivered 2025-11-29. Watch stopped 2026-09-18. Vault status was still watching so Price Watch kept checking until closed 2026-09-22. Amazon store set active:false (live history requires key); state was already bought.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -321,7 +321,7 @@
     "state": "bought",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -353,7 +353,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-22T15:23:56Z",
+    "ts": "2026-09-22T15:42:15Z",
     "typical": 649.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

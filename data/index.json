@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T15:24:07Z",
+  "generated": "2026-09-22T15:42:23Z",
   "items": [
     {
       "best_now": {
@@ -234,13 +234,19 @@
     },
     {
       "best_now": null,
-      "bought": null,
+      "bought": {
+        "currency": "USD",
+        "date": "2026-05-04",
+        "price_native": 799.99,
+        "price_usd": 799.99,
+        "store": "bestbuy"
+      },
       "category": "retail",
       "confidence": "medium",
       "id": "bambu-lab-ams-2-pro-84ae",
       "last_checked": "2026-09-18T02:21:00Z",
       "owner": "alexeynesteruk",
-      "state": "paused",
+      "state": "bought",
       "title": "Bambu Lab AMS 2 Pro",
       "verdict": "WAIT"
     },

@@ -152,7 +152,13 @@
     }
   ],
   "item": {
-    "bought": null,
+    "bought": {
+      "currency": "USD",
+      "date": "2026-05-04",
+      "price_native": 799.99,
+      "price_usd": 799.99,
+      "store": "bestbuy"
+    },
     "category": "retail",
     "created": "2026-09-18T01:48:49Z",
     "id": "bambu-lab-ams-2-pro-84ae",
@@ -164,7 +170,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note bambu-lab-ams-2-pro.md (status: watching); Owned via Best Buy P2S AMS Combo (SKU 6647058, order BBY01-807175594508, 2026-05-04, product $799.99 / total $851.99). Standalone AMS 2 Pro watch paused 2026-09-17 — not a separate AMS purchase; combo price not attributed to this item.",
+      "notes": "imported from vault note bambu-lab-ams-2-pro.md; Best Buy order BBY01-807175594508 P2S AMS Combo SKU 6647058 product $799.99 / total $851.99 - AMS included in combo, not a separate AMS purchase; watch closed 2026-09-22. Stores deactivated (active:false) because live history rows require store keys; state=bought stops Price Watch checks.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -174,10 +180,10 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "paused",
+    "state": "bought",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -188,7 +194,7 @@
         "url": "https://us.store.bambulab.com/products/ams-2-pro"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -199,7 +205,7 @@
         "url": "https://www.microcenter.com/product/710283/bambu-lab-ams-2-pro-automatic-material-system"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -210,7 +216,7 @@
         "url": "https://www.amazon.com/dp/B0F6397NCM"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 1,
@@ -242,7 +248,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-22T15:23:56Z",
+    "ts": "2026-09-22T15:42:15Z",
     "typical": 269.0,
     "typical_label": "12-month avg, bambulab",
     "verdict": "WAIT",
