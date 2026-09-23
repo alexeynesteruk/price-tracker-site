@@ -50,7 +50,13 @@
     }
   ],
   "item": {
-    "bought": null,
+    "bought": {
+      "currency": "USD",
+      "date": "2026-09-22",
+      "price_native": 7.5,
+      "price_usd": 7.5,
+      "store": "homedepot"
+    },
     "category": "retail",
     "created": "2026-09-23T03:18:00Z",
     "id": "wd-40-classic-formula-smart-straw-12oz-d691",
@@ -92,7 +98,7 @@
       "reddit": "failed",
       "slickdeals": "failed"
     },
-    "state": "active",
+    "state": "bought",
     "stores": [
       {
         "active": true,
@@ -162,7 +168,7 @@
       "reddit": "failed",
       "slickdeals": "failed"
     },
-    "ts": "2026-09-23T03:18:18Z",
+    "ts": "2026-09-23T03:41:09Z",
     "typical": 8.38,
     "typical_label": "12-month avg, walmart",
     "verdict": "BUY",

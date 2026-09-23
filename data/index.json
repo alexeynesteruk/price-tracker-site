@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T03:18:27Z",
+  "generated": "2026-09-23T03:41:47Z",
   "items": [
     {
       "best_now": {
@@ -14,21 +14,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Waveshare 10.85inch e-Paper HAT+",
-      "verdict": "BUY"
-    },
-    {
-      "best_now": {
-        "price_usd": 8.38,
-        "store": "walmart"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "wd-40-classic-formula-smart-straw-12oz-d691",
-      "last_checked": "2026-09-23T03:18:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz",
       "verdict": "BUY"
     },
     {
@@ -192,6 +177,27 @@
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 8.38,
+        "store": "walmart"
+      },
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-22",
+        "price_native": 7.5,
+        "price_usd": 7.5,
+        "store": "homedepot"
+      },
+      "category": "retail",
+      "confidence": "low",
+      "id": "wd-40-classic-formula-smart-straw-12oz-d691",
+      "last_checked": "2026-09-23T03:18:00Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz",
+      "verdict": "BUY"
     },
     {
       "best_now": {
