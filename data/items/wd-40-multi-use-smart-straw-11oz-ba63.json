@@ -291,8 +291,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 9.59,
-      "store": "ace"
+      "price_usd": 16.99,
+      "store": "walmart"
     },
     "confidence": "low",
     "floor": {
@@ -302,8 +302,8 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $9.59 at ace. That is 0.0% below the historical average of $9.59 (12-month avg, ace). No deal events on record; GOOD SALE is absent. FLOOR $9.59 on 2026-09-21. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
-    "rule": "within 3% of the all-time FLOOR",
+    "reason": "Best now $16.99 at walmart. That is 77.2% above the historical average of $9.59 (12-month avg, ace); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $9.59 on 2026-09-21. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -313,10 +313,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-23T03:18:18Z",
+    "ts": "2026-09-23T17:39:27Z",
     "typical": 9.59,
     "typical_label": "12-month avg, ace",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
