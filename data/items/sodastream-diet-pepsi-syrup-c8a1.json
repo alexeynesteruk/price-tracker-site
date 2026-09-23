@@ -515,6 +515,38 @@
       "store": "sodastream",
       "suspect": false,
       "ts": "2026-09-22T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "method": "llm",
+      "price_native": 23.99,
+      "price_usd": 23.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
     }
   ],
   "item": {
@@ -548,7 +580,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
@@ -559,7 +591,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -568,7 +600,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "target",
         "last_ok": "2026-09-22T02:25:00Z",
         "name": "Target",
@@ -579,7 +611,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "walmart",
         "last_ok": "2026-09-22T02:25:00Z",
         "name": "Walmart",
@@ -611,7 +643,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-22T17:35:45Z",
+    "ts": "2026-09-23T02:27:49Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

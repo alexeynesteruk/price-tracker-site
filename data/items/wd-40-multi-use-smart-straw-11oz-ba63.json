@@ -175,6 +175,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-22T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000NV5PRE",
+      "method": "llm",
+      "price_native": 17.93,
+      "price_usd": 17.93,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B000NV5PRE",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746",
+      "method": "llm",
+      "price_native": 16.99,
+      "price_usd": 16.99,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
     }
   ],
   "item": {
@@ -227,7 +259,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B000NV5PRE"
@@ -236,7 +268,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "ace",
         "last_ok": "2026-09-22T02:25:00Z",
         "name": "Ace Hardware",
@@ -249,7 +281,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/WD-40-100324-Multi-Use-Lubricant-Spray-with-Smart-Straw-11-oz-Can/21130746"
@@ -263,12 +295,15 @@
       "store": "ace"
     },
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-09-21",
+      "price_usd": 9.59
+    },
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $9.59 at ace. That is 0.0% below the historical average of $9.59 (12-month avg, ace). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "Best now $9.59 at ace. That is 0.0% below the historical average of $9.59 (12-month avg, ace). No deal events on record; GOOD SALE is absent. FLOOR $9.59 on 2026-09-21. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -278,10 +313,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-22T17:35:45Z",
+    "ts": "2026-09-23T02:27:49Z",
     "typical": 9.59,
     "typical_label": "12-month avg, ace",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

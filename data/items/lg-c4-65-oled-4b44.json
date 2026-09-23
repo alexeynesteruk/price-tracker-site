@@ -478,6 +478,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-22T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "llm",
+      "price_native": 1247.9,
+      "price_usd": 1247.9,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935",
+      "method": "llm",
+      "price_native": 1278.9,
+      "price_usd": 1278.9,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-23T02:28:00Z"
     }
   ],
   "item": {
@@ -511,7 +543,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
@@ -520,7 +552,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "bestbuy",
         "last_ok": null,
         "name": "Best Buy",
@@ -533,7 +565,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-22T17:35:00Z",
+        "last_ok": "2026-09-23T02:28:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935"
@@ -542,7 +574,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "target",
         "last_ok": "2026-09-20T17:12:00Z",
         "name": "Target",
@@ -553,11 +585,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 9,
+        "fails": 10,
         "key": "microcenter",
         "last_ok": null,
         "name": "Micro Center",
-        "status": "blocked",
+        "status": "gone",
         "url": "https://www.microcenter.com/product/677951/lg-oled65c4pua-65-class-(645-diag)-4k-ultra-hd-smart-oled-tv"
       }
     ],
@@ -585,7 +617,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-22T17:35:45Z",
+    "ts": "2026-09-23T02:27:49Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
