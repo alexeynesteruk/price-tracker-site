@@ -222,7 +222,7 @@
     },
     "issue": 9,
     "lifecycle": {
-      "notes": "Pin ASIN B000NV5PRE / MFR 490040 / Ace item 1605641 — classic blue/yellow Multi-Use Smart Straw 11 oz SINGLE can ONLY. Not Specialist line, not Dry PTFE, not White Lithium, not Gel, not multipacks. Amazon product page model field also showed 11007 (same 11 oz Smart Straw family). Dropped Home Depot 12 oz Smart Straw (model 49005 / Internet #204777420) and Target/Lowe's 12 oz listings as wrong size. Amazon buy box Currently unavailable; lowest NEW marketplace offer via AOD ~$17.48 (flipcost). Ship-to target St Augustine FL 32095. NEW genuine only.",
+      "notes": "Pin ASIN B000NV5PRE / MFR 490040 / Ace item 1605641 — classic blue/yellow Multi-Use Smart Straw 11 oz SINGLE can ONLY. Not Specialist line, not Dry PTFE, not White Lithium, not Gel, not multipacks. Amazon product page model field also showed 11007 (same 11 oz Smart Straw family). Dropped Home Depot 12 oz Smart Straw (model 49005 / Internet #204777420) and Target/Lowe's 12 oz listings as wrong size. Amazon buy box Currently unavailable; lowest NEW marketplace offer via AOD ~$17.48 (flipcost). Ship-to target St Augustine FL 32095. NEW genuine only. Paused 2026-09-22: Alexey replaced with 12 oz Classic Formula 49005 (Home Depot).",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -251,7 +251,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
         "active": true,
@@ -313,7 +313,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-23T02:27:49Z",
+    "ts": "2026-09-23T03:18:18Z",
     "typical": 9.59,
     "typical_label": "12-month avg, ace",
     "verdict": "BUY",

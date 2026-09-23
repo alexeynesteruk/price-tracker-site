@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T02:28:16Z",
+  "generated": "2026-09-23T03:18:27Z",
   "items": [
     {
       "best_now": {
@@ -18,17 +18,17 @@
     },
     {
       "best_now": {
-        "price_usd": 9.59,
-        "store": "ace"
+        "price_usd": 8.38,
+        "store": "walmart"
       },
       "bought": null,
       "category": "retail",
       "confidence": "low",
-      "id": "wd-40-multi-use-smart-straw-11oz-ba63",
-      "last_checked": "2026-09-23T02:28:00Z",
+      "id": "wd-40-classic-formula-smart-straw-12oz-d691",
+      "last_checked": "2026-09-23T03:18:00Z",
       "owner": "alexeynesteruk",
       "state": "active",
-      "title": "WD-40 Multi-Use Product with Smart Straw, 11 oz",
+      "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz",
       "verdict": "BUY"
     },
     {
@@ -192,6 +192,21 @@
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 9.59,
+        "store": "ace"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "wd-40-multi-use-smart-straw-11oz-ba63",
+      "last_checked": "2026-09-23T02:28:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "WD-40 Multi-Use Product with Smart Straw, 11 oz",
+      "verdict": "BUY"
     },
     {
       "best_now": null,

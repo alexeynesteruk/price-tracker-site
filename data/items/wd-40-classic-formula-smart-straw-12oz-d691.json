@@ -1,0 +1,172 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.lowes.com/pd/WD-40-Classic-Formula-Multi-Purpose-Lubricant-12-Ounce-s-Spray-with-Smart-Straw/50111398",
+      "method": "llm",
+      "price_native": 8.88,
+      "price_usd": 8.88,
+      "promo": null,
+      "source_url": "https://www.lowes.com/pd/WD-40-Classic-Formula-Multi-Purpose-Lubricant-12-Ounce-s-Spray-with-Smart-Straw/50111398",
+      "store": "lowes",
+      "suspect": false,
+      "ts": "2026-09-23T03:18:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/WD-40-Multi-Use-Product-Lubricant-Spray-with-Smart-Straw-12-oz/38445998",
+      "method": "llm",
+      "price_native": 8.38,
+      "price_usd": 8.38,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/WD-40-Multi-Use-Product-Lubricant-Spray-with-Smart-Straw-12-oz/38445998",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-23T03:18:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://shop.advanceautoparts.com/p/wd-40-smart-straw-multi-purpose-lubricant-spray-12-oz.-49005/11386729-P",
+      "method": "llm",
+      "price_native": 8.99,
+      "price_usd": 8.99,
+      "promo": "sale",
+      "source_url": "https://shop.advanceautoparts.com/p/wd-40-smart-straw-multi-purpose-lubricant-spray-12-oz.-49005/11386729-P",
+      "store": "advance",
+      "suspect": false,
+      "ts": "2026-09-23T03:18:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-23T03:18:00Z",
+    "id": "wd-40-classic-formula-smart-straw-12oz-d691",
+    "identifiers": {
+      "asin": null,
+      "model": "49005",
+      "mpn": "49005",
+      "upc": "079567490050"
+    },
+    "issue": 12,
+    "lifecycle": {
+      "notes": "Pin model/MPN 49005 / UPC 079567490050 / Home Depot Internet #204777420 — Classic Formula Multi-Use Smart Straw 12 oz SINGLE can ONLY. Not 11 oz 490040, not Specialist line, not multipacks (Amazon B071SBZBZJ is 3-pack). Replaces paused watch wd-40-multi-use-smart-straw-11oz-ba63 (#9). Ship-to St Augustine FL 32095. HD page ERR_TUNNEL_CONNECTION_FAILED at discovery (Akamai/tunnel); Alexey reported ~$7.50 in-store/page but no HD price logged without on-page read. Dropped Target (no match), Ace/NAPA (Cloudflare), Oreilly (tunnel). Walmart manufactureNumber field showed 490057 but UPC 079567490050 and title confirm 12 oz Multi-Use single.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Some reviewers report Smart Straw swivel breaks or clogs",
+        "Easy to confuse with 11 oz 490040 and Specialist SKUs",
+        "Amazon often only lists multipacks for this model"
+      ],
+      "pros": [
+        "Permanently attached Smart Straw sprays stream or mist",
+        "Classic Multi-Use formula for lubricate / penetrate / moisture displace",
+        "Widely stocked 12 oz retail SKU (model 49005)"
+      ],
+      "sources": [
+        "https://www.lowes.com/pd/WD-40-Classic-Formula-Multi-Purpose-Lubricant-12-Ounce-s-Spray-with-Smart-Straw/50111398",
+        "https://shop.advanceautoparts.com/p/wd-40-smart-straw-multi-purpose-lubricant-spray-12-oz.-49005/11386729-P",
+        "https://www.walmart.com/ip/WD-40-Multi-Use-Product-Lubricant-Spray-with-Smart-Straw-12-oz/38445998"
+      ],
+      "summary": "Lowe's lists about 4.7/5 from ~2,991 ratings on the Classic Formula 12 oz Smart Straw. Advance Auto about 4.39/5 from ~1,801 reviews on part 49005. Walmart shows about 4.7/5 from ~4,313 ratings on the 12 oz Multi-Use Smart Straw single. Praise for the dual-spray Smart Straw and everyday lubricate/penetrate uses; recurring complaints about the straw mechanism breaking or clogging."
+    },
+    "seed_sources": {
+      "camel": "absent",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "failed"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "homedepot",
+        "last_ok": null,
+        "name": "Home Depot",
+        "status": "blocked",
+        "url": "https://www.homedepot.com/p/WD-40-12-oz-Classic-Formula-Multi-Purpose-Lubricant-Spray-with-Smart-Straw-49005/204777420"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "lowes",
+        "last_ok": "2026-09-23T03:18:00Z",
+        "name": "Lowe's",
+        "status": "ok",
+        "url": "https://www.lowes.com/pd/WD-40-Classic-Formula-Multi-Purpose-Lubricant-12-Ounce-s-Spray-with-Smart-Straw/50111398"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-09-23T03:18:00Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/WD-40-Multi-Use-Product-Lubricant-Spray-with-Smart-Straw-12-oz/38445998"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "advance",
+        "last_ok": "2026-09-23T03:18:00Z",
+        "name": "Advance Auto",
+        "status": "ok",
+        "url": "https://shop.advanceautoparts.com/p/wd-40-smart-straw-multi-purpose-lubricant-spray-12-oz.-49005/11386729-P"
+      }
+    ],
+    "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 8.38,
+      "store": "walmart"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 8.99,
+    "lifecycle_note": null,
+    "n_events": 1,
+    "reason": "Best now $8.38 at walmart. That is 0.0% below the historical average of $8.38 (12-month avg, walmart). GOOD SALE (p25 of 1 deal events) is $8.99. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
+    "sources": {
+      "baseline": "ok",
+      "camel": "absent",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "failed",
+      "slickdeals": "failed"
+    },
+    "ts": "2026-09-23T03:18:18Z",
+    "typical": 8.38,
+    "typical_label": "12-month avg, walmart",
+    "verdict": "BUY",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
