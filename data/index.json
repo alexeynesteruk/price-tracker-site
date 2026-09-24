@@ -1,31 +1,31 @@
 {
-  "generated": "2026-09-24T14:55:51Z",
+  "generated": "2026-09-24T17:13:50Z",
   "items": [
     {
       "best_now": {
-        "price_usd": 9.99,
-        "store": "jjwd"
+        "price_usd": 21.74,
+        "store": "sodastream"
       },
       "bought": null,
       "category": "retail",
       "confidence": "low",
-      "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
-      "last_checked": "2026-09-24T14:52:00Z",
+      "id": "sodastream-pepsi-zero-syrup-affe",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
-      "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
+      "title": "SodaStream Pepsi Zero Sugar Drink Mix, 4 Pack Cola Syrup",
       "verdict": "BUY"
     },
     {
       "best_now": {
-        "price_usd": 81.16,
+        "price_usd": 81.03,
         "store": "robotskull"
       },
       "bought": null,
       "category": "retail",
       "confidence": "low",
       "id": "waveshare-10-85inch-e-paper-hat-plus-0883",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Waveshare 10.85inch e-Paper HAT+",
@@ -40,7 +40,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "chevron-techron-complete-fuel-system-cleaner-12oz-7a8a",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz",
@@ -55,7 +55,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "cutter-backyard-bug-control-concentrate-32oz-3bb8",
-      "last_checked": "2026-09-24T14:55:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Cutter Backyard Bug Control Spray Concentrate, 32 fl oz",
@@ -70,7 +70,7 @@
       "category": "pchw",
       "confidence": "medium",
       "id": "gskill-trident-z5-neo-rgb-64gb-ddr5-6000-cl30-7f69",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "G.SKILL Trident Z5 Neo RGB 64GB (2x32GB) DDR5-6000 CL30",
@@ -85,7 +85,7 @@
       "category": "pchw",
       "confidence": "high",
       "id": "geforce-rtx-5070-ti-63a4",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "GeForce RTX 5070 Ti",
@@ -100,7 +100,7 @@
       "category": "retail",
       "confidence": "low",
       "id": "insta360-link-2-pro-fc02",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Insta360 Link 2 Pro",
@@ -115,7 +115,7 @@
       "category": "retail",
       "confidence": "medium",
       "id": "lg-c4-65-oled-4b44",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "LG C4 65\" OLED TV (OLED65C4PUA)",
@@ -127,7 +127,7 @@
       "category": "pchw",
       "confidence": "low",
       "id": "logitech-mx-master-3s-a1f3",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Logitech MX Master 3S Wireless Mouse, Graphite",
@@ -150,6 +150,21 @@
     },
     {
       "best_now": {
+        "price_usd": 12.3,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
+      "last_checked": "2026-09-24T17:13:29Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
         "price_usd": 496.0,
         "store": "amazon"
       },
@@ -157,7 +172,7 @@
       "category": "pchw",
       "confidence": "medium",
       "id": "samsung-viewfinity-s80ud-37-6300",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Samsung 37\" ViewFinity S8 (S80UD) 4K UHD HDR10 60Hz VA Monitor",
@@ -170,27 +185,12 @@
       },
       "bought": null,
       "category": "retail",
-      "confidence": "low",
+      "confidence": "medium",
       "id": "sodastream-diet-pepsi-syrup-c8a1",
-      "last_checked": "2026-09-24T02:25:00Z",
+      "last_checked": "2026-09-24T17:13:29Z",
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "SodaStream Diet Pepsi Drink Mix, 4 Pack Cola Syrup",
-      "verdict": "WAIT"
-    },
-    {
-      "best_now": {
-        "price_usd": 21.74,
-        "store": "sodastream"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "sodastream-pepsi-zero-syrup-affe",
-      "last_checked": "2026-09-24T02:25:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "SodaStream Pepsi Zero Sugar Drink Mix, 4 Pack Cola Syrup",
       "verdict": "WAIT"
     },
     {
@@ -207,27 +207,6 @@
       "state": "active",
       "title": "V-Color Manta XFinity RGB 64GB (2x32GB) DDR5-6000 CL30 White",
       "verdict": "WAIT"
-    },
-    {
-      "best_now": {
-        "price_usd": 8.38,
-        "store": "walmart"
-      },
-      "bought": {
-        "currency": "USD",
-        "date": "2026-09-22",
-        "price_native": 7.5,
-        "price_usd": 7.5,
-        "store": "homedepot"
-      },
-      "category": "retail",
-      "confidence": "low",
-      "id": "wd-40-classic-formula-smart-straw-12oz-d691",
-      "last_checked": "2026-09-23T03:18:00Z",
-      "owner": "alexeynesteruk",
-      "state": "bought",
-      "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz",
-      "verdict": "BUY"
     },
     {
       "best_now": null,
@@ -545,6 +524,24 @@
       "owner": "alexeynesteruk",
       "state": "bought",
       "title": "V-Color Manta XSky RGB 32GB (2x16GB) DDR5-6000 CL30",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": null,
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-22",
+        "price_native": 7.5,
+        "price_usd": 7.5,
+        "store": "homedepot"
+      },
+      "category": "retail",
+      "confidence": "low",
+      "id": "wd-40-classic-formula-smart-straw-12oz-d691",
+      "last_checked": "2026-09-23T03:18:00Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "WD-40 Classic Formula Multi-Purpose Lubricant with Smart Straw, 12 oz",
       "verdict": "WAIT"
     },
     {

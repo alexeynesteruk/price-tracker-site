@@ -606,6 +606,22 @@
       "store": "target",
       "suspect": false,
       "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "llm",
+      "price_native": 1247.9,
+      "price_usd": 1247.9,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
     }
   ],
   "item": {
@@ -639,7 +655,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
@@ -659,22 +675,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/lg-oled65c4p-65-inch-class-c4-series-oled-evo-4k-hdr-smart-tv/-/A-1001183631"
       },
       {
@@ -713,7 +729,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

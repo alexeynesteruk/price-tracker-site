@@ -449,6 +449,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "llm",
+      "price_native": 1199.99,
+      "price_usd": 1199.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
     }
   ],
   "item": {
@@ -482,7 +498,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -502,7 +518,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 6,
+        "fails": 7,
         "key": "bhphoto",
         "last_ok": "2026-09-21T02:28:00Z",
         "name": "B&H Photo",
@@ -545,7 +561,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",

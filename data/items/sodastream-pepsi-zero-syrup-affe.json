@@ -739,6 +739,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "method": "llm",
+      "price_native": 23.99,
+      "price_usd": 23.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": "sale",
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
     }
   ],
   "item": {
@@ -772,7 +804,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
@@ -783,7 +815,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk"
@@ -792,7 +824,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 4,
+        "fails": 5,
         "key": "bestbuy",
         "last_ok": "2026-09-22T02:25:00Z",
         "name": "Best Buy",
@@ -803,22 +835,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543"
       }
     ],
@@ -836,20 +868,20 @@
       "date": "2026-03-26",
       "price_usd": 17.39
     },
-    "good_sale": null,
+    "good_sale": 21.74,
     "lifecycle_note": null,
-    "n_events": 0,
-    "reason": "Best now $21.74 at sodastream. That is 9.4% below the historical average of $23.99 (12-month avg, walmart). No deal events on record; GOOD SALE is absent. FLOOR $17.39 on 2026-03-26. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "n_events": 1,
+    "reason": "Best now $21.74 at sodastream. That is 9.4% below the historical average of $23.99 (12-month avg, walmart). GOOD SALE (p25 of 1 deal events) is $21.74. FLOOR $17.39 on 2026-03-26. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
-      "good_sale": "absent",
+      "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 23.99,
     "typical_label": "12-month avg, walmart",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

@@ -241,11 +241,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "newegg",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Newegg",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2"
       }
     ],
@@ -273,7 +273,7 @@
       "good_sale": "absent",
       "vault": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 981.53,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",

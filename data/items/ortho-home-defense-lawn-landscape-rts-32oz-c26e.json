@@ -97,6 +97,70 @@
       "store": "jjwd",
       "suspect": false,
       "ts": "2026-09-24T14:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "method": "llm",
+      "price_native": 12.3,
+      "price_usd": 12.3,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "store": "countrymax",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "store": "jjwd",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://scottsmiraclegro.com/en-us/brands/ortho/products/insect-control/0173801.html",
+      "method": "dom",
+      "price_native": 18.49,
+      "price_usd": 18.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
     }
   ],
   "item": {
@@ -149,7 +213,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-24T14:52:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B01JIRKIRK"
@@ -158,7 +222,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "homedepot",
         "last_ok": null,
         "name": "Home Depot",
@@ -171,7 +235,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "ortho",
-        "last_ok": "2026-09-24T14:52:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "Ortho",
         "status": "ok",
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
@@ -182,7 +246,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "countrymax",
-        "last_ok": "2026-09-24T14:52:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "CountryMax",
         "status": "ok",
         "url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/"
@@ -193,7 +257,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "jjwd",
-        "last_ok": "2026-09-24T14:52:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "JJWD Hardware",
         "status": "ok",
         "url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385"
@@ -202,7 +266,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "tractorsupply",
         "last_ok": null,
         "name": "Tractor Supply",
@@ -214,16 +278,16 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 9.99,
-      "store": "jjwd"
+      "price_usd": 12.3,
+      "store": "amazon"
     },
     "confidence": "low",
     "floor": null,
     "good_sale": 10.5,
     "lifecycle_note": null,
-    "n_events": 3,
-    "reason": "Best now $9.99 at jjwd. That is 0.0% below the historical average of $9.99 (12-month avg, jjwd). GOOD SALE (p25 of 3 deal events) is $10.50. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "n_events": 4,
+    "reason": "Best now $12.30 at amazon. That is 23.1% above the historical average of $9.99 (12-month avg, jjwd); this is not any kind of discount. GOOD SALE (p25 of 4 deal events) is $10.50. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -233,10 +297,10 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 9.99,
     "typical_label": "12-month avg, jjwd",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

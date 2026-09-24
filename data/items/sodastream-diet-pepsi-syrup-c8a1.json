@@ -659,6 +659,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": "sale",
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-24T17:13:29Z"
     }
   ],
   "item": {
@@ -690,11 +706,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
       },
       {
@@ -703,7 +719,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-24T17:13:29Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -712,22 +728,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "walmart",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Walmart",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.walmart.com/ip/SodaStream-Diet-Pepsi-Soda-Mix-14-9-fl-oz-Pack-of-4/1633673601"
       }
     ],
@@ -740,22 +756,22 @@
       "price_usd": 21.74,
       "store": "sodastream"
     },
-    "confidence": "low",
+    "confidence": "medium",
     "floor": {
       "date": "2026-08-16",
       "price_usd": 19.47
     },
     "good_sale": 19.47,
     "lifecycle_note": null,
-    "n_events": 3,
-    "reason": "Best now $21.74 at sodastream. That is 6.7% below the historical average of $23.29 (12-month avg, camel:amazon). GOOD SALE (p25 of 3 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "n_events": 4,
+    "reason": "Best now $21.74 at sodastream. That is 6.7% below the historical average of $23.29 (12-month avg, camel:amazon). GOOD SALE (p25 of 4 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T14:55:46Z",
+    "ts": "2026-09-24T17:13:34Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
