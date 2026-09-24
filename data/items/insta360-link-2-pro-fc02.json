@@ -274,6 +274,54 @@
       "store": "insta360",
       "suspect": false,
       "ts": "2026-09-23T17:35:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-23",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://store.insta360.com/product/link-2-pro",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://store.insta360.com/product/link-2-pro",
+      "store": "insta360",
+      "suspect": false,
+      "ts": "2026-09-24T02:25:00Z"
     }
   ],
   "item": {
@@ -328,7 +376,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-23T17:35:00Z",
+        "last_ok": "2026-09-24T02:25:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
@@ -337,7 +385,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "bestbuy",
         "last_ok": "2026-09-22T15:23:53Z",
         "name": "Best Buy",
@@ -348,11 +396,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "bh",
         "last_ok": "2026-09-23T17:35:00Z",
         "name": "B&H",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html"
       },
       {
@@ -361,7 +409,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-09-23T17:35:00Z",
+        "last_ok": "2026-09-24T02:25:00Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/p/1EF-00J0-00022"
@@ -372,7 +420,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "insta360",
-        "last_ok": "2026-09-23T17:35:00Z",
+        "last_ok": "2026-09-24T02:25:00Z",
         "name": "Insta360 Store",
         "status": "ok",
         "url": "https://store.insta360.com/product/link-2-pro"
@@ -404,7 +452,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-23T17:39:27Z",
+    "ts": "2026-09-24T02:49:09Z",
     "typical": 233.32,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",
