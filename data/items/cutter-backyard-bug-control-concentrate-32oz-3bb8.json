@@ -1,0 +1,300 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2025-05-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/18322240-32-oz-cutter-backyard-bug-control-concentrate-w-quickflip-hose-end-sprayer-5",
+      "method": "aggregator",
+      "price_native": 5.0,
+      "price_usd": 5.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/18322240-32-oz-cutter-backyard-bug-control-concentrate-w-quickflip-hose-end-sprayer-5",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2025-05-18T07:15:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2025-07-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/18423511-prime-members-32-oz-cutter-backyard-bug-control-concentrate-w-quickflip-hose-end-sprayer-3-50-w-s-s-free-s-h-w-prime-or-35",
+      "method": "aggregator",
+      "price_native": 3.5,
+      "price_usd": 3.5,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/18423511-prime-members-32-oz-cutter-backyard-bug-control-concentrate-w-quickflip-hose-end-sprayer-3-50-w-s-s-free-s-h-w-prime-or-35",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2025-07-04T12:50:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2025-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "method": "aggregator",
+      "price_native": 9.78,
+      "price_usd": 9.78,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2025-11-12T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-05-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19529316-lowes-cutter-1-pack-mosquito-backyard-bug-control-spray-32-0-fl-oz-hose-end-sprayer-concentrate-insect-kille",
+      "method": "aggregator",
+      "price_native": 5.98,
+      "price_usd": 5.98,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19529316-lowes-cutter-1-pack-mosquito-backyard-bug-control-spray-32-0-fl-oz-hose-end-sprayer-concentrate-insect-kille",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-05-16T19:10:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "method": "aggregator",
+      "price_native": 6.0,
+      "price_usd": 6.0,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-06-04T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19690050-32-oz-cutter-concentrate-backyard-insect-mosquito-control-spray-hose-end-sprayer-6-free-store-pickup-at-lowe",
+      "method": "aggregator",
+      "price_native": 6.0,
+      "price_usd": 6.0,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19690050-32-oz-cutter-concentrate-backyard-insect-mosquito-control-spray-hose-end-sprayer-6-free-store-pickup-at-lowe",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-06-26T19:59:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "method": "aggregator",
+      "price_native": 9.68,
+      "price_usd": 9.68,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B000PGE032",
+      "store": "camel:amazon",
+      "suspect": false,
+      "ts": "2026-09-24T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "method": "llm",
+      "price_native": 11.99,
+      "price_usd": 11.99,
+      "promo": null,
+      "source_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "store": "runnings",
+      "suspect": false,
+      "ts": "2026-09-24T14:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "method": "llm",
+      "price_native": 23.35,
+      "price_usd": 23.35,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "store": "walmart",
+      "suspect": true,
+      "ts": "2026-09-24T14:55:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-24T14:55:00Z",
+    "id": "cutter-backyard-bug-control-concentrate-32oz-3bb8",
+    "identifiers": {
+      "asin": "B000PGE032",
+      "model": "HG-61067",
+      "mpn": "HG-61067",
+      "upc": "071121610676"
+    },
+    "issue": 15,
+    "lifecycle": {
+      "notes": "Pin Cutter Backyard Bug Control Spray Concentrate 32 fl oz hose-end QuickFlip ONLY. Model/MPN HG-61067 / ASIN B000PGE032 / UPC 071121610676 / HD Internet #100211822. This is the Ready-To-Spray concentrate (auto-mixes via hose-end) - not personal skin repellent aerosols/lotions, not Cutter Essentials concentrate, not multipacks. Brand label doc confirms HG-61067. Ship-to St Augustine FL 32095. Amazon page blocked/404 via fetch providers at discovery (camel still tracks B000PGE032 at $9.68). Dropped Ace (Cloudflare), Target (no exact match), brand site (no sell price).",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Many users report residual shorter than 12-week claim",
+        "Amazon shipping restricted in some locations",
+        "Easy to confuse with personal repellents and multipacks"
+      ],
+      "pros": [
+        "QuickFlip hose-end, no tank mixing",
+        "Labeled for mosquitoes, fleas, listed ants; up to 5,000 sq ft",
+        "Frequently on deep sale under $6 historically"
+      ],
+      "sources": [
+        "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+        "https://www.cutterinsectrepellents.com/en/products/backyard/backyard-bug-control-spray-concentrate",
+        "https://slickdeals.net/f/18423511-prime-members-32-oz-cutter-backyard-bug-control-concentrate-w-quickflip-hose-end-sprayer-3-50-w-s-s-free-s-h-w-prime-or-35"
+      ],
+      "summary": "Walmart marketplace listing for HG-61067 shows seller rating context around 4.3/5 on a large sample; Slickdeals deal threads and Amazon-linked reviews are mixed on mosquito knockdown duration (often shorter than the labeled 12 weeks). Pros cite QuickFlip hose-end ease and coverage up to 5,000 sq ft; cons cite weak residual after rain and shipping restrictions in some states."
+    },
+    "seed_sources": {
+      "camel": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "ok"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "amazon",
+        "last_ok": null,
+        "name": "Amazon",
+        "status": "blocked",
+        "url": "https://www.amazon.com/dp/B000PGE032"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "homedepot",
+        "last_ok": null,
+        "name": "Home Depot",
+        "status": "blocked",
+        "url": "https://www.homedepot.com/p/Cutter-32-oz-Backyard-Bug-Control-Spray-Concentrate-Insect-Killer-HG-61067-8/100211822"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-09-24T14:55:00Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "lowes",
+        "last_ok": null,
+        "name": "Lowe's",
+        "status": "blocked",
+        "url": "https://www.lowes.com/pd/Cutter-Backyard-Bug-Control-32-fl-oz-Concentrate-Insect-Killer/4441845"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "runnings",
+        "last_ok": "2026-09-24T14:55:00Z",
+        "name": "Runnings",
+        "status": "ok",
+        "url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "menards",
+        "last_ok": null,
+        "name": "Menards",
+        "status": "blocked",
+        "url": "https://www.menards.com/main/outdoors/insect-pest-control/area-insect-repellents/cutter-reg-backyard-trade-ready-to-spray-lawn-insect-killer-32-oz/hg-61067/p-1444445580973-c-14248.htm"
+      }
+    ],
+    "title": "Cutter Backyard Bug Control Spray Concentrate, 32 fl oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 11.99,
+      "store": "runnings"
+    },
+    "confidence": "low",
+    "floor": {
+      "date": "2026-06-04",
+      "price_usd": 6.0
+    },
+    "good_sale": 3.5,
+    "lifecycle_note": null,
+    "n_events": 4,
+    "reason": "Best now $11.99 at runnings. That is 41.2% above the historical average of $8.49 (12-month avg, camel:amazon); this is not any kind of discount. GOOD SALE (p25 of 4 deal events) is $3.50. FLOOR $6.00 on 2026-06-04. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "ok",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "ok"
+    },
+    "ts": "2026-09-24T14:55:46Z",
+    "typical": 8.49,
+    "typical_label": "12-month avg, camel:amazon",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

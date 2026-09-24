@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T14:52:50Z",
+  "generated": "2026-09-24T14:55:51Z",
   "items": [
     {
       "best_now": {
@@ -44,6 +44,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 11.99,
+        "store": "runnings"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "cutter-backyard-bug-control-concentrate-32oz-3bb8",
+      "last_checked": "2026-09-24T14:55:00Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Cutter Backyard Bug Control Spray Concentrate, 32 fl oz",
       "verdict": "WAIT"
     },
     {
