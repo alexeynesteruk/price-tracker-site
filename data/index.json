@@ -1,6 +1,21 @@
 {
-  "generated": "2026-09-24T02:49:21Z",
+  "generated": "2026-09-24T14:52:50Z",
   "items": [
+    {
+      "best_now": {
+        "price_usd": 9.99,
+        "store": "jjwd"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
+      "last_checked": "2026-09-24T14:52:00Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
+      "verdict": "BUY"
+    },
     {
       "best_now": {
         "price_usd": 81.16,
@@ -518,10 +533,7 @@
       "verdict": "WAIT"
     },
     {
-      "best_now": {
-        "price_usd": 16.99,
-        "store": "walmart"
-      },
+      "best_now": null,
       "bought": null,
       "category": "retail",
       "confidence": "low",

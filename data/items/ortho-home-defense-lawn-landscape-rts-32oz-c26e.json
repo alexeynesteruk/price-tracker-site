@@ -1,0 +1,243 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-05-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19544151-ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray-hose-end-applicator-kill-ants-ticks-mosquitoes-fleas-spiders-32-fl-oz-10-5",
+      "method": "aggregator",
+      "price_native": 10.5,
+      "price_usd": 10.5,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19544151-ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray-hose-end-applicator-kill-ants-ticks-mosquitoes-fleas-spiders-32-fl-oz-10-5",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-05-21T01:20:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-06-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://slickdeals.net/f/19677678-32-oz-ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray-11-04-free-shipping-w-prime-or-on-35",
+      "method": "aggregator",
+      "price_native": 11.04,
+      "price_usd": 11.04,
+      "promo": "sale",
+      "series": "event",
+      "source_url": "https://slickdeals.net/f/19677678-32-oz-ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray-11-04-free-shipping-w-prime-or-on-35",
+      "store": "slickdeals",
+      "suspect": false,
+      "ts": "2026-06-24T20:26:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/Ortho-Home-Defense-Insect-Killer/dp/B01JIRKIRK",
+      "method": "llm",
+      "price_native": 12.3,
+      "price_usd": 12.3,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-24T14:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "method": "llm",
+      "price_native": 18.49,
+      "price_usd": 18.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-09-24T14:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "store": "countrymax",
+      "suspect": false,
+      "ts": "2026-09-24T14:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "method": "llm",
+      "price_native": 9.99,
+      "price_usd": 9.99,
+      "promo": null,
+      "source_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "store": "jjwd",
+      "suspect": false,
+      "ts": "2026-09-24T14:52:00Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-09-24T14:52:00Z",
+    "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
+    "identifiers": {
+      "asin": "B01JIRKIRK",
+      "model": "0173810",
+      "mpn": "0173810",
+      "upc": "071549017385"
+    },
+    "issue": 14,
+    "lifecycle": {
+      "notes": "Pin Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray 32 fl oz ONLY. Model/MPN 0173810 / ASIN B01JIRKIRK / UPC 071549017385 / HD Internet #330186698. Brand site catalog SKU 0173801 is the same RTS 32 oz product (image asset 017381005, same coverage 5,300 sq ft). Not indoor Home Defense / Comfort Wand / Indoor & Perimeter. Not concentrate-only SKUs. Not BugClear. Not granules. Not multipacks (Walmart 6-count). Ship-to St Augustine FL 32095. Dropped Walmart (6-pack and concentrate listings only), Target (concentrate case), Ace (concentrate/1.1 gal only), Olympic Bug B Gon UPC 071549017590 (different SKU despite some stores mislabeling model 0173810).",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Some reviewers say residual shorter than 3-month claim",
+        "Hose-end coupler can leak if not seated",
+        "Easy to confuse with indoor Home Defense, concentrate, BugClear, and multipacks"
+      ],
+      "pros": [
+        "Hose-end Ready-To-Spray covers up to 5,300 sq ft lawn",
+        "Labeled for mosquitoes, ants, ticks, fleas, spiders outdoors",
+        "Widely stocked retail SKU (Amazon, HD, brand, farm/hardware)"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B01JIRKIRK",
+        "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
+      ],
+      "summary": "Amazon lists about 4.3/5 from ~6,577 ratings on ASIN B01JIRKIRK Lawn & Landscape Ready-To-Spray 32 oz. Ortho brand page shows 5/5 on a small sample for the same RTS SKU. Praise for hose-end ease and mosquito/ant knockdown; mixed complaints that residual is shorter than the advertised 3 months and that hose connection can leak if not tightened."
+    },
+    "seed_sources": {
+      "camel": "failed",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "ok"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-09-24T14:52:00Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B01JIRKIRK"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "homedepot",
+        "last_ok": null,
+        "name": "Home Depot",
+        "status": "blocked",
+        "url": "https://www.homedepot.com/p/Ortho-Home-Defense-Insect-Killer-for-Lawn-and-Landscape-Ready-To-Spray-32-fl-oz-5-300-sq-ft-Kills-Ants-Mosquitos-and-More-0173810/330186698"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "ortho",
+        "last_ok": "2026-09-24T14:52:00Z",
+        "name": "Ortho",
+        "status": "ok",
+        "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "countrymax",
+        "last_ok": "2026-09-24T14:52:00Z",
+        "name": "CountryMax",
+        "status": "ok",
+        "url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "jjwd",
+        "last_ok": "2026-09-24T14:52:00Z",
+        "name": "JJWD Hardware",
+        "status": "ok",
+        "url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "tractorsupply",
+        "last_ok": null,
+        "name": "Tractor Supply",
+        "status": "blocked",
+        "url": "https://www.tractorsupply.com/tsc/product/ortho-home-defense-insect-killer-for-lawn-landscape-32-oz-ready-to-spray"
+      }
+    ],
+    "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 9.99,
+      "store": "jjwd"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": 10.5,
+    "lifecycle_note": null,
+    "n_events": 3,
+    "reason": "Best now $9.99 at jjwd. That is 0.0% below the historical average of $9.99 (12-month avg, jjwd). GOOD SALE (p25 of 3 deal events) is $10.50. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
+    "sources": {
+      "baseline": "ok",
+      "camel": "failed",
+      "good_sale": "ok",
+      "google_shopping": "failed",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "ok"
+    },
+    "ts": "2026-09-24T14:52:44Z",
+    "typical": 9.99,
+    "typical_label": "12-month avg, jjwd",
+    "verdict": "BUY",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
