@@ -1,21 +1,6 @@
 {
-  "generated": "2026-09-25T02:17:37Z",
+  "generated": "2026-09-25T02:26:51Z",
   "items": [
-    {
-      "best_now": {
-        "price_usd": 199.99,
-        "store": "insta360"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "insta360-link-2-pro-fc02",
-      "last_checked": "2026-09-25T02:12:35Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Insta360 Link 2 Pro",
-      "verdict": "BUY"
-    },
     {
       "best_now": {
         "price_usd": 21.74,
@@ -134,6 +119,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "GeForce RTX 5070 Ti",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 249.99,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "insta360-link-2-pro-fc02",
+      "last_checked": "2026-09-25T02:26:19Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Insta360 Link 2 Pro",
       "verdict": "WAIT"
     },
     {
