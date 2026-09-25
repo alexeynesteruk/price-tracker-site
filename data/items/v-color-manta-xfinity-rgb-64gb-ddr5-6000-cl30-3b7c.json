@@ -210,6 +210,22 @@
       "store": "newegg",
       "suspect": false,
       "ts": "2026-09-24T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "method": "dom",
+      "price_native": 999.99,
+      "price_usd": 999.99,
+      "promo": "sale",
+      "source_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-25T02:12:35Z"
     }
   ],
   "item": {
@@ -241,11 +257,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-09-24T02:25:00Z",
+        "last_ok": "2026-09-25T02:12:35Z",
         "name": "Newegg",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2"
       }
     ],
@@ -255,7 +271,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 989.99,
+      "price_usd": 999.99,
       "store": "newegg"
     },
     "confidence": "low",
@@ -263,20 +279,20 @@
       "date": "2026-08-18",
       "price_usd": 879.99
     },
-    "good_sale": null,
+    "good_sale": 999.99,
     "lifecycle_note": null,
-    "n_events": 0,
-    "reason": "Best now $989.99 at newegg. That is 0.9% above the historical average of $981.53 (12-month avg, newegg); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $879.99 on 2026-08-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "n_events": 1,
+    "reason": "Best now $999.99 at newegg. That is 1.7% above the historical average of $982.85 (12-month avg, newegg); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $999.99. FLOOR $879.99 on 2026-08-18. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
-      "good_sale": "absent",
+      "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T17:13:34Z",
-    "typical": 981.53,
+    "ts": "2026-09-25T02:17:09Z",
+    "typical": 982.85,
     "typical_label": "12-month avg, newegg",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

@@ -861,6 +861,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-24T17:13:29Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-24",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-25T02:12:35Z"
     }
   ],
   "item": {
@@ -913,7 +929,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-24T17:13:29Z",
+        "last_ok": "2026-09-25T02:12:35Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -922,7 +938,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "bestbuy",
         "last_ok": "2026-09-20T02:28:00Z",
         "name": "Best Buy",
@@ -933,7 +949,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "walmart",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Walmart",
@@ -977,7 +993,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-24T17:13:34Z",
+    "ts": "2026-09-25T02:17:09Z",
     "typical": 79.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
