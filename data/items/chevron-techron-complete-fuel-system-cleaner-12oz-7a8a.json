@@ -448,6 +448,38 @@
       "store": "amazon",
       "suspect": true,
       "ts": "2026-09-25T02:12:35Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-25",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O",
+      "method": "dom",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": true,
+      "ts": "2026-09-25T16:58:21Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-25",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 14.84,
+      "price_usd": 14.84,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-25T17:00:45Z"
     }
   ],
   "item": {
@@ -500,7 +532,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-25T02:12:35Z",
+        "last_ok": "2026-09-25T16:58:21Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -509,11 +541,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-24T17:13:29Z",
+        "last_ok": "2026-09-25T17:00:45Z",
         "name": "Walmart",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
       },
       {
@@ -587,7 +619,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-25T02:17:09Z",
+    "ts": "2026-09-25T17:04:00Z",
     "typical": 6.66,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
