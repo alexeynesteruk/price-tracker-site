@@ -945,6 +945,38 @@
       "store": "target",
       "suspect": false,
       "ts": "2026-09-26T02:39:59Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0F1ZBTZCS",
+      "method": "dom",
+      "price_native": 399.99,
+      "price_usd": 399.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0F1ZBTZCS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-26T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/",
+      "method": "dom",
+      "price_native": 499.99,
+      "price_usd": 499.99,
+      "promo": null,
+      "source_url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/",
+      "store": "samsung",
+      "suspect": false,
+      "ts": "2026-09-26T17:05:00Z"
     }
   ],
   "item": {
@@ -978,7 +1010,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-26T17:05Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0F1ZBTZCS"
@@ -987,11 +1019,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "bestbuy",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Best Buy",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.bestbuy.com/site/samsung-37-viewfinity-s8-s80ud-led-4k-uhd-high-resolution-monitor-with-hdr10-usb-c-and-ergonomic-stand-black/6615666.p?skuId=6615666"
       },
       {
@@ -1000,7 +1032,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "samsung",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-26T17:05Z",
         "name": "Samsung",
         "status": "ok",
         "url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/"
@@ -1009,11 +1041,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806"
       },
       {
@@ -1034,8 +1066,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 499.99,
-      "store": "samsung"
+      "price_usd": 399.99,
+      "store": "amazon"
     },
     "confidence": "medium",
     "floor": {
@@ -1045,14 +1077,14 @@
     "good_sale": 300.0,
     "lifecycle_note": null,
     "n_events": 23,
-    "reason": "Best now $499.99 at samsung. That is 7.1% above the historical average of $466.66 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 23 deal events) is $300.00. FLOOR $279.99 on 2026-09-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
+    "reason": "Best now $399.99 at amazon. That is 14.3% below the historical average of $466.66 (12-month avg, camel:3p-new). GOOD SALE (p25 of 23 deal events) is $300.00. FLOOR $279.99 on 2026-09-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-26T02:40:02Z",
+    "ts": "2026-09-26T17:05:42Z",
     "typical": 466.66,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",

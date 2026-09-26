@@ -514,6 +514,54 @@
       "store": "newegg",
       "suspect": false,
       "ts": "2026-09-26T02:39:59Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-26T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://store.insta360.com/product/link-2-pro",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://store.insta360.com/product/link-2-pro",
+      "store": "insta360",
+      "suspect": false,
+      "ts": "2026-09-26T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-09-26T17:05:00Z"
     }
   ],
   "item": {
@@ -568,7 +616,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-26T17:05Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
@@ -577,7 +625,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "bestbuy",
         "last_ok": "2026-09-22T15:23:53Z",
         "name": "Best Buy",
@@ -588,7 +636,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "bh",
         "last_ok": "2026-09-23T17:35:00Z",
         "name": "B&H",
@@ -601,7 +649,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-26T17:05Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/p/1EF-00J0-00022"
@@ -612,7 +660,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "insta360",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-26T17:05Z",
         "name": "Insta360 Store",
         "status": "ok",
         "url": "https://store.insta360.com/product/link-2-pro"
@@ -623,7 +671,7 @@
   "verdict": {
     "best_now": {
       "price_usd": 249.99,
-      "store": "newegg"
+      "store": "amazon"
     },
     "confidence": "low",
     "floor": {
@@ -633,7 +681,7 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $249.99 at newegg. That is 7.1% above the historical average of $233.32 (12-month avg, camel:3p-new); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $249.99 at amazon. That is 7.1% above the historical average of $233.32 (12-month avg, camel:3p-new); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -644,7 +692,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-09-26T02:40:02Z",
+    "ts": "2026-09-26T17:05:42Z",
     "typical": 233.32,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",
