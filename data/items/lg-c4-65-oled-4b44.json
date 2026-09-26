@@ -670,6 +670,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-09-25T17:01:30Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-25",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-26T02:39:59Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-25",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935",
+      "method": "llm",
+      "price_native": 1278.9,
+      "price_usd": 1278.9,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-09-26T02:39:59Z"
     }
   ],
   "item": {
@@ -703,7 +735,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-25T16:58:21Z",
+        "last_ok": "2026-09-26T02:39:59Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
@@ -725,7 +757,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-25T17:01:30Z",
+        "last_ok": "2026-09-26T02:39:59Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935"
@@ -734,7 +766,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "target",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Target",
@@ -759,8 +791,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1247.9,
-      "store": "amazon"
+      "price_usd": 1278.9,
+      "store": "walmart"
     },
     "confidence": "medium",
     "floor": {
@@ -770,14 +802,14 @@
     "good_sale": 958.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1247.90 at amazon. That is 0.0% below the historical average of $1247.90 (12-month avg, amazon). GOOD SALE (p25 of 12 deal events) is $958.00. FLOOR $1194.00 on 2026-08-05. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 7, expect $800.00-$958.00.",
+    "reason": "Best now $1278.90 at walmart. That is 2.5% above the historical average of $1247.90 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $958.00. FLOOR $1194.00 on 2026-08-05. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 7, expect $800.00-$958.00.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-25T17:04:00Z",
+    "ts": "2026-09-26T02:40:02Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
