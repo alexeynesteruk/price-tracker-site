@@ -957,6 +957,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-26T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-26",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-27T02:15:00Z"
     }
   ],
   "item": {
@@ -1009,7 +1025,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-26T17:05Z",
+        "last_ok": "2026-09-27T02:15Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -1029,7 +1045,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "walmart",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Walmart",
@@ -1053,10 +1069,7 @@
     "vault_note": "logitech-mx-master-3s"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 118.99,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2024-01-31",
@@ -1065,8 +1078,8 @@
     "good_sale": 76.0,
     "lifecycle_note": "Successor shipped 2025-10-01: a drop is markdown, not a sale; TYPICAL overstates value.",
     "n_events": 14,
-    "reason": "Best now $118.99 at amazon. That is 48.8% above the historical average of $79.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 14 deal events) is $76.00. FLOOR $76.99 on 2024-01-31. Verdict WAIT (no rule matched), confidence low. Recurring window: month 2, expect $70.00-$80.00. Successor shipped 2025-10-01: a drop is markdown, not a sale; TYPICAL overstates value.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -1076,7 +1089,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-26T17:05:42Z",
+    "ts": "2026-09-27T02:23:46Z",
     "typical": 79.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
