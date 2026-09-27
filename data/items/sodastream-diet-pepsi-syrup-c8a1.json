@@ -867,6 +867,38 @@
       "store": "sodastream",
       "suspect": false,
       "ts": "2026-09-27T02:15:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "method": "dom",
+      "price_native": 23.99,
+      "price_usd": 23.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-27T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": "sale",
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-09-27T17:05:00Z"
     }
   ],
   "item": {
@@ -900,7 +932,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-27T02:15Z",
+        "last_ok": "2026-09-27T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
@@ -911,7 +943,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-27T02:15Z",
+        "last_ok": "2026-09-27T17:05:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -920,7 +952,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "target",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Target",
@@ -931,7 +963,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "walmart",
         "last_ok": "2026-09-25T17:03:30Z",
         "name": "Walmart",
@@ -953,20 +985,20 @@
       "date": "2026-08-16",
       "price_usd": 19.47
     },
-    "good_sale": 19.47,
+    "good_sale": 21.74,
     "lifecycle_note": null,
-    "n_events": 4,
-    "reason": "Best now $21.74 at sodastream. That is 6.7% below the historical average of $23.29 (12-month avg, camel:amazon). GOOD SALE (p25 of 4 deal events) is $19.47. FLOOR $19.47 on 2026-08-16. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "n_events": 5,
+    "reason": "Best now $21.74 at sodastream. That is 6.7% below the historical average of $23.29 (12-month avg, camel:amazon). GOOD SALE (p25 of 5 deal events) is $21.74. FLOOR $19.47 on 2026-08-16. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
+    "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-27T02:23:46Z",
+    "ts": "2026-09-27T17:03:44Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

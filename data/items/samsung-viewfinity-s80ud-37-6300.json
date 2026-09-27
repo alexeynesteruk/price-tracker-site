@@ -1009,6 +1009,38 @@
       "store": "samsung",
       "suspect": false,
       "ts": "2026-09-27T02:15:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0F1ZBTZCS",
+      "method": "dom",
+      "price_native": 399.99,
+      "price_usd": 399.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0F1ZBTZCS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-27T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/",
+      "method": "dom",
+      "price_native": 499.99,
+      "price_usd": 499.99,
+      "promo": null,
+      "source_url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/",
+      "store": "samsung",
+      "suspect": false,
+      "ts": "2026-09-27T17:05:00Z"
     }
   ],
   "item": {
@@ -1042,7 +1074,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-27T02:15Z",
+        "last_ok": "2026-09-27T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0F1ZBTZCS"
@@ -1051,7 +1083,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "bestbuy",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Best Buy",
@@ -1064,7 +1096,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "samsung",
-        "last_ok": "2026-09-27T02:15Z",
+        "last_ok": "2026-09-27T17:05:00Z",
         "name": "Samsung",
         "status": "ok",
         "url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/"
@@ -1073,7 +1105,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "target",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Target",
@@ -1116,7 +1148,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-27T02:23:46Z",
+    "ts": "2026-09-27T17:03:44Z",
     "typical": 466.66,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",

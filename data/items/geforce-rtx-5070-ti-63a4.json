@@ -545,6 +545,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-27T02:15:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "dom",
+      "price_native": 1199.99,
+      "price_usd": 1199.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-27T17:05:00Z"
     }
   ],
   "item": {
@@ -578,7 +594,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-27T02:15Z",
+        "last_ok": "2026-09-27T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -641,7 +657,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-27T02:23:46Z",
+    "ts": "2026-09-27T17:03:44Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",
