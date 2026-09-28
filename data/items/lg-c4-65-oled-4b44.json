@@ -766,6 +766,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-28T02:15:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-28",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "dom",
+      "price_native": 1247.9,
+      "price_usd": 1247.9,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-28T17:05:00Z"
     }
   ],
   "item": {
@@ -799,7 +815,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-28T02:15:00Z",
+        "last_ok": "2026-09-28T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
@@ -819,7 +835,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 4,
+        "fails": 5,
         "key": "walmart",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Walmart",
@@ -830,7 +846,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 8,
+        "fails": 9,
         "key": "target",
         "last_ok": "2026-09-24T02:25:00Z",
         "name": "Target",
@@ -873,7 +889,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-28T02:16:21Z",
+    "ts": "2026-09-28T17:17:54Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
