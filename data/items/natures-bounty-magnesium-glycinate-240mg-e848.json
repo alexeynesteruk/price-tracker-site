@@ -858,7 +858,13 @@
     }
   ],
   "item": {
-    "bought": null,
+    "bought": {
+      "currency": "USD",
+      "date": "2026-09-28",
+      "price_native": 12.99,
+      "price_usd": 12.99,
+      "store": "costco"
+    },
     "category": "retail",
     "created": "2026-09-18T01:48:49Z",
     "id": "natures-bounty-magnesium-glycinate-240mg-e848",
@@ -880,7 +886,7 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
+    "state": "bought",
     "stores": [
       {
         "active": true,
@@ -940,7 +946,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-29T02:26:53Z",
+    "ts": "2026-09-29T03:12:12Z",
     "typical": 15.98,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "BUY",

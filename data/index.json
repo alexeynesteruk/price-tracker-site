@@ -1,21 +1,6 @@
 {
-  "generated": "2026-09-29T02:27:18Z",
+  "generated": "2026-09-29T03:12:19Z",
   "items": [
-    {
-      "best_now": {
-        "price_usd": 9.82,
-        "store": "walmart"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "natures-bounty-magnesium-glycinate-240mg-e848",
-      "last_checked": "2026-09-29T02:26:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Nature's Bounty High Absorption Magnesium Glycinate 240 mg, 120 ct",
-      "verdict": "BUY"
-    },
     {
       "best_now": {
         "price_usd": 21.74,
@@ -207,6 +192,27 @@
       "state": "active",
       "title": "Samsung 37\" ViewFinity S8 (S80UD) 4K UHD HDR10 60Hz VA Monitor",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 9.82,
+        "store": "walmart"
+      },
+      "bought": {
+        "currency": "USD",
+        "date": "2026-09-28",
+        "price_native": 12.99,
+        "price_usd": 12.99,
+        "store": "costco"
+      },
+      "category": "retail",
+      "confidence": "low",
+      "id": "natures-bounty-magnesium-glycinate-240mg-e848",
+      "last_checked": "2026-09-29T02:26:00Z",
+      "owner": "alexeynesteruk",
+      "state": "bought",
+      "title": "Nature's Bounty High Absorption Magnesium Glycinate 240 mg, 120 ct",
+      "verdict": "BUY"
     },
     {
       "best_now": null,
