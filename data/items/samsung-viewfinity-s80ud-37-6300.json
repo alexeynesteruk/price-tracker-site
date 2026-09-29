@@ -1105,6 +1105,38 @@
       "store": "samsung",
       "suspect": false,
       "ts": "2026-09-28T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-28",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0F1ZBTZCS?th=1",
+      "method": "llm",
+      "price_native": 496.0,
+      "price_usd": 496.0,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0F1ZBTZCS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-29T02:26:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-28",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-09-29T02:26:00Z"
     }
   ],
   "item": {
@@ -1138,7 +1170,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-28T17:05:00Z",
+        "last_ok": "2026-09-29T02:26:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0F1ZBTZCS"
@@ -1147,7 +1179,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 6,
         "key": "bestbuy",
         "last_ok": "2026-09-26T02:39:59Z",
         "name": "Best Buy",
@@ -1158,22 +1190,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "samsung",
         "last_ok": "2026-09-28T17:05:00Z",
         "name": "Samsung",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 5,
+        "fails": 0,
         "key": "target",
-        "last_ok": "2026-09-26T02:39:59Z",
+        "last_ok": "2026-09-29T02:26:00Z",
         "name": "Target",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806"
       },
       {
@@ -1194,7 +1226,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 505.75,
+      "price_usd": 496.0,
       "store": "amazon"
     },
     "confidence": "medium",
@@ -1205,14 +1237,14 @@
     "good_sale": 300.0,
     "lifecycle_note": null,
     "n_events": 23,
-    "reason": "Best now $505.75 at amazon. That is 8.4% above the historical average of $466.66 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 23 deal events) is $300.00. FLOOR $279.99 on 2026-09-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
+    "reason": "Best now $496.00 at amazon. That is 6.3% above the historical average of $466.66 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 23 deal events) is $300.00. FLOOR $279.99 on 2026-09-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-28T17:17:54Z",
+    "ts": "2026-09-29T02:26:53Z",
     "typical": 466.66,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",
