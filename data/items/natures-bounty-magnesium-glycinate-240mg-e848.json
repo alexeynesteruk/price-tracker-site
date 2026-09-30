@@ -927,29 +927,26 @@
     "vault_note": "natures-bounty-magnesium-glycinate-240mg"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 9.82,
-      "store": "walmart"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
-      "date": "2025-03-30",
-      "price_usd": 11.34
+      "date": "2026-09-29",
+      "price_usd": 9.82
     },
     "good_sale": 6.3,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $9.82 at walmart. That is 38.5% below the historical average of $15.98 (12-month avg, camel:3p-new). GOOD SALE (p25 of 2 deal events) is $6.30. FLOOR $11.34 on 2025-03-30. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
-    "rule": "within 3% of the all-time FLOOR",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T02:18:45Z",
+    "ts": "2026-09-30T17:03:39Z",
     "typical": 15.98,
     "typical_label": "12-month avg, camel:3p-new",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

@@ -640,6 +640,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-30T02:20:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000CCOL3I",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-30T17:05:00Z"
     }
   ],
   "item": {
@@ -692,7 +708,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-30T02:20:00Z",
+        "last_ok": "2026-09-30T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -701,7 +717,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "walmart",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Walmart",
@@ -756,10 +772,7 @@
     "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 14.84,
-      "store": "walmart"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2026-09-18",
@@ -768,8 +781,8 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "Best now $14.84 at walmart. That is 75.8% above the historical average of $8.44 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 2 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -779,7 +792,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-30T02:18:45Z",
+    "ts": "2026-09-30T17:03:39Z",
     "typical": 8.44,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

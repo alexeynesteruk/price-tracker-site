@@ -235,7 +235,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note corsair-frame-4000d-rs-argb.md (status: closed); User confirmed remove from watch 2026-09-18 — leave paused, do not resume.",
+      "notes": "imported from vault note corsair-frame-4000d-rs-argb.md (status: closed); User confirmed remove from watch 2026-09-18 — leave paused, do not resume.; 2026-09-30: Alexey (via Chief of Staff) confirmed remove Corsair FRAME 4000D from Price Watch; vault note status closed; keep state=paused, do not resume, exclude from Price Check active set.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -268,7 +268,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T02:18:45Z",
+    "ts": "2026-09-30T17:03:39Z",
     "typical": 87.49,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

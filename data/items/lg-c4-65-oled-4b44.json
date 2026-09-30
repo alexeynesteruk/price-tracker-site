@@ -894,6 +894,22 @@
       "store": "target",
       "suspect": false,
       "ts": "2026-09-30T02:20:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "method": "llm",
+      "price_native": 1247.9,
+      "price_usd": 1247.9,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0CVS18PH9",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-30T17:05:00Z"
     }
   ],
   "item": {
@@ -927,7 +943,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-30T02:20:00Z",
+        "last_ok": "2026-09-30T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
@@ -947,7 +963,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "walmart",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Walmart",
@@ -958,11 +974,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "target",
         "last_ok": "2026-09-30T02:20:00Z",
         "name": "Target",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.target.com/p/lg-oled65c4p-65-inch-class-c4-series-oled-evo-4k-hdr-smart-tv/-/A-1001183631"
       },
       {
@@ -1001,7 +1017,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T02:18:45Z",
+    "ts": "2026-09-30T17:03:39Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
