@@ -624,6 +624,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-29T17:21:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-29",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000CCOL3I",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-09-30T02:20:00Z"
     }
   ],
   "item": {
@@ -676,7 +692,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-29T17:21:00Z",
+        "last_ok": "2026-09-30T02:20:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -685,7 +701,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "walmart",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Walmart",
@@ -763,7 +779,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-09-29T17:21:35Z",
+    "ts": "2026-09-30T02:18:45Z",
     "typical": 8.44,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
