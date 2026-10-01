@@ -646,6 +646,38 @@
       "store": "runnings",
       "suspect": false,
       "ts": "2026-10-01T02:23:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000PGE032",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B000PGE032",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "method": "dom",
+      "price_native": 11.99,
+      "price_usd": 11.99,
+      "promo": null,
+      "source_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "store": "runnings",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
     }
   ],
   "item": {
@@ -699,7 +731,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B000PGE032"
@@ -719,7 +751,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 4,
+        "fails": 5,
         "key": "walmart",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Walmart",
@@ -743,7 +775,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "runnings",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "Runnings",
         "status": "ok",
         "url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html"
@@ -786,7 +818,7 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-01T02:24:52Z",
+    "ts": "2026-10-01T17:00:30Z",
     "typical": 8.49,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

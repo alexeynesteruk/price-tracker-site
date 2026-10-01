@@ -993,6 +993,70 @@
       "store": "jjwd",
       "suspect": false,
       "ts": "2026-10-01T02:23:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "method": "llm",
+      "price_native": 11.99,
+      "price_usd": 11.99,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "method": "dom",
+      "price_native": 18.49,
+      "price_usd": 18.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "store": "countrymax",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "store": "jjwd",
+      "suspect": false,
+      "ts": "2026-10-01T17:00:00Z"
     }
   ],
   "item": {
@@ -1045,7 +1109,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B01JIRKIRK"
@@ -1067,7 +1131,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "ortho",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "Ortho",
         "status": "ok",
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
@@ -1078,7 +1142,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "countrymax",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "CountryMax",
         "status": "ok",
         "url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/"
@@ -1089,7 +1153,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "jjwd",
-        "last_ok": "2026-10-01T02:23:00Z",
+        "last_ok": "2026-10-01T17:00:00Z",
         "name": "JJWD Hardware",
         "status": "ok",
         "url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385"
@@ -1110,7 +1174,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 11.98,
+      "price_usd": 11.99,
       "store": "amazon"
     },
     "confidence": "low",
@@ -1118,10 +1182,10 @@
       "date": "2026-09-24",
       "price_usd": 9.99
     },
-    "good_sale": 11.04,
+    "good_sale": 11.98,
     "lifecycle_note": null,
-    "n_events": 8,
-    "reason": "Best now $11.98 at amazon. That is 19.9% above the historical average of $9.99 (12-month avg, jjwd); this is not any kind of discount. GOOD SALE (p25 of 8 deal events) is $11.04. FLOOR $9.99 on 2026-09-24. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "n_events": 9,
+    "reason": "Best now $11.99 at amazon. That is 20.0% above the historical average of $9.99 (12-month avg, jjwd); this is not any kind of discount. GOOD SALE (p25 of 9 deal events) is $11.98. FLOOR $9.99 on 2026-09-24. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -1132,7 +1196,7 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-01T02:24:52Z",
+    "ts": "2026-10-01T17:00:30Z",
     "typical": 9.99,
     "typical_label": "12-month avg, jjwd",
     "verdict": "WAIT",
