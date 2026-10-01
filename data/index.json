@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T17:03:54Z",
+  "generated": "2026-10-01T01:33:35Z",
   "items": [
     {
       "best_now": {
@@ -131,21 +131,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Insta360 Link 2 Pro",
-      "verdict": "WAIT"
-    },
-    {
-      "best_now": {
-        "price_usd": 1247.9,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "medium",
-      "id": "lg-c4-65-oled-4b44",
-      "last_checked": "2026-09-30T17:05:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "LG C4 65\" OLED TV (OLED65C4PUA)",
       "verdict": "WAIT"
     },
     {
@@ -374,6 +359,21 @@
       "owner": "alexeynesteruk",
       "state": "paused",
       "title": "FRAM Fresh Breeze CF12820 Cabin Air Filter",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 1247.9,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "medium",
+      "id": "lg-c4-65-oled-4b44",
+      "last_checked": "2026-09-30T17:05:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "LG C4 65\" OLED TV (OLED65C4PUA)",
       "verdict": "WAIT"
     },
     {

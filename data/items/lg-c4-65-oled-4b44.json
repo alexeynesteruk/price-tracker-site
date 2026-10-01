@@ -925,7 +925,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note lg-c4-65-oled.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/walmart/target/microcenter; LG.com product URL 404; skipped Walmart warranty-bundle SKU.",
+      "notes": "imported from vault note lg-c4-65-oled.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/walmart/target/microcenter; LG.com product URL 404; skipped Walmart warranty-bundle SKU.; 2026-09-30: Alexey (via Chief of Staff) remove from Price Watch; keep state=paused, no active stores, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -935,10 +935,10 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -949,7 +949,7 @@
         "url": "https://www.amazon.com/dp/B0CVS18PH9"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
@@ -960,7 +960,7 @@
         "url": "https://www.bestbuy.com/site/lg-65-class-c4-series-oled-evo-4k-uhd-smart-webos-tv-2024/6578042.p?skuId=6578042"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 3,
@@ -971,7 +971,7 @@
         "url": "https://www.walmart.com/ip/LG-65-Class-4K-UHD-OLED-Web-OS-24-Smart-120-Hz-TV-with-Dolby-Vision-OLED65C4PUA/5193228935"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 1,
@@ -982,7 +982,7 @@
         "url": "https://www.target.com/p/lg-oled65c4p-65-inch-class-c4-series-oled-evo-4k-hdr-smart-tv/-/A-1001183631"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
