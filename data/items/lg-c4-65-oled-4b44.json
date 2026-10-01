@@ -998,10 +998,7 @@
     "vault_note": "lg-c4-65-oled"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 1247.9,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "medium",
     "floor": {
       "date": "2026-08-05",
@@ -1010,14 +1007,14 @@
     "good_sale": 958.0,
     "lifecycle_note": null,
     "n_events": 11,
-    "reason": "Best now $1247.90 at amazon. That is 0.0% below the historical average of $1247.90 (12-month avg, amazon). GOOD SALE (p25 of 11 deal events) is $958.00. FLOOR $1194.00 on 2026-08-05. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 7, expect $800.00-$958.00.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T17:03:39Z",
+    "ts": "2026-10-01T02:24:52Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

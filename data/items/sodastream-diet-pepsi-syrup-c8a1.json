@@ -1123,6 +1123,38 @@
       "store": "sodastream",
       "suspect": false,
       "ts": "2026-09-30T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/SodaStream-Sparkling-Makers-Control-Flavors/dp/B0G25QRMBP",
+      "method": "llm",
+      "price_native": 23.99,
+      "price_usd": 23.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-01T02:23:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-10-01T02:23:00Z"
     }
   ],
   "item": {
@@ -1156,7 +1188,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-30T17:05:00Z",
+        "last_ok": "2026-10-01T02:23:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
@@ -1167,7 +1199,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-09-30T17:05:00Z",
+        "last_ok": "2026-10-01T02:23:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -1176,7 +1208,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "target",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Target",
@@ -1187,7 +1219,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 4,
         "key": "walmart",
         "last_ok": "2026-09-29T02:26:00Z",
         "name": "Walmart",
@@ -1219,7 +1251,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T17:03:39Z",
+    "ts": "2026-10-01T02:24:52Z",
     "typical": 23.29,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "BUY",

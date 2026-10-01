@@ -570,6 +570,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-30T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/G-Skill-Trident-288-Pin-CL30-40-40-96-F5-6000J3040G32GX2-TZ5NR/dp/B0BJNTLJ5X",
+      "method": "llm",
+      "price_native": 1119.99,
+      "price_usd": 1119.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-01T02:23:00Z"
     }
   ],
   "item": {
@@ -603,7 +619,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-30T17:05:00Z",
+        "last_ok": "2026-10-01T02:23:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
@@ -633,7 +649,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T17:03:39Z",
+    "ts": "2026-10-01T02:24:52Z",
     "typical": 989.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",

@@ -657,6 +657,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-09-30T17:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-09-30",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "llm",
+      "price_native": 1185.0,
+      "price_usd": 1185.0,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-01T02:23:00Z"
     }
   ],
   "item": {
@@ -690,7 +706,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-09-30T17:05:00Z",
+        "last_ok": "2026-10-01T02:23:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -735,7 +751,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1189.0,
+      "price_usd": 1185.0,
       "store": "amazon"
     },
     "confidence": "high",
@@ -746,14 +762,14 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1189.00 at amazon. That is 18.9% above the historical average of $999.99 (12-month avg, bestbuy); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "reason": "Best now $1185.00 at amazon. That is 18.5% above the historical average of $999.99 (12-month avg, bestbuy); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-09-30T17:03:39Z",
+    "ts": "2026-10-01T02:24:52Z",
     "typical": 999.99,
     "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",
