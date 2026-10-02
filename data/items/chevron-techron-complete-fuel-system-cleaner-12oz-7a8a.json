@@ -704,6 +704,38 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-02T00:20:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000CCOL3I/ref=olp-opf-redir?aod=1&condition=new&th=1",
+      "method": "llm",
+      "price_native": 16.25,
+      "price_usd": 16.25,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-02T02:25:24Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-01",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "dom",
+      "price_native": 14.84,
+      "price_usd": 14.84,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-02T02:25:24Z"
     }
   ],
   "item": {
@@ -756,7 +788,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-02T00:20:00Z",
+        "last_ok": "2026-10-02T02:25:24Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -765,11 +797,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 6,
+        "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-09-29T02:26:00Z",
+        "last_ok": "2026-10-02T02:25:24Z",
         "name": "Walmart",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
       },
       {
@@ -820,7 +852,10 @@
     "title": "Chevron Techron Complete Fuel System Cleaner, 12 oz"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 14.84,
+      "store": "walmart"
+    },
     "confidence": "low",
     "floor": {
       "date": "2026-09-18",
@@ -829,8 +864,8 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 2,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "reason": "Best now $14.84 at walmart. That is 42.8% above the historical average of $10.39 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 2 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -840,8 +875,8 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-02T00:21:10Z",
-    "typical": 8.44,
+    "ts": "2026-10-02T02:25:32Z",
+    "typical": 10.39,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,
