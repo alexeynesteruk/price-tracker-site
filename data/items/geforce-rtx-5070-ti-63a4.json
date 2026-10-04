@@ -753,6 +753,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-04T02:24:43Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC?th=1",
+      "method": "llm",
+      "price_native": 1165.0,
+      "price_usd": 1165.0,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-04T17:02:29Z"
     }
   ],
   "item": {
@@ -786,7 +802,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-04T02:24:43Z",
+        "last_ok": "2026-10-04T17:02:29Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -831,7 +847,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1170.01,
+      "price_usd": 1165.0,
       "store": "amazon"
     },
     "confidence": "high",
@@ -842,14 +858,14 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1170.01 at amazon. That is 1.7% above the historical average of $1149.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "reason": "Best now $1165.00 at amazon. That is 1.3% above the historical average of $1149.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-04T02:38:47Z",
+    "ts": "2026-10-04T17:23:38Z",
     "typical": 1149.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
