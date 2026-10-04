@@ -422,9 +422,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-03T17:46:38Z",
+    "ts": "2026-10-04T02:38:47Z",
     "typical": 344.99,
-    "typical_label": "12-month avg, amazon",
+    "typical_label": "12-month avg, unknown",
     "verdict": "WAIT",
     "window": {
       "expect_high": 130.0,
