@@ -530,6 +530,22 @@
       "store": "newegg",
       "suspect": false,
       "ts": "2026-10-05T02:19:03Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "method": "llm",
+      "price_native": 1049.99,
+      "price_usd": 1049.99,
+      "promo": null,
+      "source_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-10-05T17:11:14Z"
     }
   ],
   "item": {
@@ -563,7 +579,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-10-05T02:19:03Z",
+        "last_ok": "2026-10-05T17:11:14Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2"
@@ -586,15 +602,15 @@
     "good_sale": 999.99,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $1049.99 at newegg. That is 5.1% above the historical average of $998.78 (12-month avg, newegg); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $999.99. FLOOR $879.99 on 2026-08-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $1049.99 at newegg. That is 5.0% above the historical average of $1000.28 (12-month avg, newegg); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $999.99. FLOOR $879.99 on 2026-08-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-05T02:26:26Z",
-    "typical": 998.78,
+    "ts": "2026-10-05T17:18:08Z",
+    "typical": 1000.28,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
     "window": null,
