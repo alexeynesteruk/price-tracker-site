@@ -353,9 +353,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-04T17:23:38Z",
-    "typical": 649.99,
-    "typical_label": "12-month avg, unknown",
+    "ts": "2026-10-05T02:26:26Z",
+    "typical": 659.0,
+    "typical_label": "12-month avg, bestbuy",
     "verdict": "WAIT",
     "window": null,
     "window_note": "no recurring window found"
