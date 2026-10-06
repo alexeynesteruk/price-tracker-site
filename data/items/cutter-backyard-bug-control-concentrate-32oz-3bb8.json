@@ -998,6 +998,54 @@
       "store": "runnings",
       "suspect": false,
       "ts": "2026-10-05T17:05:03Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-05",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000PGE032",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B000PGE032",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-06T02:11:59Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "method": "llm",
+      "price_native": 23.01,
+      "price_usd": 23.01,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-06T02:12:12Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-05",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "method": "dom",
+      "price_native": 11.99,
+      "price_usd": 11.99,
+      "promo": null,
+      "source_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "store": "runnings",
+      "suspect": false,
+      "ts": "2026-10-06T02:12:20Z"
     }
   ],
   "item": {
@@ -1051,7 +1099,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-05T17:04:42Z",
+        "last_ok": "2026-10-06T02:11:59Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B000PGE032"
@@ -1073,7 +1121,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-05T17:04:54Z",
+        "last_ok": "2026-10-06T02:12:12Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971"
@@ -1095,7 +1143,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "runnings",
-        "last_ok": "2026-10-05T17:05:03Z",
+        "last_ok": "2026-10-06T02:12:20Z",
         "name": "Runnings",
         "status": "ok",
         "url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html"
@@ -1138,7 +1186,7 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-05T17:18:08Z",
+    "ts": "2026-10-06T02:25:25Z",
     "typical": 8.49,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
