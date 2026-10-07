@@ -833,6 +833,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-06T17:06:42Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-07",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC?th=1",
+      "method": "llm",
+      "price_native": 1189.99,
+      "price_usd": 1189.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-07T02:17:51Z"
     }
   ],
   "item": {
@@ -866,7 +882,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-06T17:06:42Z",
+        "last_ok": "2026-10-07T02:17:51Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -929,7 +945,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-06T17:18:11Z",
+    "ts": "2026-10-07T02:25:41Z",
     "typical": 1149.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

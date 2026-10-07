@@ -1261,6 +1261,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-06T17:12:21Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-07",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS?th=1",
+      "method": "llm",
+      "price_native": 119.99,
+      "price_usd": 119.99,
+      "promo": "sale",
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-07T02:18:55Z"
     }
   ],
   "item": {
@@ -1313,7 +1329,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-06T17:12:21Z",
+        "last_ok": "2026-10-07T02:18:55Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
@@ -1357,7 +1373,10 @@
     "vault_note": "logitech-mx-master-3s"
   },
   "verdict": {
-    "best_now": null,
+    "best_now": {
+      "price_usd": 119.99,
+      "store": "amazon"
+    },
     "confidence": "low",
     "floor": {
       "date": "2024-01-31",
@@ -1365,9 +1384,9 @@
     },
     "good_sale": 76.0,
     "lifecycle_note": "Successor shipped 2025-10-01: a drop is markdown, not a sale; TYPICAL overstates value.",
-    "n_events": 14,
-    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
-    "rule": "no live price in the last 36 hours",
+    "n_events": 15,
+    "reason": "Best now $119.99 at amazon. That is 33.3% above the historical average of $89.99 (12-month avg, lenovo); this is not any kind of discount. GOOD SALE (p25 of 15 deal events) is $76.00. FLOOR $76.99 on 2024-01-31. Verdict WAIT (no rule matched), confidence low. Recurring window: month 2, expect $70.00-$80.00. Successor shipped 2025-10-01: a drop is markdown, not a sale; TYPICAL overstates value.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -1377,7 +1396,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-06T17:18:11Z",
+    "ts": "2026-10-07T02:25:41Z",
     "typical": 89.99,
     "typical_label": "12-month avg, lenovo",
     "verdict": "WAIT",
