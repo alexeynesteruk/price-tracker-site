@@ -594,6 +594,22 @@
       "store": "newegg",
       "suspect": false,
       "ts": "2026-10-07T02:22:08Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-07",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-10-07T17:16:42Z"
     }
   ],
   "item": {
@@ -627,7 +643,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-10-07T02:22:08Z",
+        "last_ok": "2026-10-07T17:16:42Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/v-color-manta-xfinity-64gb-2-x-32gb-ddr5-6000-pc5-48000-cas-latency-cl30-memory-desktop-memory-white/p/0RN-00MB-000X2"
@@ -638,10 +654,7 @@
     "vault_note": "v-color-manta-xfinity-rgb-64gb-ddr5-6000-cl30"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 1049.99,
-      "store": "newegg"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2026-08-18",
@@ -650,14 +663,14 @@
     "good_sale": 999.99,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $1049.99 at newegg. That is 4.5% above the historical average of $1004.31 (12-month avg, newegg); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $999.99. FLOOR $879.99 on 2026-08-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-07T02:25:41Z",
+    "ts": "2026-10-07T17:16:20Z",
     "typical": 1004.31,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
