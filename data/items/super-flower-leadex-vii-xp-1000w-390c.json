@@ -184,9 +184,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-08T02:31:50Z",
+    "ts": "2026-10-09T02:39:24Z",
     "typical": 144.99,
-    "typical_label": "12-month avg, newegg",
+    "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"

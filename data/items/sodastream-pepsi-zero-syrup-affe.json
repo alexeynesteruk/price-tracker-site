@@ -2035,6 +2035,70 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-08T02:31:42Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ?th=1",
+      "method": "llm",
+      "price_native": 22.36,
+      "price_usd": 22.36,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-09T02:26:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.74,
+      "price_usd": 21.74,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-10-09T02:26:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-09",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-10-09T02:26:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/NEW-sodastream-Pepsi-Zero-Drink-Mix-4pk/20284367861",
+      "method": "dom",
+      "price_native": 22.36,
+      "price_usd": 22.36,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-09T02:26:00Z"
     }
   ],
   "item": {
@@ -2068,7 +2132,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-08T02:31:42Z",
+        "last_ok": "2026-10-09T02:26:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
@@ -2079,7 +2143,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-10-08T02:31:42Z",
+        "last_ok": "2026-10-09T02:26:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk"
@@ -2101,7 +2165,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "target",
-        "last_ok": "2026-10-08T02:31:42Z",
+        "last_ok": "2026-10-09T02:26:00Z",
         "name": "Target",
         "status": "ok",
         "url": "https://www.target.com/p/sodastream-4pk-pepsi-zero-sugar-drink-mix/-/A-94938138"
@@ -2112,7 +2176,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-08T02:31:42Z",
+        "last_ok": "2026-10-09T02:26:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543"
@@ -2124,8 +2188,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 19.99,
-      "store": "amazon"
+      "price_usd": 21.74,
+      "store": "sodastream"
     },
     "confidence": "medium",
     "floor": {
@@ -2135,15 +2199,15 @@
     "good_sale": 21.74,
     "lifecycle_note": null,
     "n_events": 18,
-    "reason": "Best now $19.99 at amazon. That is 13.1% below the historical average of $23.01 (12-month avg, sodastream). GOOD SALE (p25 of 18 deal events) is $21.74. FLOOR $17.39 on 2026-03-26. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
+    "reason": "Best now $21.74 at sodastream. That is 5.4% below the historical average of $22.98 (12-month avg, sodastream). GOOD SALE (p25 of 18 deal events) is $21.74. FLOOR $17.39 on 2026-03-26. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
     "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-08T02:31:50Z",
-    "typical": 23.01,
+    "ts": "2026-10-09T02:39:24Z",
+    "typical": 22.98,
     "typical_label": "12-month avg, sodastream",
     "verdict": "BUY",
     "window": null,
