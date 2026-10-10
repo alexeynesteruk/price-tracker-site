@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T02:36:27Z",
+  "generated": "2026-10-10T14:41:34Z",
   "items": [
     {
       "best_now": {
@@ -161,6 +161,36 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Logitech MX Master 3S Wireless Mouse, Graphite",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 37.68,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "purina-pro-plan-adult-7-complete-essentials-chicken-rice-13oz-12pk-5997",
+      "last_checked": "2026-10-10T14:41:18Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree Wet Dog Food, 13-oz can, case of 12",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 15.7,
+        "store": "chewy"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "purina-pro-plan-adult-7-complete-essentials-chicken-rice-13oz-4pk-f75d",
+      "last_checked": "2026-10-10T14:41:18Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree Wet Dog Food, 13-oz can, case of 4",
       "verdict": "WAIT"
     },
     {

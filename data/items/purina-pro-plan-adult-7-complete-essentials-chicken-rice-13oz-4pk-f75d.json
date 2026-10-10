@@ -1,0 +1,106 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-10",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "method": "llm",
+      "price_native": 15.7,
+      "price_usd": 15.7,
+      "promo": null,
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-10-10T14:41:18Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-10-10T14:41:18Z",
+    "id": "purina-pro-plan-adult-7-complete-essentials-chicken-rice-13oz-4pk-f75d",
+    "identifiers": {
+      "asin": null,
+      "model": "1783870",
+      "mpn": null,
+      "upc": "038100190376"
+    },
+    "issue": 17,
+    "lifecycle": {
+      "notes": "Pinned variant: Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree (Classic pate, senior) wet dog food, 13-oz cans; can UPC 038100190376. Not the regular Adult Classic Chicken & Rice (Chewy 1783838 / Walmart 22068937), not Senior Beef & Rice, not Savory Meals, not 3-oz/5.5-oz cans. For Alexey's dog Mattia, ZIP 32095. Case of 4 (4 x 13 oz). Price rows are per case of 4; per-can = price/4. Only Chewy sells a 4-can case: Amazon B08XN4WHH3 twister offers only case of 12 and pack of 24; Walmart 20480254543 '(4 pack) ... 13 oz Can (12 Pack)' is 4 x 12-packs (48 cans), dropped; Target does not carry it; Petco blocked by DataDome captcha; purina.com 'temporarily unavailable' on 2026-10-10.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Some owners report stomach upset",
+        "Value-for-money opinions are split",
+        "Easy to confuse with regular Adult Classic Chicken & Rice and the Senior Beef & Rice cans"
+      ],
+      "pros": [
+        "Real chicken first ingredient, formulated for dogs 7+",
+        "Picky senior dogs reportedly eat it readily; vet-recommended per reviewers",
+        "No artificial colors, flavors or preservatives; 23 vitamins and minerals"
+      ],
+      "sources": [
+        "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+        "https://www.amazon.com/dp/B08XN4WHH3"
+      ],
+      "summary": "Chewy shows 4.6/5 from 1631 ratings on the shared Adult 7+ Chicken & Rice Entree listing (case of 4 and case of 12); Amazon shows 4.5/5 from 668 ratings on B08XN4WHH3. Amazon's review summary says dogs find it tasty (including picky eaters), with mixed feedback on digestibility and on value for money."
+    },
+    "seed_sources": {
+      "camel": "absent",
+      "google_shopping": "absent",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "chewy",
+        "last_ok": "2026-10-10T14:41:18Z",
+        "name": "Chewy",
+        "status": "ok",
+        "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870"
+      }
+    ],
+    "title": "Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree Wet Dog Food, 13-oz can, case of 4"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 15.7,
+      "store": "chewy"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $15.70 at chewy. That is 0.0% below the historical average of $15.70 (12-month avg, chewy). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "absent",
+      "good_sale": "absent",
+      "google_shopping": "absent",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-10-10T14:41:26Z",
+    "typical": 15.7,
+    "typical_label": "12-month avg, chewy",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}

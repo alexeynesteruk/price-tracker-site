@@ -3422,13 +3422,13 @@
     },
     "confidence": "low",
     "floor": {
-      "date": "2026-10-08",
-      "price_usd": 80.17
+      "date": "2026-10-09",
+      "price_usd": 80.13
     },
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $80.14 at robotskull. That is 0.8% below the historical average of $80.76 (12-month avg, robotskull). No deal events on record; GOOD SALE is absent. FLOOR $80.17 on 2026-10-08. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $80.14 at robotskull. That is 0.8% below the historical average of $80.76 (12-month avg, robotskull). No deal events on record; GOOD SALE is absent. FLOOR $80.13 on 2026-10-09. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
     "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
@@ -3439,7 +3439,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-10T02:36:26Z",
+    "ts": "2026-10-10T14:41:26Z",
     "typical": 80.76,
     "typical_label": "12-month avg, robotskull",
     "verdict": "BUY",
