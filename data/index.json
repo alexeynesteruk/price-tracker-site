@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T02:23:19Z",
+  "generated": "2026-10-12T02:24:35Z",
   "items": [
     {
       "best_now": {
@@ -29,21 +29,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
-      "verdict": "BUY"
-    },
-    {
-      "best_now": {
-        "price_usd": 37.68,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "purina-pro-plan-adult-7-complete-essentials-chicken-rice-13oz-12pk-5997",
-      "last_checked": "2026-10-12T02:22:56Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree Wet Dog Food, 13-oz can, case of 12",
       "verdict": "BUY"
     },
     {
@@ -176,6 +161,21 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Logitech MX Master 3S Wireless Mouse, Graphite",
+      "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 37.68,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "purina-pro-plan-adult-7-complete-essentials-chicken-rice-13oz-12pk-5997",
+      "last_checked": "2026-10-12T02:22:56Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Purina Pro Plan Adult 7+ Complete Essentials Chicken & Rice Entree Wet Dog Food, 13-oz can, case of 12",
       "verdict": "WAIT"
     },
     {
