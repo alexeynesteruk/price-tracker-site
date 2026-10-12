@@ -79,6 +79,22 @@
       "store": "chewy",
       "suspect": false,
       "ts": "2026-10-12T02:22:56Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "method": "llm",
+      "price_native": 15.7,
+      "price_usd": 15.7,
+      "promo": null,
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-10-12T17:32:40Z"
     }
   ],
   "item": {
@@ -131,7 +147,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "chewy",
-        "last_ok": "2026-10-12T02:22:56Z",
+        "last_ok": "2026-10-12T17:32:40Z",
         "name": "Chewy",
         "status": "ok",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870"
@@ -145,12 +161,15 @@
       "store": "chewy"
     },
     "confidence": "low",
-    "floor": null,
+    "floor": {
+      "date": "2026-10-10",
+      "price_usd": 15.7
+    },
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $15.70 at chewy. That is 0.0% below the historical average of $15.70 (12-month avg, chewy). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "Best now $15.70 at chewy. That is 0.0% below the historical average of $15.70 (12-month avg, chewy). No deal events on record; GOOD SALE is absent. FLOOR $15.70 on 2026-10-10. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
       "camel": "absent",
@@ -160,10 +179,10 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-12T02:23:04Z",
+    "ts": "2026-10-12T17:32:44Z",
     "typical": 15.7,
     "typical_label": "12-month avg, chewy",
-    "verdict": "WAIT",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
