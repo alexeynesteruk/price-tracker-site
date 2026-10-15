@@ -404,9 +404,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-14T02:32:38Z",
-    "typical": 333.99,
-    "typical_label": "12-month avg, pcpartpicker",
+    "ts": "2026-10-15T01:44:18Z",
+    "typical": 320.0,
+    "typical_label": "12-month avg, microcenter",
     "verdict": "WAIT",
     "window": null,
     "window_note": "no recurring window found"
