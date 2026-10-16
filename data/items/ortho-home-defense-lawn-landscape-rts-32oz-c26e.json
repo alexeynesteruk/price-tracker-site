@@ -2689,6 +2689,54 @@
       "store": "jjwd",
       "suspect": false,
       "ts": "2026-10-16T02:45:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://scottsmiraclegro.com/en-us/brands/ortho/products/insect-control/0173801.html",
+      "method": "dom",
+      "price_native": 18.49,
+      "price_usd": 18.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-10-16T16:34:07Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-16",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/",
+      "store": "countrymax",
+      "suspect": false,
+      "ts": "2026-10-16T16:34:07Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-16",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "method": "dom",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385",
+      "store": "jjwd",
+      "suspect": false,
+      "ts": "2026-10-16T16:34:07Z"
     }
   ],
   "item": {
@@ -2739,7 +2787,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "amazon",
         "last_ok": "2026-10-15T01:34:28Z",
         "name": "Amazon",
@@ -2763,7 +2811,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "ortho",
-        "last_ok": "2026-10-16T02:45:00Z",
+        "last_ok": "2026-10-16T16:34:07Z",
         "name": "Ortho",
         "status": "ok",
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
@@ -2774,7 +2822,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "countrymax",
-        "last_ok": "2026-10-16T02:45:00Z",
+        "last_ok": "2026-10-16T16:34:07Z",
         "name": "CountryMax",
         "status": "ok",
         "url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/"
@@ -2785,7 +2833,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "jjwd",
-        "last_ok": "2026-10-16T02:45:00Z",
+        "last_ok": "2026-10-16T16:34:07Z",
         "name": "JJWD Hardware",
         "status": "ok",
         "url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385"
@@ -2806,8 +2854,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 11.98,
-      "store": "amazon"
+      "price_usd": 18.49,
+      "store": "ortho"
     },
     "confidence": "low",
     "floor": {
@@ -2817,8 +2865,8 @@
     "good_sale": 11.98,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $11.98 at amazon. That is 19.9% above the historical average of $9.99 (12-month avg, jjwd); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $11.98. FLOOR $9.99 on 2026-09-24. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "Best now $18.49 at ortho. That is 85.1% above the historical average of $9.99 (12-month avg, jjwd); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $11.98. FLOOR $9.99 on 2026-09-24. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "failed",
@@ -2828,10 +2876,10 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-16T02:46:48Z",
+    "ts": "2026-10-16T16:34:07Z",
     "typical": 9.99,
     "typical_label": "12-month avg, jjwd",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

@@ -1440,6 +1440,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-16T02:45:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-16",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 15.38,
+      "price_usd": 15.38,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-16T16:34:07Z"
     }
   ],
   "item": {
@@ -1491,7 +1507,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "amazon",
         "last_ok": "2026-10-15T01:32:11Z",
         "name": "Amazon",
@@ -1504,7 +1520,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-16T02:45:00Z",
+        "last_ok": "2026-10-16T16:34:07Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -1558,7 +1574,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 15.25,
+      "price_usd": 15.38,
       "store": "walmart"
     },
     "confidence": "low",
@@ -1569,7 +1585,7 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 3,
-    "reason": "Best now $15.25 at walmart. That is 7.7% above the historical average of $14.16 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $15.38 at walmart. That is 8.6% above the historical average of $14.16 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -1580,7 +1596,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-16T02:46:48Z",
+    "ts": "2026-10-16T16:34:07Z",
     "typical": 14.16,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

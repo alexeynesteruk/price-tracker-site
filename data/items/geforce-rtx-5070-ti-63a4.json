@@ -1104,7 +1104,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "amazon",
         "last_ok": "2026-10-15T01:34:28Z",
         "name": "Amazon",
@@ -1150,10 +1150,7 @@
     "vault_note": "geforce-rtx-5070-ti"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 1189.99,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "high",
     "floor": {
       "date": "2025-08-18",
@@ -1162,14 +1159,14 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1189.99 at amazon. That is 3.5% above the historical average of $1149.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-16T02:46:48Z",
+    "ts": "2026-10-16T16:34:07Z",
     "typical": 1149.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
