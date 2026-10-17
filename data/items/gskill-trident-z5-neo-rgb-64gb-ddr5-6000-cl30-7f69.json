@@ -1002,6 +1002,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-17T02:56:39Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "method": "llm",
+      "price_native": 1119.99,
+      "price_usd": 1119.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-17T16:46:12Z"
     }
   ],
   "item": {
@@ -1035,7 +1051,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-17T02:56:39Z",
+        "last_ok": "2026-10-17T16:46:12Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
@@ -1065,7 +1081,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-17T02:56:39Z",
+    "ts": "2026-10-17T17:02:58Z",
     "typical": 989.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
