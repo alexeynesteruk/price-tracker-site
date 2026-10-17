@@ -847,6 +847,54 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-16T16:34:07Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B08XN4WHH3?th=1",
+      "method": "llm",
+      "price_native": 37.68,
+      "price_usd": 37.68,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B08XN4WHH3",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-17T02:56:39Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586",
+      "method": "llm",
+      "price_native": 37.68,
+      "price_usd": 37.68,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-17T02:56:39Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682",
+      "method": "dom",
+      "price_native": 37.68,
+      "price_usd": 37.68,
+      "promo": null,
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-10-17T02:56:39Z"
     }
   ],
   "item": {
@@ -897,11 +945,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 3,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-15T01:34:28Z",
+        "last_ok": "2026-10-17T02:56:39Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B08XN4WHH3"
       },
       {
@@ -910,7 +958,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "chewy",
-        "last_ok": "2026-10-16T16:34:07Z",
+        "last_ok": "2026-10-17T02:56:39Z",
         "name": "Chewy",
         "status": "ok",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682"
@@ -921,7 +969,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-16T16:34:07Z",
+        "last_ok": "2026-10-17T02:56:39Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586"
@@ -932,7 +980,7 @@
   "verdict": {
     "best_now": {
       "price_usd": 37.68,
-      "store": "chewy"
+      "store": "amazon"
     },
     "confidence": "low",
     "floor": {
@@ -942,7 +990,7 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $37.68 at chewy. That is 1.6% above the historical average of $37.07 (12-month avg, camel:amazon); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $29.99 on 2026-01-05. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $37.68 at amazon. That is 1.6% above the historical average of $37.07 (12-month avg, camel:amazon); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $29.99 on 2026-01-05. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -953,7 +1001,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-16T16:34:07Z",
+    "ts": "2026-10-17T02:56:39Z",
     "typical": 37.07,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
