@@ -2914,6 +2914,54 @@
       "store": "insta360",
       "suspect": false,
       "ts": "2026-10-18T01:06:36Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G3T1QKWL?aod=1&condition=new&th=1",
+      "method": "llm",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-18T16:40:42Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "method": "llm",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-10-18T16:40:42Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://store.insta360.com/product/link-2-pro",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://store.insta360.com/product/link-2-pro",
+      "store": "insta360",
+      "suspect": false,
+      "ts": "2026-10-18T16:40:42Z"
     }
   ],
   "item": {
@@ -2968,7 +3016,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-18T01:06:36Z",
+        "last_ok": "2026-10-18T16:40:42Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
@@ -2988,7 +3036,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 2,
         "key": "bh",
         "last_ok": "2026-10-17T02:56:39Z",
         "name": "B&H",
@@ -3001,7 +3049,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-10-18T01:06:36Z",
+        "last_ok": "2026-10-18T16:40:42Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/p/1EF-00J0-00022"
@@ -3012,7 +3060,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "insta360",
-        "last_ok": "2026-10-18T01:06:36Z",
+        "last_ok": "2026-10-18T16:40:42Z",
         "name": "Insta360 Store",
         "status": "ok",
         "url": "https://store.insta360.com/product/link-2-pro"
@@ -3022,8 +3070,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 209.99,
-      "store": "bh"
+      "price_usd": 249.99,
+      "store": "amazon"
     },
     "confidence": "low",
     "floor": {
@@ -3033,8 +3081,8 @@
     "good_sale": 209.99,
     "lifecycle_note": null,
     "n_events": 44,
-    "reason": "Best now $209.99 at bh. That is 6.9% below the historical average of $225.47 (12-month avg, bh). GOOD SALE (p25 of 44 deal events) is $209.99. FLOOR $199.99 on 2026-06-23. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "Best now $249.99 at amazon. That is 10.9% above the historical average of $225.47 (12-month avg, bh); this is not any kind of discount. GOOD SALE (p25 of 44 deal events) is $209.99. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "camel": "ok",
@@ -3044,10 +3092,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-18T01:15:49Z",
+    "ts": "2026-10-18T16:50:20Z",
     "typical": 225.47,
     "typical_label": "12-month avg, bh",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
