@@ -166,9 +166,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-19T16:49:09Z",
-    "typical": 185.49,
-    "typical_label": "12-month avg, bestbuy",
+    "ts": "2026-10-20T03:05:18Z",
+    "typical": 199.99,
+    "typical_label": "12-month avg, corsair",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
