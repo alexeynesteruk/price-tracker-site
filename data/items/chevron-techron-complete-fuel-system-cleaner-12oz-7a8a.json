@@ -1680,6 +1680,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-20T02:57:15Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B000CCOL3I?aod=1&condition=new&th=1",
+      "method": "llm",
+      "price_native": 15.38,
+      "price_usd": 15.38,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-20T16:58:06Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 15.46,
+      "price_usd": 15.46,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-20T16:58:06Z"
     }
   ],
   "item": {
@@ -1733,7 +1765,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-20T02:57:15Z",
+        "last_ok": "2026-10-20T16:58:06Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -1744,7 +1776,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-20T02:57:15Z",
+        "last_ok": "2026-10-20T16:58:06Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -1809,7 +1841,7 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 3,
-    "reason": "Best now $15.38 at amazon. That is 7.0% above the historical average of $14.38 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $15.38 at amazon. That is 6.7% above the historical average of $14.41 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -1820,8 +1852,8 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-20T03:05:18Z",
-    "typical": 14.38,
+    "ts": "2026-10-20T17:05:53Z",
+    "typical": 14.41,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,
