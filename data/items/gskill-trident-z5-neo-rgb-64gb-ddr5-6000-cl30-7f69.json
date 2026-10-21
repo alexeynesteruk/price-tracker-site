@@ -1161,11 +1161,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-10-21T01:18:15Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
       }
     ],
@@ -1193,7 +1193,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-21T01:25:50Z",
+    "ts": "2026-10-21T12:22:16Z",
     "typical": 989.99,
     "typical_label": "12-month avg, newegg",
     "verdict": "WAIT",
