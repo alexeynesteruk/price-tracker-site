@@ -1613,6 +1613,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-10-21T01:18:15Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-21",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0B11LJ69K",
+      "method": "llm",
+      "price_native": 118.99,
+      "price_usd": 118.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-21T12:53:22Z"
     }
   ],
   "item": {
@@ -1663,11 +1679,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-21T01:18:15Z",
+        "last_ok": "2026-10-21T12:53:22Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
       },
       {
@@ -1732,7 +1748,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-21T12:22:16Z",
+    "ts": "2026-10-21T12:53:22Z",
     "typical": 89.99,
     "typical_label": "12-month avg, lenovo",
     "verdict": "WAIT",
