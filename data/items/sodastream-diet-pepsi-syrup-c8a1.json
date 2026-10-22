@@ -3635,6 +3635,70 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-22T01:43:31Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "method": "llm",
+      "price_native": 23.98,
+      "price_usd": 23.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G25QRMBP",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-10-22T16:10:43Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-10-22T16:10:43Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "method": "llm",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "source_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-10-22T16:10:43Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/NEW-sodastream-Diet-Pepsi-Drink-Mix-4pk/20257421889",
+      "method": "llm",
+      "price_native": 23.98,
+      "price_usd": 23.98,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/SodaStream-Diet-Pepsi-Soda-Mix-14-9-fl-oz-Pack-of-4/1633673601",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-22T16:10:43Z"
     }
   ],
   "item": {
@@ -3668,7 +3732,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-10-22T01:43:31Z",
+        "last_ok": "2026-10-22T16:10:43Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
@@ -3679,7 +3743,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-10-22T01:43:31Z",
+        "last_ok": "2026-10-22T16:10:43Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -3690,7 +3754,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "target",
-        "last_ok": "2026-10-22T01:43:31Z",
+        "last_ok": "2026-10-22T16:10:43Z",
         "name": "Target",
         "status": "ok",
         "url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137"
@@ -3701,7 +3765,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-22T01:43:31Z",
+        "last_ok": "2026-10-22T16:10:43Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/SodaStream-Diet-Pepsi-Soda-Mix-14-9-fl-oz-Pack-of-4/1633673601"
@@ -3713,8 +3777,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 21.74,
-      "store": "sodastream"
+      "price_usd": 23.98,
+      "store": "amazon"
     },
     "confidence": "medium",
     "floor": {
@@ -3724,17 +3788,17 @@
     "good_sale": 21.74,
     "lifecycle_note": null,
     "n_events": 35,
-    "reason": "Best now $21.74 at sodastream. That is 3.3% below the historical average of $22.49 (12-month avg, sodastream). GOOD SALE (p25 of 35 deal events) is $21.74. FLOOR $19.46 on 2026-10-06. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "Best now $23.98 at amazon. That is 6.2% above the historical average of $22.58 (12-month avg, sodastream); this is not any kind of discount. GOOD SALE (p25 of 35 deal events) is $21.74. FLOOR $19.46 on 2026-10-06. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
+    "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-22T01:52:36Z",
-    "typical": 22.49,
+    "ts": "2026-10-22T16:10:47Z",
+    "typical": 22.58,
     "typical_label": "12-month avg, sodastream",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
