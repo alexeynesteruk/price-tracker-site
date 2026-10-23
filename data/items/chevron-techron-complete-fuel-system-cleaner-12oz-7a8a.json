@@ -1904,6 +1904,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-23T02:50:48Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-23",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 15.94,
+      "price_usd": 15.94,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-23T17:14:37Z"
     }
   ],
   "item": {
@@ -1955,11 +1971,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-10-23T02:50:48Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B00092893O"
       },
       {
@@ -1968,7 +1984,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-23T02:50:48Z",
+        "last_ok": "2026-10-23T17:14:37Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -2044,7 +2060,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-10-23T02:51:44Z",
+    "ts": "2026-10-23T17:14:37Z",
     "typical": 14.54,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
