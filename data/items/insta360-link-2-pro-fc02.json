@@ -3746,6 +3746,54 @@
       "store": "insta360",
       "suspect": false,
       "ts": "2026-10-24T02:53:01Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html",
+      "method": "dom",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html",
+      "store": "bh",
+      "suspect": false,
+      "ts": "2026-10-24T16:47:44Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "method": "llm",
+      "price_native": 370.9,
+      "price_usd": 370.9,
+      "promo": null,
+      "source_url": "https://www.newegg.com/p/1EF-00J0-00022",
+      "store": "newegg",
+      "suspect": false,
+      "ts": "2026-10-24T16:47:44Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-24",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://store.insta360.com/product/link-2-pro",
+      "method": "llm",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://store.insta360.com/product/link-2-pro",
+      "store": "insta360",
+      "suspect": false,
+      "ts": "2026-10-24T16:47:44Z"
     }
   ],
   "item": {
@@ -3798,11 +3846,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-10-24T02:53:01Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
       },
       {
@@ -3822,7 +3870,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "bh",
-        "last_ok": "2026-10-24T02:53:01Z",
+        "last_ok": "2026-10-24T16:47:44Z",
         "name": "B&H",
         "status": "ok",
         "url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html"
@@ -3833,7 +3881,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "newegg",
-        "last_ok": "2026-10-24T02:53:01Z",
+        "last_ok": "2026-10-24T16:47:44Z",
         "name": "Newegg",
         "status": "ok",
         "url": "https://www.newegg.com/p/1EF-00J0-00022"
@@ -3844,7 +3892,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "insta360",
-        "last_ok": "2026-10-24T02:53:01Z",
+        "last_ok": "2026-10-24T16:47:44Z",
         "name": "Insta360 Store",
         "status": "ok",
         "url": "https://store.insta360.com/product/link-2-pro"
@@ -3865,7 +3913,7 @@
     "good_sale": 209.99,
     "lifecycle_note": null,
     "n_events": 44,
-    "reason": "Best now $249.99 at amazon. That is 7.4% above the historical average of $232.72 (12-month avg, bh); this is not any kind of discount. GOOD SALE (p25 of 44 deal events) is $209.99. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $249.99 at amazon. That is 7.2% above the historical average of $233.10 (12-month avg, bh); this is not any kind of discount. GOOD SALE (p25 of 44 deal events) is $209.99. FLOOR $199.99 on 2026-06-23. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -3876,8 +3924,8 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-24T03:23:24Z",
-    "typical": 232.72,
+    "ts": "2026-10-24T17:01:44Z",
+    "typical": 233.1,
     "typical_label": "12-month avg, bh",
     "verdict": "WAIT",
     "window": null,
