@@ -166,9 +166,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-25T17:11:27Z",
-    "typical": 199.99,
-    "typical_label": "12-month avg, corsair",
+    "ts": "2026-10-26T01:37:47Z",
+    "typical": 179.99,
+    "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
