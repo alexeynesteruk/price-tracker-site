@@ -6175,6 +6175,86 @@
       "store": "rlx",
       "suspect": false,
       "ts": "2026-10-27T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-28",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "store": "waveshare",
+      "suspect": false,
+      "ts": "2026-10-28T02:19:31Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-28",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "method": "llm",
+      "price_native": 149.75,
+      "price_usd": 149.75,
+      "promo": null,
+      "source_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "store": "abra",
+      "suspect": false,
+      "ts": "2026-10-28T02:19:31Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-28",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "store": "spotpear",
+      "suspect": false,
+      "ts": "2026-10-28T02:19:31Z"
+    },
+    {
+      "currency": "INR",
+      "fx_date": "2026-10-28",
+      "fx_rate": 95.199335,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "method": "llm",
+      "price_native": 7763.11,
+      "price_usd": 81.55,
+      "promo": null,
+      "source_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "store": "robotskull",
+      "suspect": false,
+      "ts": "2026-10-28T02:19:31Z"
+    },
+    {
+      "currency": "EUR",
+      "fx_date": "2026-10-28",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "store": "rlx",
+      "suspect": false,
+      "ts": "2026-10-28T02:19:31Z"
     }
   ],
   "item": {
@@ -6227,7 +6307,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "waveshare",
-        "last_ok": "2026-10-27T17:00:00Z",
+        "last_ok": "2026-10-28T02:19:31Z",
         "name": "Waveshare",
         "status": "ok",
         "url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790"
@@ -6238,7 +6318,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "abra",
-        "last_ok": "2026-10-27T17:00:00Z",
+        "last_ok": "2026-10-28T02:19:31Z",
         "name": "Abra Electronics",
         "status": "ok",
         "url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html"
@@ -6249,7 +6329,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "spotpear",
-        "last_ok": "2026-10-27T17:00:00Z",
+        "last_ok": "2026-10-28T02:19:31Z",
         "name": "SpotPear",
         "status": "ok",
         "url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html"
@@ -6260,7 +6340,7 @@
         "currency": "INR",
         "fails": 0,
         "key": "robotskull",
-        "last_ok": "2026-10-27T17:00:00Z",
+        "last_ok": "2026-10-28T02:19:31Z",
         "name": "RobotSkull",
         "status": "ok",
         "url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057"
@@ -6271,7 +6351,7 @@
         "currency": "EUR",
         "fails": 0,
         "key": "rlx",
-        "last_ok": "2026-10-27T17:00:00Z",
+        "last_ok": "2026-10-28T02:19:31Z",
         "name": "RLX Components",
         "status": "ok",
         "url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html"
@@ -6281,7 +6361,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 81.49,
+      "price_usd": 81.55,
       "store": "robotskull"
     },
     "confidence": "low",
@@ -6292,7 +6372,7 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $81.49 at robotskull. That is 0.5% above the historical average of $81.06 (12-month avg, robotskull); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $81.55 at robotskull. That is 0.6% above the historical average of $81.07 (12-month avg, robotskull); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
     "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
@@ -6303,8 +6383,8 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-27T17:12:41Z",
-    "typical": 81.06,
+    "ts": "2026-10-28T02:19:32Z",
+    "typical": 81.07,
     "typical_label": "12-month avg, robotskull",
     "verdict": "BUY",
     "window": null,
