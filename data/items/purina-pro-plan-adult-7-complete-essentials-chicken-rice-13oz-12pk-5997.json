@@ -1951,6 +1951,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-10-28T17:02:39Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-29",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682",
+      "method": "dom",
+      "price_native": 37.68,
+      "price_usd": 37.68,
+      "promo": null,
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-10-29T02:56:04Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-10-29",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586",
+      "method": "llm",
+      "price_native": 37.68,
+      "price_usd": 37.68,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-10-29T02:56:04Z"
     }
   ],
   "item": {
@@ -2001,7 +2033,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "amazon",
         "last_ok": "2026-10-27T17:00:00Z",
         "name": "Amazon",
@@ -2014,7 +2046,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "chewy",
-        "last_ok": "2026-10-28T17:02:39Z",
+        "last_ok": "2026-10-29T02:56:04Z",
         "name": "Chewy",
         "status": "ok",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/306682"
@@ -2025,7 +2057,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-10-28T17:02:39Z",
+        "last_ok": "2026-10-29T02:56:04Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Purina-Pro-Plan-Complete-Essentials-Wet-Dog-Food-High-Protein-Chicken-Rice-13-oz-Cans-12-Pack/532081586"
@@ -2057,7 +2089,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-10-28T17:02:55Z",
+    "ts": "2026-10-29T02:56:04Z",
     "typical": 37.07,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",

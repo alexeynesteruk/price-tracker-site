@@ -1759,7 +1759,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 3,
         "key": "amazon",
         "last_ok": "2026-10-27T17:00:00Z",
         "name": "Amazon",
@@ -1825,7 +1825,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-10-28T17:02:55Z",
+    "ts": "2026-10-29T02:56:04Z",
     "typical": 89.99,
     "typical_label": "12-month avg, lenovo",
     "verdict": "WAIT",
