@@ -815,6 +815,22 @@
       "store": "chewy",
       "suspect": false,
       "ts": "2026-11-03T17:46:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-03",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "method": "llm",
+      "price_native": 15.7,
+      "price_usd": 15.7,
+      "promo": null,
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-11-04T02:59:00Z"
     }
   ],
   "item": {
@@ -867,7 +883,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "chewy",
-        "last_ok": "2026-11-03T17:46:00Z",
+        "last_ok": "2026-11-04T02:59:00Z",
         "name": "Chewy",
         "status": "ok",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870"
@@ -899,7 +915,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-03T18:01:46Z",
+    "ts": "2026-11-04T03:12:00Z",
     "typical": 15.7,
     "typical_label": "12-month avg, chewy",
     "verdict": "BUY",
