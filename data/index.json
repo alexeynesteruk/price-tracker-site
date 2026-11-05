@@ -1,6 +1,21 @@
 {
-  "generated": "2026-11-04T16:32:20Z",
+  "generated": "2026-11-05T03:08:35Z",
   "items": [
+    {
+      "best_now": {
+        "price_usd": 16.69,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "hi-yield-33430-atrazine-weed-killer-32oz-9bb4",
+      "last_checked": "2026-11-05T03:08:24Z",
+      "owner": "alexeynesteruk",
+      "state": "active",
+      "title": "Hi-Yield (33430) Atrazine Weed Killer Concentrate, 32 oz",
+      "verdict": "BUY"
+    },
     {
       "best_now": {
         "price_usd": 15.7,

@@ -1,0 +1,163 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-02",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "seed",
+      "landed_url": "https://camelcamelcamel.com/product/B016TQFPQ2",
+      "method": "aggregator",
+      "price_native": 16.69,
+      "price_usd": 16.69,
+      "promo": null,
+      "series": "baseline",
+      "source_url": "https://camelcamelcamel.com/product/B016TQFPQ2",
+      "store": "camel:3p-new",
+      "suspect": false,
+      "ts": "2026-11-02T00:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "method": "dom",
+      "price_native": 21.14,
+      "price_usd": 21.14,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-05T03:08:24Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-04",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B016TQFPQ2?th=1",
+      "method": "dom",
+      "price_native": 16.69,
+      "price_usd": 16.69,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B016TQFPQ2",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-05T03:08:24Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-11-05T03:08:24Z",
+    "id": "hi-yield-33430-atrazine-weed-killer-32oz-9bb4",
+    "identifiers": {
+      "asin": "B016TQFPQ2",
+      "model": "33430",
+      "mpn": "33430",
+      "upc": "732221334304"
+    },
+    "issue": 19,
+    "lifecycle": {
+      "notes": "Pin Hi-Yield Atrazine Weed Killer liquid CONCENTRATE 32 oz, model 33430 / UPC 732221334304 / ASIN B016TQFPQ2 / Walmart 47648968 / Ace 7298144. NOT 33431 (Atrazine RTS hose-end, different product), not 3-packs, not pint/gallon. Walmart 'Was $23.99' strikethrough is not a promo by itself. Dropped at discovery: Lowe's 9162206 (marketplace, 'no longer sold / discontinued'), Solutions Pest & Lawn (size not pinnable: $13.29 'as low as' vs $20.29), DoMyOwn/Solutions/DK Hardware RTS listings (33431), Seed World/DIY Pest Control (not verified as 33430). Alexey's comparable (different product, not a store): Image Southern Lawn Weed Killer 32 oz, Home Depot $18.28.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Results can take several weeks",
+        "Mixed feedback on value for money",
+        "Easy to confuse with 33431 RTS hose-end version"
+      ],
+      "pros": [
+        "Selective for St. Augustine and Centipede lawns",
+        "Pre- and post-emergent control of broadleaf weeds and some grasses",
+        "32 oz concentrate treats up to 3,720 sq ft"
+      ],
+      "sources": [
+        "https://www.amazon.com/dp/B016TQFPQ2",
+        "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968"
+      ],
+      "summary": "Amazon shows 4.3/5 from 671 ratings and Walmart 4.1/5 from 31 ratings. Amazon's review summary says buyers find it effective and safe on St. Augustine grass, with mixed views on value and on how long results take (several report over a month)."
+    },
+    "seed_sources": {
+      "camel": "ok",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "walmart",
+        "last_ok": "2026-11-05T03:08:24Z",
+        "name": "Walmart",
+        "status": "ok",
+        "url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "amazon",
+        "last_ok": "2026-11-05T03:08:24Z",
+        "name": "Amazon",
+        "status": "ok",
+        "url": "https://www.amazon.com/dp/B016TQFPQ2"
+      },
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 1,
+        "key": "ace",
+        "last_ok": null,
+        "name": "Ace Hardware",
+        "status": "blocked",
+        "url": "https://www.acehardware.com/departments/lawn-and-garden/lawn-care/weed-and-vegetation-killers/7298144"
+      }
+    ],
+    "title": "Hi-Yield (33430) Atrazine Weed Killer Concentrate, 32 oz"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 16.69,
+      "store": "amazon"
+    },
+    "confidence": "low",
+    "floor": {
+      "date": "2026-11-02",
+      "price_usd": 16.69
+    },
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $16.69 at amazon. That is 0.0% below the historical average of $16.69 (12-month avg, camel:3p-new). No deal events on record; GOOD SALE is absent. FLOOR $16.69 on 2026-11-02. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
+    "sources": {
+      "baseline": "ok",
+      "camel": "ok",
+      "good_sale": "absent",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-11-05T03:08:24Z",
+    "typical": 16.69,
+    "typical_label": "12-month avg, camel:3p-new",
+    "verdict": "BUY",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
