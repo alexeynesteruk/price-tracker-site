@@ -1,7 +1,8 @@
 const DATA_REPO = "alexeynesteruk/price-tracker-data";
 const $ = (sel) => document.querySelector(sel);
-const usd = (n) => (n == null ? "n/a" : "$" + Number(n).toFixed(2));
-const day = (s) => (s ? s.slice(0, 10) : "n/a");
+const usd = (n) => (n == null || !Number.isFinite(Number(n)) ? "n/a" : "$" + Number(n).toFixed(2));
+const day = (s) => (s ? String(s).slice(0, 10) : "n/a");
+const esc = (s) => OfferDisplay.escapeHtml(s);
 const PERIODS = { "30d": 30, "90d": 90, "1y": 365, all: null };
 
 let indexCache = null;
@@ -12,13 +13,19 @@ async function getIndex() {
   return indexCache;
 }
 
-function badge(v) {
-  return v ? `<span class="badge ${v}">${v}</span>` : `<span class="badge WAIT">n/a</span>`;
-}
-
 function issueLink(template, params) {
   const q = new URLSearchParams({ template, ...params }).toString();
   return `https://github.com/${DATA_REPO}/issues/new?${q}`;
+}
+
+function hostLabel(url) {
+  const href = OfferDisplay.safeUrl(url);
+  if (!href) return "";
+  try {
+    return new URL(href).hostname;
+  } catch (err) {
+    return "";
+  }
 }
 
 async function renderList(tab = "active", owner = "") {
@@ -31,38 +38,48 @@ async function renderList(tab = "active", owner = "") {
       .map((t) => `<button data-tab="${t}" class="${t === tab ? "on" : ""}">${t} (${idx.items.filter((i) => i.state === t).length})</button>`)
       .join("")}</div>
     <div class="filters"><button data-owner="" class="${owner ? "" : "on"}">everyone</button>${owners
-      .map((o) => `<button data-owner="${o}" class="${o === owner ? "on" : ""}">${o}</button>`)
+      .map((o) => `<button data-owner="${esc(o)}" class="${o === owner ? "on" : ""}">${esc(o)}</button>`)
       .join("")}
       <a class="btn" href="${issueLink("track.yml", {})}" target="_blank" rel="noopener">+ Track item</a></div>
     <div class="grid">${
       items
-        .map(
-          (i) => `
-      <a class="card" href="#/items/${i.id}">
-        <div class="row">${badge(i.verdict)} <span class="muted">${i.confidence || ""}</span></div>
-        <div style="margin:6px 0"><b>${i.title}</b></div>
+        .map((i) => {
+          const view = OfferDisplay.resolveView(i);
+          return `
+      <a class="card" href="#/items/${esc(i.id)}">
+        <div class="row">${OfferDisplay.renderVerdictBadge(view.verdict, view)} <span class="muted">${esc(i.confidence || "")}</span></div>
+        <div style="margin:6px 0"><b>${esc(i.title)}</b></div>
         ${
           i.state === "bought" && i.bought
-            ? `<div class="price">paid ${usd(i.bought.price_usd)}</div><div class="muted">${i.bought.store}, ${i.bought.date}</div>`
-            : `<div class="price">${i.best_now ? usd(i.best_now.price_usd) : "no live price"}</div><div class="muted">${i.best_now ? i.best_now.store + ", " : ""}checked ${day(i.last_checked)}</div>`
+            ? `<div class="price">paid ${usd(i.bought.price_usd)}</div><div class="muted">${esc(i.bought.store)}, ${esc(i.bought.date)}</div>`
+            : OfferDisplay.renderPriceBlock(i)
         }
-        <div class="muted">${i.owner}</div>
-      </a>`
-        )
+        <div class="muted">${esc(i.owner)}</div>
+      </a>`;
+        })
         .join("") || `<p class="muted">Nothing here.</p>`
     }</div>`;
   document.querySelectorAll("[data-tab]").forEach((b) => (b.onclick = () => renderList(b.dataset.tab, owner)));
   document.querySelectorAll("[data-owner]").forEach((b) => (b.onclick = () => renderList(tab, b.dataset.owner)));
 }
 
-function anchorsHtml(v) {
+function anchorsHtml(v, page) {
   if (!v) return "";
+  const record = page || { verdict: v };
+  const view = OfferDisplay.resolveView(record);
+  const best = OfferDisplay.anchorBestNow(record);
+  const bestLabel = view.mode === "offers" ? "Current offer" : "Best now";
   const cells = [
-    ["Best now", v.best_now ? `${usd(v.best_now.price_usd)} <span class="muted">${v.best_now.store}</span>` : "none"],
-    ["Typical", v.typical != null ? `${usd(v.typical)} <span class="muted">${v.typical_label || ""}</span>` : "absent"],
-    ["Good sale (p25)", v.good_sale != null ? `${usd(v.good_sale)} <span class="muted">n=${v.n_events}</span>` : "absent"],
-    ["Floor", v.floor ? `${usd(v.floor.price_usd)} <span class="muted">${v.floor.date}</span>` : "absent"],
-    ["Window", v.window ? `month ${v.window.months[0]}: ${usd(v.window.expect_low)}-${usd(v.window.expect_high)}` : v.window_note || "none"],
+    [bestLabel, best ? `${usd(best.price_usd)} <span class="muted">${esc(best.store)}</span>` : "none"],
+    ["Typical", v && v.typical != null ? `${usd(v.typical)} <span class="muted">${esc(v.typical_label || "")}</span>` : "absent"],
+    ["Good sale (p25)", v && v.good_sale != null ? `${usd(v.good_sale)} <span class="muted">n=${esc(v.n_events)}</span>` : "absent"],
+    ["Floor", v && v.floor ? `${usd(v.floor.price_usd)} <span class="muted">${esc(v.floor.date)}</span>` : "absent"],
+    [
+      "Window",
+      v && v.window
+        ? `month ${esc(v.window.months[0])}: ${usd(v.window.expect_low)}-${usd(v.window.expect_high)}`
+        : esc((v && v.window_note) || "none"),
+    ],
   ];
   return `<div class="anchors">${cells.map(([k, val]) => `<div class="anchor"><b>${k}</b>${val}</div>`).join("")}</div>`;
 }
@@ -154,46 +171,56 @@ function drawChart(page, period, hiddenStores) {
 async function renderItem(id) {
   const res = await fetch(`data/items/${id}.json`, { cache: "no-store" });
   if (!res.ok) {
-    $("#app").innerHTML = `<p>Item <code>${id}</code> not found.</p>`;
+    $("#app").innerHTML = `<p>Item <code>${esc(id)}</code> not found.</p>`;
     return;
   }
   const page = await res.json();
   const it = page.item;
   const v = page.verdict;
+  const view = OfferDisplay.resolveView(page);
   const state = { period: "1y", hidden: new Set() };
   const recent = page.history.filter(
     (r) => !r.suspect && r.price_usd != null && Date.now() - new Date(r.ts) < 365 * 86400e3
   );
   const low12 = recent.length ? Math.min(...recent.map((r) => r.price_usd)) : null;
-  const bestStore = v && v.best_now ? it.stores.find((s) => s.key === v.best_now.store) : null;
+  const best = OfferDisplay.anchorBestNow(page);
+  const bestStore = best ? it.stores.find((s) => s.key === best.store) : null;
+  const offerSection = view.mode === "offers" ? OfferDisplay.renderOfferSplit(view, { stores: it.stores }) : "";
   $("#app").innerHTML = `
     <p><a href="#/">&larr; all items</a></p>
-    <div class="row"><h2 style="margin:0">${it.title}</h2>${badge(v && v.verdict)}<span class="muted">${v ? v.confidence : ""}</span></div>
-    <p class="muted">${it.category}, owner ${it.owner}, <a href="https://github.com/${DATA_REPO}/issues/${it.issue}" target="_blank" rel="noopener">issue #${it.issue}</a>, state ${it.state}</p>
+    <div class="row"><h2 style="margin:0">${esc(it.title)}</h2>${OfferDisplay.renderVerdictBadge(view.verdict, view)}<span class="muted">${esc(v ? v.confidence : "")}</span></div>
+    <p class="muted">${esc(it.category)}, owner ${esc(it.owner)}, <a href="https://github.com/${DATA_REPO}/issues/${encodeURIComponent(it.issue)}" target="_blank" rel="noopener">issue #${esc(it.issue)}</a>, state ${esc(it.state)}</p>
     ${
       it.state === "bought" && it.bought
-        ? `<div class="card"><b>Bought</b>: paid ${usd(it.bought.price_usd)} at ${it.bought.store} on ${it.bought.date}. 12-month low on record: ${low12 != null ? usd(low12) : "n/a"}.</div>`
+        ? `<div class="card"><b>Bought</b>: paid ${usd(it.bought.price_usd)} at ${esc(it.bought.store)} on ${esc(it.bought.date)}. 12-month low on record: ${low12 != null ? usd(low12) : "n/a"}.</div>`
         : ""
     }
-    ${anchorsHtml(v)}
-    ${v ? `<p>${v.reason}</p>` : "<p class='muted'>No verdict yet.</p>"}
+    ${offerSection}
+    ${anchorsHtml(v, page)}
+    ${v ? `<p>${esc(v.reason)}</p>` : "<p class='muted'>No verdict yet.</p>"}
     <div class="filters">${Object.keys(PERIODS)
       .map((p) => `<button data-period="${p}" class="${p === state.period ? "on" : ""}">${p}</button>`)
       .join("")}
       <span class="muted">click a legend entry to hide or show a store</span></div>
     <div class="chart"><canvas id="chart"></canvas></div>
-    <table><thead><tr><th>Store</th><th>Status</th><th>Last ok</th><th>Fails</th><th></th></tr></thead><tbody>
+    <div class="table-wrap"><table><thead><tr><th>Store</th><th>Status</th><th>Last ok</th><th>Fails</th><th></th></tr></thead><tbody>
       ${it.stores
-        .map(
-          (s) =>
-            `<tr><td>${s.name} <span class="muted">${s.key}</span></td><td>${s.active ? s.status : "inactive"}</td><td>${day(s.last_ok)}</td><td>${s.fails}</td><td><a href="${s.url}" target="_blank" rel="noopener">open</a></td></tr>`
-        )
+        .map((s) => {
+          const href = OfferDisplay.safeUrl(s.url);
+          const open = href ? `<a href="${esc(href)}" target="_blank" rel="noopener">open</a>` : "";
+          return `<tr><td>${esc(s.name)} <span class="muted">${esc(s.key)}</span></td><td>${OfferDisplay.storeStatusHtml(s)}</td><td>${esc(day(s.last_ok))}</td><td>${esc(s.fails)}</td><td>${open}</td></tr>`;
+        })
         .join("")}
-    </tbody></table>
+    </tbody></table></div>
     ${
       it.reviews
-        ? `<div class="card"><b>Reviews</b><p>${it.reviews.summary}</p><p><b>Pros</b>: ${it.reviews.pros.join(", ")}. <b>Cons</b>: ${it.reviews.cons.join(", ")}.</p><p class="muted">${it.reviews.sources
-            .map((u) => `<a href="${u}" target="_blank" rel="noopener">${new URL(u).hostname}</a>`)
+        ? `<div class="card"><b>Reviews</b><p>${esc(it.reviews.summary)}</p><p><b>Pros</b>: ${(it.reviews.pros || []).map(esc).join(", ")}. <b>Cons</b>: ${(it.reviews.cons || []).map(esc).join(", ")}.</p><p class="muted">${(it.reviews.sources || [])
+            .map((u) => {
+              const href = OfferDisplay.safeUrl(u);
+              const host = hostLabel(u);
+              return href && host ? `<a href="${esc(href)}" target="_blank" rel="noopener">${esc(host)}</a>` : "";
+            })
+            .filter(Boolean)
             .join(", ")}</p></div>`
         : ""
     }
@@ -203,7 +230,7 @@ async function renderItem(id) {
           ? `<a class="btn" target="_blank" rel="noopener" href="${issueLink("bought.yml", {
               item_id: it.id,
               currency: (bestStore && bestStore.currency) || "USD",
-              store: v && v.best_now ? v.best_now.store : "",
+              store: best ? best.store : "",
             })}">Bought</a>`
           : ""
       }
