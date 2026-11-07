@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Example offers (not catalog data)</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <span class="brand">Price Tracker</span>
+  <span class="muted">example display only</span>
+</header>
+<main id="app">
+  <p class="example-banner" role="note">Example data for display only. These figures are not catalog observations, not Amazon checks, and not prices anyone can buy.</p>
+  <p class="muted">Loading example fixtures.</p>
+</main>
+<script src="../offer-display.js"></script>
+<script>
+fetch("example-offers.json", { cache: "no-store" })
+  .then(function (res) { return res.json(); })
+  .then(function (examples) {
+    var cards = examples.map(function (ex) {
+      var view = OfferDisplay.resolveView(ex);
+      var anchor = OfferDisplay.anchorBestNow(ex);
+      var anchorText = anchor ? OfferDisplay.money(anchor.price_usd) + " at " + anchor.store : "none";
+      return (
+        '<a class="card" href="#example-' + OfferDisplay.escapeHtml(ex.id) + '">' +
+        '<div class="row">' + OfferDisplay.renderVerdictBadge(view.verdict, view) +
+        ' <span class="muted">example</span></div>' +
+        '<div style="margin:6px 0"><b>' + OfferDisplay.escapeHtml(ex.title) + '</b></div>' +
+        OfferDisplay.renderPriceBlock(ex, { stores: ex.stores }) +
+        '<p class="muted">Anchor current/best: ' + OfferDisplay.escapeHtml(anchorText) + '</p>' +
+        '</a>'
+      );
+    }).join("");
+    var details = examples.filter(function (ex) { return ex.offers; }).map(function (ex) {
+      var view = OfferDisplay.resolveView(ex);
+      return (
+        '<article id="example-' + OfferDisplay.escapeHtml(ex.id) + '">' +
+        '<h2>' + OfferDisplay.escapeHtml(ex.title) + '</h2>' +
+        '<p class="muted">Example item page. Not a catalog row.</p>' +
+        OfferDisplay.renderOfferSplit(view, { stores: ex.stores, compact: false }) +
+        '</article>'
+      );
+    }).join("");
+    document.getElementById("app").innerHTML =
+      '<p class="example-banner" role="note">Example data for display only. These figures are not catalog observations, not Amazon checks, and not prices anyone can buy.</p>' +
+      '<h2>List cards</h2><div class="grid">' + cards + '</div>' +
+      '<h2>Item offer sections</h2>' + details;
+  })
+  .catch(function () {
+    document.getElementById("app").innerHTML = '<p class="example-banner">Example fixtures failed to load.</p>';
+  });
+</script>
+</body>
+</html>
