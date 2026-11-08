@@ -336,6 +336,22 @@
       "store": "ace",
       "suspect": false,
       "ts": "2026-11-08T04:20:16Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-08",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "method": "dom",
+      "price_native": 21.79,
+      "price_usd": 21.79,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-08T17:02:03Z"
     }
   ],
   "item": {
@@ -388,7 +404,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-08T04:20:16Z",
+        "last_ok": "2026-11-08T17:02:03Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968"
@@ -397,22 +413,22 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-08T04:20:16Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B016TQFPQ2"
       },
       {
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "ace",
         "last_ok": "2026-11-08T04:20:16Z",
         "name": "Ace Hardware",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.acehardware.com/departments/lawn-and-garden/lawn-care/weed-and-vegetation-killers/7298144"
       }
     ],
@@ -441,7 +457,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-08T04:20:57Z",
+    "ts": "2026-11-08T17:02:04Z",
     "typical": 16.69,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "BUY",
