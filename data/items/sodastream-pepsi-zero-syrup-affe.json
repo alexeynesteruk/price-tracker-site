@@ -5859,6 +5859,22 @@
       "store": "target",
       "suspect": false,
       "ts": "2026-11-09T17:22:25Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/NEW-sodastream-Pepsi-Zero-Drink-Mix-4pk/20284367861",
+      "method": "llm",
+      "price_native": 25.92,
+      "price_usd": 25.92,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-09T17:29:25Z"
     }
   ],
   "item": {
@@ -5936,7 +5952,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-09T02:48:16Z",
+        "last_ok": "2026-11-09T17:29:25Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/SodaStream-Pepsi-Zero-Soda-Mix-14-9-fl-oz-Pack-of-4/1312197543"
@@ -5966,7 +5982,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-09T17:22:29Z",
+    "ts": "2026-11-09T17:29:25Z",
     "typical": 23.14,
     "typical_label": "12-month avg, sodastream",
     "verdict": "WAIT",
