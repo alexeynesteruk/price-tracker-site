@@ -1537,6 +1537,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-10T03:40:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-10",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new&th=1",
+      "method": "llm",
+      "price_native": 1588.0,
+      "price_usd": 1588.0,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-10T17:00:00Z"
     }
   ],
   "item": {
@@ -1570,7 +1586,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-10T03:40:00Z",
+        "last_ok": "2026-11-10T17:00:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -1615,7 +1631,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1619.99,
+      "price_usd": 1588.0,
       "store": "amazon"
     },
     "confidence": "high",
@@ -1626,14 +1642,14 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1619.99 at amazon. That is 40.9% above the historical average of $1149.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "reason": "Best now $1588.00 at amazon. That is 38.1% above the historical average of $1149.99 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-10T03:40:03Z",
+    "ts": "2026-11-10T17:00:39Z",
     "typical": 1149.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
