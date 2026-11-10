@@ -8223,6 +8223,54 @@
       "store": "waveshare",
       "suspect": false,
       "ts": "2026-11-09T17:29:25Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-09",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "method": "dom",
+      "price_native": 149.75,
+      "price_usd": 149.75,
+      "promo": null,
+      "source_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "store": "abra",
+      "suspect": false,
+      "ts": "2026-11-10T03:40:00Z"
+    },
+    {
+      "currency": "INR",
+      "fx_date": "2026-11-09",
+      "fx_rate": 94.047485,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "method": "dom",
+      "price_native": 7763.11,
+      "price_usd": 82.54,
+      "promo": null,
+      "source_url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057",
+      "store": "robotskull",
+      "suspect": false,
+      "ts": "2026-11-10T03:40:00Z"
+    },
+    {
+      "currency": "EUR",
+      "fx_date": "2026-11-09",
+      "fx_rate": 0.896919,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "method": "dom",
+      "price_native": 89.24,
+      "price_usd": 99.5,
+      "promo": null,
+      "source_url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html",
+      "store": "rlx",
+      "suspect": false,
+      "ts": "2026-11-10T03:40:00Z"
     }
   ],
   "item": {
@@ -8286,7 +8334,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "abra",
-        "last_ok": "2026-11-09T17:22:25Z",
+        "last_ok": "2026-11-10T03:40:00Z",
         "name": "Abra Electronics",
         "status": "ok",
         "url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html"
@@ -8308,7 +8356,7 @@
         "currency": "INR",
         "fails": 0,
         "key": "robotskull",
-        "last_ok": "2026-11-09T17:22:25Z",
+        "last_ok": "2026-11-10T03:40:00Z",
         "name": "RobotSkull",
         "status": "ok",
         "url": "https://www.robotskull.ai/products/10-85inch-e-paper-display-e-ink-display-1360-%C3%97-480-black-white-spi-interface/2440060000007119057"
@@ -8319,7 +8367,7 @@
         "currency": "EUR",
         "fails": 0,
         "key": "rlx",
-        "last_ok": "2026-11-09T17:22:25Z",
+        "last_ok": "2026-11-10T03:40:00Z",
         "name": "RLX Components",
         "status": "ok",
         "url": "https://rlx.sk/en/e-paper-e-ink/10518-1085inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-ws-29790.html"
@@ -8340,7 +8388,7 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $82.54 at robotskull. That is 1.6% above the historical average of $81.27 (12-month avg, robotskull); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $82.54 at robotskull. That is 1.6% above the historical average of $81.28 (12-month avg, robotskull); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -8351,8 +8399,8 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-09T17:29:25Z",
-    "typical": 81.27,
+    "ts": "2026-11-10T03:40:03Z",
+    "typical": 81.28,
     "typical_label": "12-month avg, robotskull",
     "verdict": "WAIT",
     "window": null,
