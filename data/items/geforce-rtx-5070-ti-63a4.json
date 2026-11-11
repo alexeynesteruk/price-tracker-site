@@ -1584,11 +1584,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-10T17:00:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
       },
       {
@@ -1649,7 +1649,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-10T17:00:39Z",
+    "ts": "2026-11-11T03:11:48Z",
     "typical": 1149.99,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

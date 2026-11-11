@@ -2720,6 +2720,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-10T17:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-10",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 17.35,
+      "price_usd": 17.35,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-11T03:11:00Z"
     }
   ],
   "item": {
@@ -2771,11 +2787,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-10T17:00:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B00092893O"
       },
       {
@@ -2784,7 +2800,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-10T17:00:00Z",
+        "last_ok": "2026-11-11T03:11:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -2849,7 +2865,7 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 3,
-    "reason": "Best now $17.35 at walmart. That is 10.4% above the historical average of $15.71 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $17.35 at walmart. That is 10.3% above the historical average of $15.73 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -2860,8 +2876,8 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-10T17:00:39Z",
-    "typical": 15.71,
+    "ts": "2026-11-11T03:11:48Z",
+    "typical": 15.73,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
     "window": null,
