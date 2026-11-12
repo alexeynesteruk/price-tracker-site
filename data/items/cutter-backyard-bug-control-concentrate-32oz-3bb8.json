@@ -4150,6 +4150,38 @@
       "store": "runnings",
       "suspect": false,
       "ts": "2026-11-11T16:38:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-11",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "method": "dom",
+      "price_native": 24.64,
+      "price_usd": 24.64,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-12T03:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-11",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "method": "dom",
+      "price_native": 11.99,
+      "price_usd": 11.99,
+      "promo": null,
+      "source_url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html",
+      "store": "runnings",
+      "suspect": false,
+      "ts": "2026-11-12T03:55:00Z"
     }
   ],
   "item": {
@@ -4201,11 +4233,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-11T16:38:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B000PGE032"
       },
       {
@@ -4225,7 +4257,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-11T16:38:00Z",
+        "last_ok": "2026-11-12T03:55:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Cutter-Backyard-Bug-Control-32-oz-Ready-to-Spray-Hose-End-Insect-Repellent-Concentrate-HG-61067/800166971"
@@ -4247,7 +4279,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "runnings",
-        "last_ok": "2026-11-11T16:38:00Z",
+        "last_ok": "2026-11-12T03:55:00Z",
         "name": "Runnings",
         "status": "ok",
         "url": "https://www.runnings.com/cutter-backyard-bug-control-32rts-1770449.html"
@@ -4279,7 +4311,7 @@
     "good_sale": 3.5,
     "lifecycle_note": null,
     "n_events": 4,
-    "reason": "Best now $11.99 at runnings. That is 41.2% above the historical average of $8.49 (12-month avg, camel:amazon); this is not any kind of discount. GOOD SALE (p25 of 4 deal events) is $3.50. FLOOR $6.00 on 2026-06-04. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $11.99 at runnings. That is 52.9% above the historical average of $7.84 (12-month avg, camel:amazon); this is not any kind of discount. GOOD SALE (p25 of 4 deal events) is $3.50. FLOOR $6.00 on 2026-06-04. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -4290,8 +4322,8 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-11T16:36:06Z",
-    "typical": 8.49,
+    "ts": "2026-11-12T03:56:20Z",
+    "typical": 7.84,
     "typical_label": "12-month avg, camel:amazon",
     "verdict": "WAIT",
     "window": null,
