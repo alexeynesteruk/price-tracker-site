@@ -6019,6 +6019,54 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-12T04:00:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 24.99,
+      "price_usd": 24.99,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-11-12T17:08:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "method": "llm",
+      "price_native": 28.99,
+      "price_usd": 28.99,
+      "promo": null,
+      "source_url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137",
+      "store": "target",
+      "suspect": false,
+      "ts": "2026-11-12T17:08:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/NEW-sodastream-Diet-Pepsi-Drink-Mix-4pk/20257421889",
+      "method": "llm",
+      "price_native": 23.04,
+      "price_usd": 23.04,
+      "promo": "sale",
+      "source_url": "https://www.walmart.com/ip/NEW-sodastream-Diet-Pepsi-Drink-Mix-4pk/20257421889",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-12T17:08:00Z"
     }
   ],
   "item": {
@@ -6050,11 +6098,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-12T04:00:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0G25QRMBP"
       },
       {
@@ -6063,7 +6111,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-11-12T03:55:00Z",
+        "last_ok": "2026-11-12T17:08:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-diet-pepsi%C2%AE-drink-mix-4pk"
@@ -6074,7 +6122,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "target",
-        "last_ok": "2026-11-12T03:55:00Z",
+        "last_ok": "2026-11-12T17:08:00Z",
         "name": "Target",
         "status": "ok",
         "url": "https://www.target.com/p/sodastream-4pk-diet-pepsi-drink-mix/-/A-94938137"
@@ -6085,7 +6133,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-12T03:55:00Z",
+        "last_ok": "2026-11-12T17:08:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/NEW-sodastream-Diet-Pepsi-Drink-Mix-4pk/20257421889"
@@ -6097,8 +6145,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 24.99,
-      "store": "sodastream"
+      "price_usd": 23.04,
+      "store": "walmart"
     },
     "confidence": "medium",
     "floor": {
@@ -6107,16 +6155,16 @@
     },
     "good_sale": 20.99,
     "lifecycle_note": null,
-    "n_events": 44,
-    "reason": "Best now $24.99 at sodastream. That is 7.6% above the historical average of $23.22 (12-month avg, sodastream); this is not any kind of discount. GOOD SALE (p25 of 44 deal events) is $20.99. FLOOR $12.00 on 2026-11-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
+    "n_events": 45,
+    "reason": "Best now $23.04 at walmart. That is 0.9% below the historical average of $23.24 (12-month avg, sodastream). GOOD SALE (p25 of 45 deal events) is $20.99. FLOOR $12.00 on 2026-11-01. Verdict WAIT (no rule matched), confidence medium. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-12T04:02:03Z",
-    "typical": 23.22,
+    "ts": "2026-11-12T17:09:05Z",
+    "typical": 23.24,
     "typical_label": "12-month avg, sodastream",
     "verdict": "WAIT",
     "window": null,
