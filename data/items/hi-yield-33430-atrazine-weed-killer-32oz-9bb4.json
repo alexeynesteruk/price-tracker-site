@@ -624,6 +624,22 @@
       "store": "ace",
       "suspect": false,
       "ts": "2026-11-12T03:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-11",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B016TQFPQ2?th=1",
+      "method": "dom",
+      "price_native": 16.64,
+      "price_usd": 16.64,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B016TQFPQ2",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-12T04:00:00Z"
     }
   ],
   "item": {
@@ -685,11 +701,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-11T16:38:00Z",
+        "last_ok": "2026-11-12T04:00:00Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B016TQFPQ2"
       },
       {
@@ -708,7 +724,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 16.95,
+      "price_usd": 16.64,
       "store": "amazon"
     },
     "confidence": "low",
@@ -719,7 +735,7 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $16.95 at amazon. That is 1.6% above the historical average of $16.69 (12-month avg, camel:3p-new); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $16.69 on 2026-11-02. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $16.64 at amazon. That is 0.3% below the historical average of $16.69 (12-month avg, camel:3p-new). No deal events on record; GOOD SALE is absent. FLOOR $16.69 on 2026-11-02. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
     "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
@@ -729,7 +745,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-12T03:56:20Z",
+    "ts": "2026-11-12T04:02:03Z",
     "typical": 16.69,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "BUY",

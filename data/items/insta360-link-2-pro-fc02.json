@@ -6002,6 +6002,22 @@
       "store": "insta360",
       "suspect": false,
       "ts": "2026-11-12T03:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-11",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G3T1QKWL?th=1",
+      "method": "llm",
+      "price_native": 249.99,
+      "price_usd": 249.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G3T1QKWL",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-12T04:00:00Z"
     }
   ],
   "item": {
@@ -6054,11 +6070,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-11T16:38:00Z",
+        "last_ok": "2026-11-12T04:00:00Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
       },
       {
@@ -6132,7 +6148,7 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-12T03:56:20Z",
+    "ts": "2026-11-12T04:02:03Z",
     "typical": 233.32,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",

@@ -6163,6 +6163,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-12T03:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-11",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ?th=1",
+      "method": "dom",
+      "price_native": 25.92,
+      "price_usd": 25.92,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-12T04:00:00Z"
     }
   ],
   "item": {
@@ -6194,11 +6210,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 1,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-11T16:38:00Z",
+        "last_ok": "2026-11-12T04:00:00Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
       },
       {
@@ -6270,7 +6286,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-12T03:56:20Z",
+    "ts": "2026-11-12T04:02:03Z",
     "typical": 23.22,
     "typical_label": "12-month avg, sodastream",
     "verdict": "WAIT",
