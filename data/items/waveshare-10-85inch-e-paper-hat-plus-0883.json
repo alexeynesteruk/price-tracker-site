@@ -8751,6 +8751,54 @@
       "store": "rlx",
       "suspect": false,
       "ts": "2026-11-13T02:07:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "method": "llm",
+      "price_native": 84.99,
+      "price_usd": 84.99,
+      "promo": null,
+      "source_url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790",
+      "store": "waveshare",
+      "suspect": false,
+      "ts": "2026-11-13T13:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "method": "llm",
+      "price_native": 149.75,
+      "price_usd": 149.75,
+      "promo": null,
+      "source_url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html",
+      "store": "abra",
+      "suspect": false,
+      "ts": "2026-11-13T13:05:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-12",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "method": "llm",
+      "price_native": 54.89,
+      "price_usd": 54.89,
+      "promo": null,
+      "source_url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html",
+      "store": "spotpear",
+      "suspect": false,
+      "ts": "2026-11-13T13:05:00Z"
     }
   ],
   "item": {
@@ -8803,7 +8851,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "waveshare",
-        "last_ok": "2026-11-13T02:07:00Z",
+        "last_ok": "2026-11-13T13:05:00Z",
         "name": "Waveshare",
         "status": "ok",
         "url": "https://www.waveshare.com/10.85inch-e-paper-hat-plus.htm?sku=29790"
@@ -8814,7 +8862,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "abra",
-        "last_ok": "2026-11-13T02:07:00Z",
+        "last_ok": "2026-11-13T13:05:00Z",
         "name": "Abra Electronics",
         "status": "ok",
         "url": "https://abra-electronics.com/opto-illumination/eink-epaper/5.8-13.3/wave-29790-0-85inch-e-paper-display-e-ink-display-1360-480-black-white-spi-interface-and-driver-hat.html"
@@ -8825,7 +8873,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "spotpear",
-        "last_ok": "2026-11-13T02:07:00Z",
+        "last_ok": "2026-11-13T13:05:00Z",
         "name": "SpotPear",
         "status": "ok",
         "url": "https://spotpear.com/shop/10.85-inch-e-Paper-ink-BW-Screen-display/10.85inch-e-Paper-HAT+.html"
@@ -8857,8 +8905,8 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 82.72,
-      "store": "robotskull"
+      "price_usd": 54.89,
+      "store": "spotpear"
     },
     "confidence": "low",
     "floor": {
@@ -8868,8 +8916,8 @@
     "good_sale": null,
     "lifecycle_note": null,
     "n_events": 0,
-    "reason": "Best now $82.72 at robotskull. That is 1.7% above the historical average of $81.36 (12-month avg, robotskull); this is not any kind of discount. No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
-    "rule": "no rule matched",
+    "reason": "Best now $54.89 at spotpear. That is 0.0% below the historical average of $54.89 (12-month avg, spotpear). No deal events on record; GOOD SALE is absent. FLOOR $80.06 on 2026-10-12. Verdict BUY (within 3% of the all-time FLOOR), confidence low. Item too young for a recurring window.",
+    "rule": "within 3% of the all-time FLOOR",
     "sources": {
       "baseline": "ok",
       "camel": "absent",
@@ -8879,10 +8927,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-13T02:08:45Z",
-    "typical": 81.36,
-    "typical_label": "12-month avg, robotskull",
-    "verdict": "WAIT",
+    "ts": "2026-11-13T13:57:11Z",
+    "typical": 54.89,
+    "typical_label": "12-month avg, spotpear",
+    "verdict": "BUY",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
