@@ -2880,6 +2880,22 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-14T03:57:15Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-14",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 17.35,
+      "price_usd": 17.35,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-14T16:43:00Z"
     }
   ],
   "item": {
@@ -2931,7 +2947,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 4,
+        "fails": 5,
         "key": "amazon",
         "last_ok": "2026-11-12T03:55:00Z",
         "name": "Amazon",
@@ -2944,7 +2960,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-14T03:57:15Z",
+        "last_ok": "2026-11-14T16:43:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -3009,7 +3025,7 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 3,
-    "reason": "Best now $17.35 at walmart. That is 9.5% above the historical average of $15.84 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $17.35 at walmart. That is 9.4% above the historical average of $15.86 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -3020,8 +3036,8 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-14T04:01:45Z",
-    "typical": 15.84,
+    "ts": "2026-11-14T16:44:46Z",
+    "typical": 15.86,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
     "window": null,
