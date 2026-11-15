@@ -1006,7 +1006,7 @@
     },
     "good_sale": 958.0,
     "lifecycle_note": null,
-    "n_events": 11,
+    "n_events": 10,
     "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
     "rule": "no live price in the last 36 hours",
     "sources": {
@@ -1014,7 +1014,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-14T16:44:46Z",
+    "ts": "2026-11-15T03:52:32Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
