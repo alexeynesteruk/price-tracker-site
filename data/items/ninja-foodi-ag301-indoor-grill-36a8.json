@@ -200,9 +200,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-15T16:52:53Z",
-    "typical": 219.99,
-    "typical_label": "12-month avg, amazon",
+    "ts": "2026-11-16T16:59:06Z",
+    "typical": 169.99,
+    "typical_label": "12-month avg, the",
     "verdict": "WAIT",
     "window": null,
     "window_note": "category calendar only (low confidence)"
