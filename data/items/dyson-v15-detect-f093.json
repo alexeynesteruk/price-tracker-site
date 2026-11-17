@@ -353,9 +353,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-16T16:59:06Z",
-    "typical": 699.66,
-    "typical_label": "12-month avg, amazon",
+    "ts": "2026-11-17T02:26:02Z",
+    "typical": 649.99,
+    "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",
     "window": null,
     "window_note": "no recurring window found"
