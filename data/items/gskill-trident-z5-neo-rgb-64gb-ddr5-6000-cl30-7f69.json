@@ -1802,6 +1802,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-17T02:25:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-17",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "method": "llm",
+      "price_native": 1299.99,
+      "price_usd": 1299.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-17T17:05:00Z"
     }
   ],
   "item": {
@@ -1835,7 +1851,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-17T02:25:00Z",
+        "last_ok": "2026-11-17T17:05:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
@@ -1858,15 +1874,15 @@
     "good_sale": 182.27,
     "lifecycle_note": null,
     "n_events": 5,
-    "reason": "Best now $1299.99 at amazon. That is 10.7% above the historical average of $1174.55 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 5 deal events) is $182.27. FLOOR $199.00 on 2023-04-13. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 10, expect $182.27-$1149.99.",
+    "reason": "Best now $1299.99 at amazon. That is 10.6% above the historical average of $1175.76 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 5 deal events) is $182.27. FLOOR $199.00 on 2023-04-13. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 10, expect $182.27-$1149.99.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-17T02:26:02Z",
-    "typical": 1174.55,
+    "ts": "2026-11-17T17:03:35Z",
+    "typical": 1175.76,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": {
