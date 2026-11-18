@@ -6899,6 +6899,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-18T03:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "method": "dom",
+      "price_native": 21.99,
+      "price_usd": 21.99,
+      "promo": null,
+      "source_url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk",
+      "store": "sodastream",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0G4SBF7BQ?th=1",
+      "method": "llm",
+      "price_native": 25.92,
+      "price_usd": 25.92,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0G4SBF7BQ",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
     }
   ],
   "item": {
@@ -6932,7 +6964,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0G4SBF7BQ"
@@ -6943,7 +6975,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "sodastream",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "SodaStream",
         "status": "ok",
         "url": "https://sodastream.com/products/sodastream%C2%AE-zero-sugar-pepsi%C2%AE-drink-mix-4pk"
@@ -6999,15 +7031,15 @@
     "good_sale": 12.0,
     "lifecycle_note": null,
     "n_events": 36,
-    "reason": "Best now $21.99 at sodastream. That is 4.8% below the historical average of $23.11 (12-month avg, sodastream). GOOD SALE (p25 of 36 deal events) is $12.00. FLOOR $12.00 on 2026-11-01. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "reason": "Best now $21.99 at sodastream. That is 4.8% below the historical average of $23.10 (12-month avg, sodastream). GOOD SALE (p25 of 36 deal events) is $12.00. FLOOR $12.00 on 2026-11-01. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-18T03:53:38Z",
-    "typical": 23.11,
+    "ts": "2026-11-18T17:22:50Z",
+    "typical": 23.1,
     "typical_label": "12-month avg, sodastream",
     "verdict": "WAIT",
     "window": null,

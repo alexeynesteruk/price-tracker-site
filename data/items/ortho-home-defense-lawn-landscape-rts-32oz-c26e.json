@@ -6673,6 +6673,38 @@
       "store": "jjwd",
       "suspect": false,
       "ts": "2026-11-18T03:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://scottsmiraclegro.com/en-us/brands/ortho/products/insect-control/0173801.html",
+      "method": "dom",
+      "price_native": 19.49,
+      "price_usd": 19.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B01JIRKIRK?th=1",
+      "method": "llm",
+      "price_native": 19.49,
+      "price_usd": 19.49,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B01JIRKIRK",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
     }
   ],
   "item": {
@@ -6725,7 +6757,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B01JIRKIRK"
@@ -6747,7 +6779,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "ortho",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "Ortho",
         "status": "ok",
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
@@ -6812,7 +6844,7 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-18T03:53:38Z",
+    "ts": "2026-11-18T17:22:50Z",
     "typical": 9.99,
     "typical_label": "12-month avg, jjwd",
     "verdict": "WAIT",

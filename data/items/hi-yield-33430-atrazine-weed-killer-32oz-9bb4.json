@@ -1040,6 +1040,38 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-18T03:52:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "method": "llm",
+      "price_native": 21.14,
+      "price_usd": 21.14,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B016TQFPQ2?th=1",
+      "method": "llm",
+      "price_native": 16.99,
+      "price_usd": 16.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B016TQFPQ2",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-18T17:22:00Z"
     }
   ],
   "item": {
@@ -1092,7 +1124,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968"
@@ -1103,7 +1135,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-18T03:52:00Z",
+        "last_ok": "2026-11-18T17:22:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B016TQFPQ2"
@@ -1112,7 +1144,7 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 7,
+        "fails": 8,
         "key": "ace",
         "last_ok": "2026-11-14T03:55:19Z",
         "name": "Ace Hardware",
@@ -1124,7 +1156,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 19.0,
+      "price_usd": 16.99,
       "store": "amazon"
     },
     "confidence": "low",
@@ -1135,7 +1167,7 @@
     "good_sale": 21.23,
     "lifecycle_note": null,
     "n_events": 1,
-    "reason": "Best now $19.00 at amazon. That is 13.8% above the historical average of $16.69 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $21.23. FLOOR $16.49 on 2026-11-13. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $16.99 at amazon. That is 1.8% above the historical average of $16.69 (12-month avg, camel:3p-new); this is not any kind of discount. GOOD SALE (p25 of 1 deal events) is $21.23. FLOOR $16.49 on 2026-11-13. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
     "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
@@ -1145,7 +1177,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-18T03:53:38Z",
+    "ts": "2026-11-18T17:22:50Z",
     "typical": 16.69,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "BUY",
