@@ -6945,7 +6945,7 @@
     },
     "issue": 11,
     "lifecycle": {
-      "notes": "Pin Link 2 Pro ONLY — model CINSABPA / ASIN B0G3T1QKWL (alt listing B0GH86DZL2 same SKU), 1/1.3\" sensor + 2-axis gimbal, Graphite Black Standard Bundle. NOT Link 2 (CINSABNB, 1/2\"), NOT Link 2C, NOT Link 2C Pro. Sibling SKUs on same official PDP; no successor announced as of 2026-09-22. UPC 842126108624 from Amazon/Aztek listings.",
+      "notes": "Pin Link 2 Pro ONLY — model CINSABPA / ASIN B0G3T1QKWL (alt listing B0GH86DZL2 same SKU), 1/1.3\" sensor + 2-axis gimbal, Graphite Black Standard Bundle. NOT Link 2 (CINSABNB, 1/2\"), NOT Link 2C, NOT Link 2C Pro. Sibling SKUs on same official PDP; no successor announced as of 2026-09-22. UPC 842126108624 from Amazon/Aztek listings.; 2026-11-19: Alexey asked to stop tracking; keep state=paused, no active stores, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -6976,10 +6976,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -6990,7 +6990,7 @@
         "url": "https://www.amazon.com/dp/B0G3T1QKWL"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
@@ -7001,7 +7001,7 @@
         "url": "https://www.bestbuy.com/product/insta360-link2-pro-black/J39VLTZFKV"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7012,7 +7012,7 @@
         "url": "https://www.bhphotovideo.com/c/product/1942489-REG/insta360_cinsabpa_link2pro01_link_2_pro_black.html"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7023,7 +7023,7 @@
         "url": "https://www.newegg.com/p/1EF-00J0-00022"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T16:47:35Z",
+  "generated": "2026-11-19T17:21:51Z",
   "items": [
     {
       "best_now": {
@@ -14,36 +14,6 @@
       "owner": "alexeynesteruk",
       "state": "active",
       "title": "Hi-Yield (33430) Atrazine Weed Killer Concentrate, 32 oz",
-      "verdict": "BUY"
-    },
-    {
-      "best_now": {
-        "price_usd": 199.99,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "insta360-link-2-pro-fc02",
-      "last_checked": "2026-11-19T16:45:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Insta360 Link 2 Pro",
-      "verdict": "BUY"
-    },
-    {
-      "best_now": {
-        "price_usd": 9.11,
-        "store": "amazon"
-      },
-      "bought": null,
-      "category": "retail",
-      "confidence": "low",
-      "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
-      "last_checked": "2026-11-19T16:45:00Z",
-      "owner": "alexeynesteruk",
-      "state": "active",
-      "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
       "verdict": "BUY"
     },
     {
@@ -219,6 +189,36 @@
       "state": "active",
       "title": "Waveshare 10.85inch e-Paper HAT+",
       "verdict": "WAIT"
+    },
+    {
+      "best_now": {
+        "price_usd": 199.99,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "insta360-link-2-pro-fc02",
+      "last_checked": "2026-11-19T16:45:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Insta360 Link 2 Pro",
+      "verdict": "BUY"
+    },
+    {
+      "best_now": {
+        "price_usd": 9.11,
+        "store": "amazon"
+      },
+      "bought": null,
+      "category": "retail",
+      "confidence": "low",
+      "id": "ortho-home-defense-lawn-landscape-rts-32oz-c26e",
+      "last_checked": "2026-11-19T16:45:00Z",
+      "owner": "alexeynesteruk",
+      "state": "paused",
+      "title": "Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray, 32 fl oz",
+      "verdict": "BUY"
     },
     {
       "best_now": null,

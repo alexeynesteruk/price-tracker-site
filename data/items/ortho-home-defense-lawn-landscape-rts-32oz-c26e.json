@@ -6800,7 +6800,7 @@
     },
     "issue": 14,
     "lifecycle": {
-      "notes": "Pin Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray 32 fl oz ONLY. Model/MPN 0173810 / ASIN B01JIRKIRK / UPC 071549017385 / HD Internet #330186698. Brand site catalog SKU 0173801 is the same RTS 32 oz product (image asset 017381005, same coverage 5,300 sq ft). Not indoor Home Defense / Comfort Wand / Indoor & Perimeter. Not concentrate-only SKUs. Not BugClear. Not granules. Not multipacks (Walmart 6-count). Ship-to St Augustine FL 32095. Dropped Walmart (6-pack and concentrate listings only), Target (concentrate case), Ace (concentrate/1.1 gal only), Olympic Bug B Gon UPC 071549017590 (different SKU despite some stores mislabeling model 0173810).",
+      "notes": "Pin Ortho Home Defense Insect Killer for Lawn & Landscape Ready-To-Spray 32 fl oz ONLY. Model/MPN 0173810 / ASIN B01JIRKIRK / UPC 071549017385 / HD Internet #330186698. Brand site catalog SKU 0173801 is the same RTS 32 oz product (image asset 017381005, same coverage 5,300 sq ft). Not indoor Home Defense / Comfort Wand / Indoor & Perimeter. Not concentrate-only SKUs. Not BugClear. Not granules. Not multipacks (Walmart 6-count). Ship-to St Augustine FL 32095. Dropped Walmart (6-pack and concentrate listings only), Target (concentrate case), Ace (concentrate/1.1 gal only), Olympic Bug B Gon UPC 071549017590 (different SKU despite some stores mislabeling model 0173810).; 2026-11-19: Alexey asked to stop tracking; keep state=paused, no active stores, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -6829,10 +6829,10 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -6843,7 +6843,7 @@
         "url": "https://www.amazon.com/dp/B01JIRKIRK"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
@@ -6854,7 +6854,7 @@
         "url": "https://www.homedepot.com/p/Ortho-Home-Defense-Insect-Killer-for-Lawn-and-Landscape-Ready-To-Spray-32-fl-oz-5-300-sq-ft-Kills-Ants-Mosquitos-and-More-0173810/330186698"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -6865,7 +6865,7 @@
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -6876,7 +6876,7 @@
         "url": "https://www.countrymax.com/ortho-home-defense-insect-killer-lawn-landscape-ready-to-spray-32oz/"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -6887,7 +6887,7 @@
         "url": "https://jjwdhardware.com/p/home-defense-insect-killer-effective-outdoor-pest-control-071549017385"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
