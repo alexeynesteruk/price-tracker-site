@@ -6705,6 +6705,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-18T17:22:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-18",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://scottsmiraclegro.com/en-us/brands/ortho/products/insect-control/0173801.html",
+      "method": "llm",
+      "price_native": 19.49,
+      "price_usd": 19.49,
+      "promo": null,
+      "source_url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html",
+      "store": "ortho",
+      "suspect": false,
+      "ts": "2026-11-19T03:40:00Z"
     }
   ],
   "item": {
@@ -6755,11 +6771,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-18T17:22:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B01JIRKIRK"
       },
       {
@@ -6779,7 +6795,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "ortho",
-        "last_ok": "2026-11-18T17:22:00Z",
+        "last_ok": "2026-11-19T03:40:00Z",
         "name": "Ortho",
         "status": "ok",
         "url": "https://ortho.com/en-us/shop/insects/ortho-home-defense-insect-killer-for-lawn-landscape-ready-to-spray/0173801.html"
@@ -6844,7 +6860,7 @@
       "reddit": "absent",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-18T17:22:50Z",
+    "ts": "2026-11-19T03:40:39Z",
     "typical": 9.99,
     "typical_label": "12-month avg, jjwd",
     "verdict": "WAIT",
