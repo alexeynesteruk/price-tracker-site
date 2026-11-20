@@ -7037,10 +7037,7 @@
     "title": "Insta360 Link 2 Pro"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 199.99,
-      "store": "amazon"
-    },
+    "best_now": null,
     "confidence": "low",
     "floor": {
       "date": "2026-06-23",
@@ -7049,8 +7046,8 @@
     "good_sale": 209.99,
     "lifecycle_note": null,
     "n_events": 51,
-    "reason": "Best now $199.99 at amazon. That is 17.2% below the historical average of $241.64 (12-month avg, bh). GOOD SALE (p25 of 51 deal events) is $209.99. FLOOR $199.99 on 2026-06-23. Verdict BUY (at or below GOOD SALE), confidence low. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "camel": "ok",
@@ -7060,10 +7057,10 @@
       "reddit": "failed",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-19T16:47:03Z",
+    "ts": "2026-11-20T03:31:08Z",
     "typical": 241.64,
     "typical_label": "12-month avg, bh",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }
