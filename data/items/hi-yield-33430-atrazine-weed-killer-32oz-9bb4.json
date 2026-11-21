@@ -1216,6 +1216,38 @@
       "store": "ace",
       "suspect": false,
       "ts": "2026-11-20T16:55:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "method": "dom",
+      "price_native": 21.14,
+      "price_usd": 21.14,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-21T02:56:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-20",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B016TQFPQ2/ref=olp-opf-redir?aod=1&ie=UTF8&condition=new&th=1",
+      "method": "llm",
+      "price_native": 17.77,
+      "price_usd": 17.77,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B016TQFPQ2",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-21T02:56:00Z"
     }
   ],
   "item": {
@@ -1268,7 +1300,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-20T16:55:00Z",
+        "last_ok": "2026-11-21T02:56:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Hi-Yield-33430-Atrazine-Weed-Killer-32-oz/47648968"
@@ -1279,7 +1311,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-20T16:55:00Z",
+        "last_ok": "2026-11-21T02:56:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B016TQFPQ2"
@@ -1288,11 +1320,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "ace",
         "last_ok": "2026-11-20T16:55:00Z",
         "name": "Ace Hardware",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.acehardware.com/departments/lawn-and-garden/lawn-care/weed-and-vegetation-killers/7298144"
       }
     ],
@@ -1321,7 +1353,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-20T16:56:45Z",
+    "ts": "2026-11-21T02:57:58Z",
     "typical": 16.69,
     "typical_label": "12-month avg, camel:3p-new",
     "verdict": "BUY",
