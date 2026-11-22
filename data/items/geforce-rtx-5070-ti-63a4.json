@@ -1809,6 +1809,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-21T16:47:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-22",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "method": "llm",
+      "price_native": 1474.99,
+      "price_usd": 1474.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0DXL7GSYC",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-22T17:45:00Z"
     }
   ],
   "item": {
@@ -1842,7 +1858,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-21T16:47:00Z",
+        "last_ok": "2026-11-22T17:45:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
@@ -1887,7 +1903,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1449.99,
+      "price_usd": 1474.99,
       "store": "amazon"
     },
     "confidence": "high",
@@ -1898,15 +1914,15 @@
     "good_sale": 828.0,
     "lifecycle_note": null,
     "n_events": 12,
-    "reason": "Best now $1449.99 at amazon. That is 11.5% above the historical average of $1300.37 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
+    "reason": "Best now $1474.99 at amazon. That is 13.3% above the historical average of $1302.23 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 12 deal events) is $828.00. FLOOR $749.99 on 2025-08-18. Verdict WAIT (no rule matched), confidence high. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-21T16:49:57Z",
-    "typical": 1300.37,
+    "ts": "2026-11-22T17:46:59Z",
+    "typical": 1302.23,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": null,

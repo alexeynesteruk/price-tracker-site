@@ -1441,11 +1441,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "chewy",
         "last_ok": "2026-11-21T16:47:00Z",
         "name": "Chewy",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870"
       }
     ],
@@ -1475,7 +1475,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-21T16:49:57Z",
+    "ts": "2026-11-22T17:46:59Z",
     "typical": 15.7,
     "typical_label": "12-month avg, chewy",
     "verdict": "BUY",
