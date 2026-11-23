@@ -7408,7 +7408,7 @@
     },
     "issue": 0,
     "lifecycle": {
-      "notes": "imported from vault note samsung-viewfinity-s80ud-37.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/samsung/target/adorama; Newegg 0 results for LS37D800UANXZA; B&H not confirmed.",
+      "notes": "imported from vault note samsung-viewfinity-s80ud-37.md (status: watching)\n2026-09-18 Job E: stores amazon/bestbuy/samsung/target/adorama; Newegg 0 results for LS37D800UANXZA; B&H not confirmed.; 2026-11-23: Alexey asked to stop tracking; keep state=paused, no active stores, do not resume.",
       "successor_announced": null,
       "successor_shipped": null
     },
@@ -7418,10 +7418,10 @@
     "seed_sources": {
       "vault": "ok"
     },
-    "state": "active",
+    "state": "paused",
     "stores": [
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7432,7 +7432,7 @@
         "url": "https://www.amazon.com/dp/B0F1ZBTZCS"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7443,7 +7443,7 @@
         "url": "https://www.bestbuy.com/site/samsung-37-viewfinity-s8-s80ud-led-4k-uhd-high-resolution-monitor-with-hdr10-usb-c-and-ergonomic-stand-black/6615666.p?skuId=6615666"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7454,7 +7454,7 @@
         "url": "https://www.samsung.com/us/monitors/high-resolution/37-inch-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-with-usb-c-and-ergonomic-stand-sku-ls37d800uanxza/"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 0,
@@ -7465,7 +7465,7 @@
         "url": "https://www.target.com/p/samsung-37-viewfinity-s8-s80ud-4k-uhd-hdr10-high-resolution-monitor-ls37d800uanxza/-/A-1006587806"
       },
       {
-        "active": true,
+        "active": false,
         "condition": "new",
         "currency": "USD",
         "fails": 10,
