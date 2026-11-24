@@ -7481,10 +7481,7 @@
     "vault_note": "samsung-viewfinity-s80ud-37"
   },
   "verdict": {
-    "best_now": {
-      "price_usd": 329.99,
-      "store": "samsung"
-    },
+    "best_now": null,
     "confidence": "medium",
     "floor": {
       "date": "2026-09-01",
@@ -7493,17 +7490,17 @@
     "good_sale": 349.99,
     "lifecycle_note": null,
     "n_events": 79,
-    "reason": "Best now $329.99 at samsung. That is 27.6% below the historical average of $455.76 (12-month avg, amazon). GOOD SALE (p25 of 79 deal events) is $349.99. FLOOR $279.99 on 2026-09-01. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
-    "rule": "at or below GOOD SALE",
+    "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
+    "rule": "no live price in the last 36 hours",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-23T16:24:39Z",
+    "ts": "2026-11-24T02:42:15Z",
     "typical": 455.76,
     "typical_label": "12-month avg, amazon",
-    "verdict": "BUY",
+    "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"
   }

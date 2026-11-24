@@ -234,9 +234,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-23T16:24:39Z",
-    "typical": 79.99,
-    "typical_label": "12-month avg, camel:amazon",
+    "ts": "2026-11-24T02:42:15Z",
+    "typical": 99.99,
+    "typical_label": "12-month avg, bhphoto",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"

@@ -3328,6 +3328,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-23T16:24:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-23",
+      "fx_rate": 1,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O?th=1",
+      "method": "llm",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-24T02:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-23",
+      "fx_rate": 1,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 15.14,
+      "price_usd": 15.14,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-24T02:28:00Z"
     }
   ],
   "item": {
@@ -3381,7 +3413,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-23T16:24:00Z",
+        "last_ok": "2026-11-24T02:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -3392,7 +3424,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-23T16:24:00Z",
+        "last_ok": "2026-11-24T02:28:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -3468,7 +3500,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-23T16:24:39Z",
+    "ts": "2026-11-24T02:42:15Z",
     "typical": 15.87,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

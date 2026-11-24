@@ -2319,11 +2319,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-23T16:24:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
       },
       {
@@ -2385,7 +2385,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-23T16:24:39Z",
+    "ts": "2026-11-24T02:42:15Z",
     "typical": 119.03,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
