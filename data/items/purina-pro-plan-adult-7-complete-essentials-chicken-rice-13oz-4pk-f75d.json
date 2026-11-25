@@ -1471,6 +1471,22 @@
       "store": "chewy",
       "suspect": false,
       "ts": "2026-11-25T02:47:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-25",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "method": "dom",
+      "price_native": 15.7,
+      "price_usd": 15.7,
+      "promo": "coupon",
+      "source_url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870",
+      "store": "chewy",
+      "suspect": false,
+      "ts": "2026-11-25T16:32:00Z"
     }
   ],
   "item": {
@@ -1523,7 +1539,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "chewy",
-        "last_ok": "2026-11-25T02:47:00Z",
+        "last_ok": "2026-11-25T16:32:00Z",
         "name": "Chewy",
         "status": "ok",
         "url": "https://www.chewy.com/purina-pro-plan-adult-7-complete/dp/1783870"
@@ -1543,8 +1559,8 @@
     },
     "good_sale": 15.7,
     "lifecycle_note": null,
-    "n_events": 4,
-    "reason": "Best now $15.70 at chewy. That is 0.0% below the historical average of $15.70 (12-month avg, chewy). GOOD SALE (p25 of 4 deal events) is $15.70. FLOOR $15.70 on 2026-10-10. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
+    "n_events": 5,
+    "reason": "Best now $15.70 at chewy. That is 0.0% below the historical average of $15.70 (12-month avg, chewy). GOOD SALE (p25 of 5 deal events) is $15.70. FLOOR $15.70 on 2026-10-10. Verdict BUY (at or below GOOD SALE), confidence medium. Item too young for a recurring window.",
     "rule": "at or below GOOD SALE",
     "sources": {
       "baseline": "ok",
@@ -1555,7 +1571,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-25T02:50:25Z",
+    "ts": "2026-11-25T16:33:36Z",
     "typical": 15.7,
     "typical_label": "12-month avg, chewy",
     "verdict": "BUY",

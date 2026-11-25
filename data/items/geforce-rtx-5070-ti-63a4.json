@@ -1920,11 +1920,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 0,
+        "fails": 1,
         "key": "amazon",
         "last_ok": "2026-11-25T02:47:00Z",
         "name": "Amazon",
-        "status": "ok",
+        "status": "blocked",
         "url": "https://www.amazon.com/dp/B0DXL7GSYC"
       },
       {
@@ -1985,7 +1985,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-25T02:50:25Z",
+    "ts": "2026-11-25T16:33:36Z",
     "typical": 1308.97,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
