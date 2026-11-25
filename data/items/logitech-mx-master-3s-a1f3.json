@@ -2269,6 +2269,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-23T16:24:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-24",
+      "fx_rate": null,
+      "in_stock": false,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B09HM94VDS?th=1",
+      "method": "llm",
+      "price_native": null,
+      "price_usd": null,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B09HM94VDS",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-25T02:47:00Z"
     }
   ],
   "item": {
@@ -2319,11 +2335,11 @@
         "active": true,
         "condition": "new",
         "currency": "USD",
-        "fails": 2,
+        "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-23T16:24:00Z",
+        "last_ok": "2026-11-25T02:47:00Z",
         "name": "Amazon",
-        "status": "blocked",
+        "status": "ok",
         "url": "https://www.amazon.com/dp/B09HM94VDS"
       },
       {
@@ -2385,7 +2401,7 @@
       "slickdeals": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-24T17:10:00Z",
+    "ts": "2026-11-25T02:50:25Z",
     "typical": 119.03,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
