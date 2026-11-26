@@ -1,0 +1,302 @@
+[
+  {
+    "id": "example-blocked-other-store",
+    "title": "Example blocked Amazon, fresh other store",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "BUY",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 10, "store": "amazon" },
+    "stores": [
+      { "key": "bestbuy", "name": "Best Buy", "active": true, "status": "ok", "url": "https://example.test/bestbuy" },
+      { "key": "amazon", "name": "Amazon", "active": true, "status": "blocked", "fails": 2, "last_ok": "2026-09-17T15:00:00Z", "url": "https://example.test/amazon" }
+    ],
+    "offers": {
+      "current": { "role": "current", "store": "bestbuy", "price_usd": 80, "ts": "2026-09-17T17:00:00Z", "age_hours": 0 },
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "blocked",
+        "last_success": { "price_usd": 10, "store": "amazon", "ts": "2026-09-17T15:00:00Z", "age_hours": 2, "fresh": true },
+        "sentence": "Amazon last success $10.00 on 2026-09-17 (2h old) is historical context, not a current offer (blocked)."
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "BUY",
+      "badgeClass": "badge BUY",
+      "currentPrice": "$80.00",
+      "currentStore": "Best Buy",
+      "amazonRole": "historical",
+      "amazonPrice": "$10.00",
+      "status": "Blocked, recoverable",
+      "ageText": "0h old",
+      "amazonAge": "2h old",
+      "anchorStore": "bestbuy",
+      "anchorPrice": 80
+    }
+  },
+  {
+    "id": "example-paused-no-current",
+    "title": "Example paused Amazon, no other offer",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "BUY",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 12.5, "store": "amazon" },
+    "stores": [
+      { "key": "amazon", "name": "Amazon", "active": true, "status": "paused", "fails": 10, "last_ok": "2026-09-17T12:00:00Z", "url": "https://example.test/amazon" }
+    ],
+    "offers": {
+      "current": null,
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "paused",
+        "last_success": { "price_usd": 12.5, "store": "amazon", "ts": "2026-09-17T12:00:00Z", "age_hours": 5, "fresh": true },
+        "sentence": "Amazon last success $12.50 on 2026-09-17 (5h old) is historical context, not a current offer (paused)."
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "BUY not current",
+      "badgeClass": "badge stored",
+      "currentPrice": null,
+      "amazonRole": "historical",
+      "amazonPrice": "$12.50",
+      "status": "Paused, recoverable",
+      "amazonAge": "5h old",
+      "anchorStore": null
+    }
+  },
+  {
+    "id": "example-stale-status-other-store",
+    "title": "Example stale Amazon status, fresh other store",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "WAIT",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 9, "store": "amazon" },
+    "stores": [
+      { "key": "walmart", "name": "Walmart", "active": true, "status": "ok", "url": "https://example.test/walmart" },
+      { "key": "amazon", "name": "Amazon", "active": true, "status": "stale", "fails": 0, "last_ok": "2026-09-10T17:00:00Z", "url": "https://example.test/amazon" }
+    ],
+    "offers": {
+      "current": { "role": "current", "store": "walmart", "price_usd": 24, "ts": "2026-09-17T16:00:00Z", "age_hours": 1 },
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "stale",
+        "last_success": { "price_usd": 9, "store": "amazon", "ts": "2026-09-10T17:00:00Z", "age_hours": 168, "fresh": false },
+        "sentence": "Amazon last success $9.00 on 2026-09-10 (168h old) is historical context, not a current offer (stale)."
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "WAIT",
+      "badgeClass": "badge WAIT",
+      "currentPrice": "$24.00",
+      "currentStore": "Walmart",
+      "amazonRole": "historical",
+      "amazonPrice": "$9.00",
+      "status": "Stale, recoverable",
+      "amazonAge": "7d old",
+      "anchorStore": "walmart"
+    }
+  },
+  {
+    "id": "example-aged-price-other-store",
+    "title": "Example Amazon price older than 36 hours",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "WAIT",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 10, "store": "amazon" },
+    "offers": {
+      "current": { "role": "current", "store": "bestbuy", "price_usd": 80, "ts": "2026-09-17T17:00:00Z", "age_hours": 0 },
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "age",
+        "last_success": { "price_usd": 10, "store": "amazon", "ts": "2026-09-16T01:00:00Z", "age_hours": 40, "fresh": false },
+        "sentence": "Amazon last success $10.00 on 2026-09-16 (40h old) is historical context, not a current offer (age)."
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "WAIT",
+      "currentPrice": "$80.00",
+      "amazonRole": "historical",
+      "amazonPrice": "$10.00",
+      "status": "Older than 36 hours",
+      "recoverable": false,
+      "amazonAge": "40h old",
+      "anchorStore": "bestbuy"
+    }
+  },
+  {
+    "id": "example-amazon-is-current",
+    "title": "Example fresh Amazon current offer",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "BUY",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 68, "store": "amazon" },
+    "offers": {
+      "current": { "role": "current", "store": "amazon", "price_usd": 68, "ts": "2026-09-17T16:00:00Z", "age_hours": 1 },
+      "amazon": {
+        "role": "current",
+        "eligible": true,
+        "excluded_reason": null,
+        "last_success": { "price_usd": 68, "store": "amazon", "ts": "2026-09-17T16:00:00Z", "age_hours": 1, "fresh": true },
+        "sentence": null
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "BUY",
+      "badgeClass": "badge BUY",
+      "currentPrice": "$68.00",
+      "amazonRole": "current",
+      "amazonPrice": null,
+      "amazonSays": "Amazon is the current offer, 1h old.",
+      "anchorStore": "amazon",
+      "anchorPrice": 68
+    }
+  },
+  {
+    "id": "example-oos-last-success",
+    "title": "Example Amazon out of stock",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "WAIT",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": null,
+    "offers": {
+      "current": null,
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "out_of_stock",
+        "last_success": { "price_usd": 21.14, "store": "amazon", "ts": "2026-09-17T07:00:00Z", "age_hours": 10, "fresh": true },
+        "sentence": "Amazon last success $21.14 on 2026-09-17 (10h old) is historical context, not a current offer (out_of_stock)."
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "WAIT",
+      "currentPrice": null,
+      "amazonRole": "historical",
+      "amazonPrice": "$21.14",
+      "status": "Out of stock",
+      "recoverable": false,
+      "amazonAge": "10h old",
+      "anchorStore": null
+    }
+  },
+  {
+    "id": "example-unknown-age",
+    "title": "Example Amazon age unknown",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "WAIT",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 9.99, "store": "amazon" },
+    "offers": {
+      "current": { "role": "current", "store": "bestbuy", "price_usd": 30, "ts": null, "age_hours": null },
+      "amazon": {
+        "role": "historical",
+        "eligible": false,
+        "excluded_reason": "blocked",
+        "last_success": { "price_usd": 9.99, "store": "amazon", "ts": null, "age_hours": null, "fresh": false },
+        "sentence": null
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "WAIT",
+      "currentPrice": "$30.00",
+      "ageText": "age unknown",
+      "amazonRole": "historical",
+      "amazonPrice": "$9.99",
+      "status": "Blocked, recoverable",
+      "amazonAge": "age unknown",
+      "dateText": "date unknown",
+      "anchorStore": "bestbuy"
+    }
+  },
+  {
+    "id": "example-no-amazon-price",
+    "title": "Example missing Amazon observation",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "WAIT",
+    "last_checked": "2026-09-17T17:00:00Z",
+    "best_now": { "price_usd": 18, "store": "walmart" },
+    "offers": {
+      "current": { "role": "current", "store": "walmart", "price_usd": 18, "ts": "2026-09-17T17:00:00Z", "age_hours": 3 },
+      "amazon": {
+        "role": "none",
+        "eligible": false,
+        "excluded_reason": "no_price",
+        "last_success": null,
+        "sentence": null
+      }
+    },
+    "expect": {
+      "mode": "offers",
+      "badge": "WAIT",
+      "currentPrice": "$18.00",
+      "amazonRole": "none",
+      "amazonPrice": null,
+      "status": "No price observed",
+      "amazonSays": "No successful Amazon price.",
+      "anchorStore": "walmart"
+    }
+  },
+  {
+    "id": "example-legacy-json",
+    "title": "Example old JSON without an offers block",
+    "example": true,
+    "state": "active",
+    "owner": "example",
+    "category": "example",
+    "confidence": "low",
+    "verdict": "BUY",
+    "last_checked": "2026-11-06T16:32:00Z",
+    "best_now": { "price_usd": 16.69, "store": "amazon" },
+    "expect": {
+      "mode": "legacy",
+      "badge": "BUY",
+      "badgeClass": "badge BUY",
+      "legacyPrice": "$16.69",
+      "legacyStore": "amazon, checked 2026-11-06",
+      "anchorStore": "amazon",
+      "anchorPrice": 16.69
+    }
+  }
+]

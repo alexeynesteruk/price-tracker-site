@@ -20,3 +20,20 @@ table { width:100%; border-collapse:collapse; margin:8px 0; } td, th { padding:6
 .anchors { display:grid; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr)); gap:8px; margin:8px 0; }
 .anchor { background:var(--card); border:1px solid var(--line); border-radius:6px; padding:8px; }
 .anchor b { display:block; font-size:12px; color:var(--muted); }
+.offer-split { margin:8px 0 12px; }
+.offer-grid { display:grid; grid-template-columns:1fr; gap:8px; }
+@media (min-width: 720px) {
+  .offer-split.detail .offer-grid { grid-template-columns:1fr 1fr; }
+}
+.offer { background:var(--card); border:1px solid var(--line); border-radius:8px; padding:10px; min-width:0; overflow-wrap:anywhere; }
+.card .offer { background:var(--bg); }
+.offer .kicker, .offer .price, .offer .context-price, .offer .muted { display:block; }
+.offer .kicker { font-size:12px; font-weight:600; color:var(--muted); }
+.offer .context-price { font-size:18px; font-weight:700; }
+.offer.is-historical { border-style:dashed; }
+.offer .not-offer, .offer .sentence { display:block; margin-top:4px; }
+.status-chip { display:inline-block; margin-top:4px; padding:2px 8px; border-radius:999px; border:1px solid var(--line); font-size:12px; }
+.status-chip.recoverable { border-color:var(--watch); }
+.badge.stored { background:transparent; color:var(--fg); border:1px solid var(--line); }
+.table-wrap { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+.example-banner { background:#fff4d6; color:#111; border:1px solid #e6c200; padding:10px 12px; border-radius:8px; font-weight:600; }
