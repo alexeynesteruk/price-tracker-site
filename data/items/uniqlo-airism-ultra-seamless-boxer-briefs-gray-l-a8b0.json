@@ -1,0 +1,106 @@
+{
+  "history": [
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-26",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005",
+      "method": "dom",
+      "price_native": 14.9,
+      "price_usd": 14.9,
+      "promo": null,
+      "source_url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005",
+      "store": "uniqlo",
+      "suspect": false,
+      "ts": "2026-11-26T17:37:41Z"
+    }
+  ],
+  "item": {
+    "bought": null,
+    "category": "retail",
+    "created": "2026-11-26T17:37:41Z",
+    "id": "uniqlo-airism-ultra-seamless-boxer-briefs-gray-l-a8b0",
+    "identifiers": {
+      "asin": null,
+      "model": "E482556-000",
+      "mpn": "E482556-04-005-000",
+      "upc": null
+    },
+    "issue": 21,
+    "lifecycle": {
+      "notes": "Pin exact variant colorDisplayCode=04 (GRAY), sizeDisplayCode=005 (MEN L), product group E482556-000, SKU/MPN E482556-04-005-000 (482556-04-005-000), Uniqlo Product ID 490779. Not Heather Printed, Print, Mesh, or regular (sewn) AIRism Boxer Briefs. 2026-11-26: Alexey reported recently seeing this item for $10 each (now about $14.90). Recorded as target_price 10. Not written as a history row: no on-page or aggregator evidence was found for that $10 (Slickdeals exact search had no match; r/deals search had no posts; Google Shopping/sale search showed the current $14.90 Uniqlo price only). Dropped at discovery: Amazon (UNIQLO 'AIRism Boxer Briefs' marketplace/import listings at $25–$33, not Ultra Seamless E482556 Gray L), Walmart (no listing; search auto-filtered to pickup with zero results), Target (no Uniqlo listing), eBay/Poshmark (used/resale). Google Shopping new-condition hits were Uniqlo only.",
+      "successor_announced": null,
+      "successor_shipped": null
+    },
+    "needs_stores": false,
+    "owner": "alexeynesteruk",
+    "reviews": {
+      "cons": [
+        "Some buyers report they ride up",
+        "Sizing can run small versus other brands",
+        "Easy to confuse with other AIRism boxer styles (sewn, mesh, printed)"
+      ],
+      "pros": [
+        "Smooth seamless AIRism fabric with a barely-there feel",
+        "Comfortable for daily wear; some hikers report no chafing and fast drying",
+        "Relatively low regular price at $14.90"
+      ],
+      "sources": [
+        "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005",
+        "https://www.reddit.com/r/Ultralight/comments/1hcjpqh/review_of_airism_ultra_seamless_boxer_briefs/"
+      ],
+      "summary": "Uniqlo lists 4.3/5 from 39 ratings for AIRism Ultra Seamless Boxer Briefs. Recent customer reviews praise the barely-there comfort and seamless feel; others report ride-up and dissatisfaction with Uniqlo's return/exchange policy. A December 2024 r/Ultralight gear review of the Ultra Seamless style (related Singapore listing E456710, same $14.90 regular price) called them comfortable, quick-drying, and good value; commenters were split on warmth, odor, and ride-up, and noted that Uniqlo sells several different AIRism constructions."
+    },
+    "seed_sources": {
+      "camel": "absent",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "state": "active",
+    "stores": [
+      {
+        "active": true,
+        "condition": "new",
+        "currency": "USD",
+        "fails": 0,
+        "key": "uniqlo",
+        "last_ok": "2026-11-26T17:37:41Z",
+        "name": "Uniqlo",
+        "status": "ok",
+        "url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005"
+      }
+    ],
+    "target_price": 10.0,
+    "title": "Uniqlo AIRism Ultra Seamless Boxer Briefs, 04 Gray, Men L"
+  },
+  "verdict": {
+    "best_now": {
+      "price_usd": 14.9,
+      "store": "uniqlo"
+    },
+    "confidence": "low",
+    "floor": null,
+    "good_sale": null,
+    "lifecycle_note": null,
+    "n_events": 0,
+    "reason": "Best now $14.90 at uniqlo. That is 0.0% below the historical average of $14.90 (12-month avg, uniqlo). No deal events on record; GOOD SALE is absent. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "rule": "no rule matched",
+    "sources": {
+      "baseline": "ok",
+      "camel": "absent",
+      "good_sale": "absent",
+      "pcpp": "absent",
+      "reddit": "absent",
+      "slickdeals": "absent"
+    },
+    "ts": "2026-11-26T17:38:23Z",
+    "typical": 14.9,
+    "typical_label": "12-month avg, uniqlo",
+    "verdict": "WAIT",
+    "window": null,
+    "window_note": "item too young for a recurring window"
+  }
+}
