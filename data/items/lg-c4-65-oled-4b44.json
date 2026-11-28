@@ -1004,9 +1004,9 @@
       "date": "2026-08-05",
       "price_usd": 1194.0
     },
-    "good_sale": 958.0,
+    "good_sale": 899.0,
     "lifecycle_note": null,
-    "n_events": 9,
+    "n_events": 8,
     "reason": "No store returned a live in-stock price in the last 36 hours, so no verdict beyond WAIT is possible.",
     "rule": "no live price in the last 36 hours",
     "sources": {
@@ -1014,7 +1014,7 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-27T16:47:40Z",
+    "ts": "2026-11-28T03:28:30Z",
     "typical": 1247.9,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",

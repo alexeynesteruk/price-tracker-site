@@ -3568,6 +3568,38 @@
       "store": "walmart",
       "suspect": false,
       "ts": "2026-11-27T16:46:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B00092893O?th=1",
+      "method": "llm",
+      "price_native": 39.98,
+      "price_usd": 39.98,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B00092893O",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-28T03:28:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "method": "llm",
+      "price_native": 16.18,
+      "price_usd": 16.18,
+      "promo": null,
+      "source_url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690",
+      "store": "walmart",
+      "suspect": false,
+      "ts": "2026-11-28T03:28:00Z"
     }
   ],
   "item": {
@@ -3621,7 +3653,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-27T16:46:00Z",
+        "last_ok": "2026-11-28T03:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B00092893O"
@@ -3632,7 +3664,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "walmart",
-        "last_ok": "2026-11-27T16:46:00Z",
+        "last_ok": "2026-11-28T03:28:00Z",
         "name": "Walmart",
         "status": "ok",
         "url": "https://www.walmart.com/ip/Chevron-67740-Techron-Concentrate-Plus-Fuel-System-Cleaner-12-oz/169162690"
@@ -3686,7 +3718,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 15.62,
+      "price_usd": 16.18,
       "store": "walmart"
     },
     "confidence": "low",
@@ -3697,7 +3729,7 @@
     "good_sale": 6.66,
     "lifecycle_note": null,
     "n_events": 3,
-    "reason": "Best now $15.62 at walmart. That is 1.3% below the historical average of $15.83 (12-month avg, walmart). GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
+    "reason": "Best now $16.18 at walmart. That is 2.2% above the historical average of $15.83 (12-month avg, walmart); this is not any kind of discount. GOOD SALE (p25 of 3 deal events) is $6.66. FLOOR $6.66 on 2026-09-18. Verdict WAIT (no rule matched), confidence low. Item too young for a recurring window.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
@@ -3708,7 +3740,7 @@
       "reddit": "failed",
       "slickdeals": "ok"
     },
-    "ts": "2026-11-27T16:47:40Z",
+    "ts": "2026-11-28T03:28:30Z",
     "typical": 15.83,
     "typical_label": "12-month avg, walmart",
     "verdict": "WAIT",

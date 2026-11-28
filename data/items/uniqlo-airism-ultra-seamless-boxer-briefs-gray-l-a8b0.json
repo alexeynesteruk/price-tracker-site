@@ -47,6 +47,22 @@
       "store": "uniqlo",
       "suspect": false,
       "ts": "2026-11-27T16:46:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005",
+      "method": "llm",
+      "price_native": 14.9,
+      "price_usd": 14.9,
+      "promo": null,
+      "source_url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005",
+      "store": "uniqlo",
+      "suspect": false,
+      "ts": "2026-11-28T03:28:00Z"
     }
   ],
   "item": {
@@ -99,7 +115,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "uniqlo",
-        "last_ok": "2026-11-27T16:46:00Z",
+        "last_ok": "2026-11-28T03:28:00Z",
         "name": "Uniqlo",
         "status": "ok",
         "url": "https://www.uniqlo.com/us/en/products/E482556-000/00?colorDisplayCode=04&sizeDisplayCode=005"
@@ -128,7 +144,7 @@
       "reddit": "absent",
       "slickdeals": "absent"
     },
-    "ts": "2026-11-27T16:47:40Z",
+    "ts": "2026-11-28T03:28:30Z",
     "typical": 14.9,
     "typical_label": "12-month avg, uniqlo",
     "verdict": "WAIT",

@@ -943,9 +943,9 @@
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-27T16:47:40Z",
-    "typical": 16.21,
-    "typical_label": "12-month avg, walmart",
+    "ts": "2026-11-28T03:28:30Z",
+    "typical": 15.98,
+    "typical_label": "12-month avg, camel:3p-new",
     "verdict": "WAIT",
     "window": null,
     "window_note": "item too young for a recurring window"

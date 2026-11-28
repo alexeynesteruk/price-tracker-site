@@ -2090,6 +2090,22 @@
       "store": "amazon",
       "suspect": false,
       "ts": "2026-11-27T16:46:00Z"
+    },
+    {
+      "currency": "USD",
+      "fx_date": "2026-11-27",
+      "fx_rate": 1.0,
+      "in_stock": true,
+      "kind": "live",
+      "landed_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "method": "llm",
+      "price_native": 1299.99,
+      "price_usd": 1299.99,
+      "promo": null,
+      "source_url": "https://www.amazon.com/dp/B0BJNTLJ5X",
+      "store": "amazon",
+      "suspect": false,
+      "ts": "2026-11-28T03:28:00Z"
     }
   ],
   "item": {
@@ -2123,7 +2139,7 @@
         "currency": "USD",
         "fails": 0,
         "key": "amazon",
-        "last_ok": "2026-11-27T16:46:00Z",
+        "last_ok": "2026-11-28T03:28:00Z",
         "name": "Amazon",
         "status": "ok",
         "url": "https://www.amazon.com/dp/B0BJNTLJ5X"
@@ -2135,7 +2151,7 @@
   },
   "verdict": {
     "best_now": {
-      "price_usd": 1279.99,
+      "price_usd": 1299.99,
       "store": "amazon"
     },
     "confidence": "medium",
@@ -2146,15 +2162,15 @@
     "good_sale": 182.27,
     "lifecycle_note": null,
     "n_events": 5,
-    "reason": "Best now $1279.99 at amazon. That is 7.4% above the historical average of $1192.22 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 5 deal events) is $182.27. FLOOR $199.00 on 2023-04-13. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 10, expect $182.27-$1149.99.",
+    "reason": "Best now $1299.99 at amazon. That is 9.0% above the historical average of $1193.10 (12-month avg, amazon); this is not any kind of discount. GOOD SALE (p25 of 5 deal events) is $182.27. FLOOR $199.00 on 2023-04-13. Verdict WAIT (no rule matched), confidence medium. Recurring window: month 10, expect $182.27-$1149.99.",
     "rule": "no rule matched",
     "sources": {
       "baseline": "ok",
       "good_sale": "ok",
       "vault": "ok"
     },
-    "ts": "2026-11-27T16:47:40Z",
-    "typical": 1192.22,
+    "ts": "2026-11-28T03:28:30Z",
+    "typical": 1193.1,
     "typical_label": "12-month avg, amazon",
     "verdict": "WAIT",
     "window": {
